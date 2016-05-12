@@ -9,8 +9,8 @@ body{
 }
 
 .fon_box{
-	margin-right: 465px;
-	margin-left: 465px;  /*как верхний маржин уменьшить?*/
+	margin: 0 auto;
+	border-radius: 2px;
 	background: white;
 	width: 510px;
 	height: 750px;
