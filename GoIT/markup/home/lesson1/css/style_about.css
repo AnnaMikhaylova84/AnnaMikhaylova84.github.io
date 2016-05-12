@@ -1,11 +1,10 @@
 
 body{
 	margin: 0;
-	/*font-family: Century Schoolbook;*/
 	font-size: 17px;
 	background: #F1F1F1;
-	width: 1440px;
-	height: 798px;
+	/*width: 1440px;
+	height: 798px;*/
 }
 
 .fon_box{
@@ -27,16 +26,18 @@ box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.38);
 	height: 245px;
 	border-bottom: 1px solid grey;
 	text-indent: 10px;
-	/*background-color: red;*/
+	
 }
 
 .name{
 	font-size: 22px;
 	text-align: center;
+
 }
 
 .foto{
 	text-align: center;
+
 }
 
 .box2{
@@ -46,30 +47,22 @@ box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.38);
 	text-indent: 10px;
 	line-height: 28px;
 	border-bottom: 1px solid grey;
-	/*background-color: green;*/
+	
 }
+
 .box3{
 	margin: 20px 40px 5px;
 	width: 420px;
 	height: 55px;
 	text-indent: 10px;
 	line-height: 8px;
-		/*border-bottom: 1px solid black;*/
-	/*background-color: orange;*/
-
+	
 }
 
 a{
 	color: blue;
+
 }
-
-/*.facebook{
-	width: 430px;
-	height: 50px;
-	border-bottom: 1px solid black;
-	background-color: yellow;
-	}*/
-
 
 .box4{
 	margin: 20px 40px 5px;
@@ -78,8 +71,7 @@ a{
 	line-height: 8px;
 	text-indent: 10px;
 	border-bottom: 1px solid grey;
-	/*background-color: pink;*/
-
+	
 }
 
 .box5{
@@ -89,7 +81,7 @@ a{
 	height: 50px;
 	line-height: 8px;
 	text-indent: 10px;
-	/*background-color: violet;*/
+	
 }
 
 
