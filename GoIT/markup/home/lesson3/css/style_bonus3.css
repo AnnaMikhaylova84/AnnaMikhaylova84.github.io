@@ -1,6 +1,3 @@
-/* Google Tahoma Regular*/
-/*@import url();*/
-
 body {
   font-family: Tahoma Regular, Arial;
   background: #000000 url("../img/background.png") no-repeat center 0;
@@ -54,7 +51,6 @@ body {
   width: 966px;
   height: 46px;
   margin: 205px 113px 27px 207px;
-  /*border:  1px solid  red;*/
   position: absolute;
 
 }
@@ -82,26 +78,29 @@ body {
 
 .content_menu {         /* CONTENT_Menu */
   display: block;
-  /*border: 1px solid red;*/
   margin: 5px 80px 250px 80px;
 }
 
 .contries {
   display: inline-block;
-  margin: 0 8px 35px 9px;
+  margin: 0 18px 35px 9px;
 
 }
 
 .contries img {
   width: 342px;
   height: auto;
-/*border: 5px solid #c2c2c2;
-  border-radius: 3px;*/
-  -webkit-box-shadow: 0px 0px 3px 5px rgba(194,194,194,1);
--moz-box-shadow: 0px 0px 3px 5px rgba(194,194,194,1);
-box-shadow: 0px 0px 3px 5px rgba(194,194,194,1);  /* RAMKA!!! */
+  -webkit-box-shadow: 0px 0px 8px 8px rgba(194,194,194,1);
+  -moz-box-shadow: 0px 0px 8px 8px rgba(194,194,194,1);
+  box-shadow: 0px 0px 8px 8px rgba(194,194,194,1);  /* RAMKA!!! */
 
 }
+.contries img:hover {
+  -webkit-box-shadow: 0px 0px 8px 8px rgba(23,235,30,1);
+  -moz-box-shadow: 0px 0px 8px 8px rgba(23,235,30,1);
+  box-shadow: 0px 0px 8px 8px rgba(23,235,30,1);
+}
+
 .name_contry {
   font-size: 15.24pt;
   text-align: center;
@@ -118,6 +117,5 @@ box-shadow: 0px 0px 3px 5px rgba(194,194,194,1);  /* RAMKA!!! */
 
 .footer p {
   text-align: center;
-  /*margin-bottom: 45px;*/
   font-size: 10.16pt;
 }
