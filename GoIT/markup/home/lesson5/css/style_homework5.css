@@ -25,7 +25,6 @@ body {
   width: 1349px;
   height: 1154px;
   position: relative;
-
 }
 
 .clearfix:after {
@@ -79,7 +78,6 @@ li.header_icon a,
 li.header_ola a {
   color: rgb(255, 255, 255);
 }
-
 
 li.header_ola {
   background-color: rgb(78, 171, 218);
@@ -136,7 +134,6 @@ li.header_button:hover a {
   text-align: center;
 
 }
-
 .form_facebook button:focus {
   outline: 0;
 
@@ -198,6 +195,7 @@ p.f {
   font-size: 11pt;
   padding-left: 15px;
   color: rgb(204, 204, 204);
+
 }
 
 .form_enter input:focus {
@@ -205,12 +203,9 @@ p.f {
   outline: 0;
   border: 0;
   border-bottom: 1px solid rgb(27, 82, 136);
-  color: #fff;
   -webkit-box-shadow: 0px 0px 18px 1px rgba(138,198,255,1);
 -moz-box-shadow: 0px 0px 18px 1px rgba(138,198,255,1);
 box-shadow: 0px 0px 18px 1px rgba(138,198,255,1);
-
-
 }
 
 
