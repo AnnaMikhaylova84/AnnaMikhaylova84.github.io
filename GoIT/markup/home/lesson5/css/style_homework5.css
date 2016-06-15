@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../font/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../font/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue Regular", Tahoma, Arial, sans-serif;
+}
+
+.header {
+  background: url("../img/background_header.png");
+  width: 100%;
+  height: 36px;
+  display: block;
+}
+
+.background {
+  background: url("../img/background_light.png");
+  background-size: cover;
+  width: 1349px;
+  height: 1154px;
+  position: relative;
+
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header_all {
+  float: right;
+  content: '';
+  clear: both;
+  display: block;
+  margin-right: 10px;
+}
+
+
+li {
+  width: auto;
+  height: 36px;
+  text-align: center;
+  line-height: 2.5;
+  display: inline-block;
+  float: right;
+}
+
+.header_all a, .header_all p {
+  color: rgb(96, 181, 237);
+  text-decoration: none;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+.header_ola span {
+  text-decoration: underline;
+}
+
+.icon {
+  float: left;
+}
+
+img {
+  padding: 6px 0 6px 17px;
+}
+
+li.header_icon {
+  border-left: 1px solid rgb(96, 181, 237);
+}
+
+li.header_icon a,
+li.header_ola a {
+  color: rgb(255, 255, 255);
+}
+
+
+li.header_ola {
+  background-color: rgb(78, 171, 218);
+}
+
+
+
+li.header_button:hover {
+  background-color: rgb(78, 171, 218);
+}
+
+li.header_button:hover a {
+  color: rgb(255, 255, 255);
+}
+                  /* main CONTAINER  */
+
+.form_fon {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: auto;
+  width: 623px;
+  height: 682px;
+  margin: 235px 390px;
+  position: absolute;
+}
+
+.form_fon p, label, button {
+  color: rgb(255, 255, 255);
+}
+
+.form_head {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  font-size: 24pt;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  line-height: 2.4;
+}
+
+/*
+            light version *))
+.form_facebook {
+  display: block;
+  margin: 46px auto;
+  width: 369px;
+  height: 46px;
+  background: url("../img/button_facebook.png");
+  background-size: cover;
+
+}*/
+
+.form_facebook {
+  display: block;
+  margin: 43px auto 27px auto;
+  text-align: center;
+
+}
+
+.form_facebook button:focus {
+  outline: 0;
+
+}
+
+.form_facebook p {
+  display: block;
+  float: left;
+  padding: 5px 15px 5px 20px;
+  font-size: 13pt;
+  font-weight: bold;
+}
+.facebook {
+  background: linear-gradient(to top, rgb(44, 65, 115), rgb(60, 85, 151));
+  width: 310px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  -webkit-box-shadow: 1px -2px 2px -1px rgba(118,136,182,1);
+-moz-box-shadow: 1px -2px 2px -1px rgba(118,136,182,1);
+box-shadow: 1px -2px 2px -1px rgba(118,136,182,1);
+}
+
+.facebook span {
+  font-weight: normal;
+}
+
+.f {
+  -webkit-box-shadow: 2px 0px 2px -1px rgba(119,138,181,1);
+  -moz-box-shadow: 2px 0px 2px -1px rgba(119,138,181,1);
+  box-shadow: 2px 0px 2px -1px rgba(119,138,181,1);
+}
+
+p.f {
+  padding: 0 15px;
+  font-size: 30px;
+}
+.ou {
+  margin: 0 auto 25px auto;
+}
+
+.ou img{
+  width: 310px;
+  height: 13px;
+  padding-left: 0;
+}
+
+.form {
+  text-align: center;
+}
+
+.form_enter input {
+  margin: 0 auto 18px auto;
+  background: rgb(15, 14, 14);
+  width: 295px;
+  height: 38px;
+  border: 0;
+  border-bottom: 1px solid rgb(72, 73, 72);
+  font-size: 11pt;
+  padding-left: 15px;
+  color: rgb(204, 204, 204);
+}
+
+.form_enter input:focus {
+  background: rgb(27, 82, 136);
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid rgb(27, 82, 136);
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(138,198,255,1);
+-moz-box-shadow: 0px 0px 18px 1px rgba(138,198,255,1);
+box-shadow: 0px 0px 18px 1px rgba(138,198,255,1);
+
+
+}
+
+
+.checkbox {
+  margin: 0 auto 10px auto;
+  padding-left: 0;
+  width: 314px;
+  height: 20px;
+  text-align: left;
+
+}
+
+.checkbox label {
+  color: rgb(204, 204, 204);
+  font-size: 11pt;
+}
+
+.create button {
+  background: linear-gradient(to top, rgb(46, 122, 196), rgb(107, 184, 231));
+  border-radius: 5px;
+  border: 0;
+  width: 160px;
+  height: 40px;
+  font-size: 11pt;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+
+.form_footer {
+  margin: 5px auto 20px auto;
+  width: 350px;
+  height: auto;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 9pt;
+  color: rgb(204, 204, 204);
+
+}
+.form_footer p {
+  font-size: 9pt;
+  color: rgb(204, 204, 204);
+
+}
