@@ -22,8 +22,8 @@ body {
 .background {
   background: url("../img/background_light.png");
   background-size: cover;
-  width: 1349px;
-  height: 1154px;
+  /*width: 1349px;
+  height: 1154px;*/
   position: relative;
 }
 
