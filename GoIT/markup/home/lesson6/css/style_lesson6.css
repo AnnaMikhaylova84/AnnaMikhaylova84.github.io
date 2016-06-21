@@ -140,6 +140,11 @@ body {
   height: 12px;
   padding: 3px 4px 3px 4px;
 }
+.header_bottom img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
 
 .products_fon {
   margin-top: 100px;
