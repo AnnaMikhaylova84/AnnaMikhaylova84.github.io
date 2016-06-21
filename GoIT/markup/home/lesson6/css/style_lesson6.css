@@ -16,8 +16,6 @@ body {
 }
 
 .container {
-  border: 1px solid red;
-  box-sizing: border-box;
   width: 1000px;
   margin: 0 auto;
   padding-top: 20px;
