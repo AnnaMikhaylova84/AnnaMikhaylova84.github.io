@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Lucida Sans Unicode Regular";
+  src: url("../font/Lucida Sans Unicode Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  font-size: 12.73pt;
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+}
+
+.number{
+  width: 20px;
+  height: 20px;
+  background: -webkit-linear-gradient(bottom,#206988,#0c3256);
+  border-radius: 100%;
+  text-align: center;
+
+
+}
+
+.number img {
+  /*width: 15px;
+  height: 15px;*/
+  margin: 0;
+  /*background: linear-gradient(top,#206988,#0c3256);*/
+}
+
+.container {
+  /*width: 1000px;
+  height: 1310px;*/
+}
+
+.products_fon {
+  display: block;
+  width: 701px;
+  height: 837px;
+  background: linear-gradient(top,#93a7b0,#e5e7e8);
+
+}
+
+.product {
+  display: inline-block;
+}
