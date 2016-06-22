@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+  font-family: "Lucida Sans Unicode Regular", Arial,"Arial Black", sans-serif;
 }
 .clearfix {
   content: "";
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 1000px;
+   width: 1000px;
   margin: 0 auto;
   padding-top: 20px;
 }
@@ -48,7 +48,7 @@ body {
 
 .number p {
   color: #5e696d;
-  font-family: Arial;
+  font-family: Arial,sans-serif;
   font-size: 15pt;
   margin-left: 30px;
 }
@@ -150,7 +150,6 @@ body {
 }
 
 .menu {
-  /*padding-left: 50px;*/
   width: 100%;
   height: 40px;
   background: -webkit-linear-gradient(bottom,#000,#576068);
@@ -166,19 +165,14 @@ body {
 
 }
 .menu_button li {
-  /*text-decoration: none;*/
   display: inline-block;
   float: left;
-  /*width: auto;
-  height: 40px;*/
   text-align: center;
   padding: 11px 15px;
-  /*line-height: 1;*/
-
 }
 
 .menu_button a{
-  font-family: "Lucida Sans Unicode Regular";
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
   font-size: 11pt;
   color: #b1bcc0;
   text-decoration: none;
@@ -187,8 +181,6 @@ body {
   margin-left: 5px;
   display: inline-block;
   float: left;
-  /*width: auto;
-  height: 40px;*/
   text-align: center;
   padding: 11px 5px;
 }
@@ -196,30 +188,27 @@ body {
 li.bin {
   width: 22px;
   height: 100%;
-  /*float: right;*/
   margin-left: 50px;
   margin-right: 0;
   padding: 0;
 }
 
 .menu_bin a{
-  font-family: Arial;
+  font-family: Arial, Tahoma, sans-serif;
   font-size: 10pt;
   color: #929b9f;
   text-decoration: none;
 
 }
 .menu_bin span {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #0d5a8f;
 }
 .menu_button li:hover {
   background: -webkit-linear-gradient(top,#206988,#0c3256);
-  border-radius: 20px;
-  /*height: 18px;*/
-
-
+  border-radius: 22px;
 }
+
 .menu_button li:hover a {
   color: #fff;
 }
@@ -228,8 +217,101 @@ li.bin img:hover {
   width: 30px;
   height: 100%;
   margin-top: 5px;
-
+  cursor: pointer;
 }
+
+                     /*MENU___SEARCH*/
+                  /*FOR index_lesson6.html*/
+.search_car {
+  display: block;
+  margin-top: 10px;
+  width: 460px;
+  height: 250px;
+  border: 1px solid #9c9c9d;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+  box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+}
+
+.search_car select {
+  background: transparent;
+  border: none;
+  box-shadow: inset 1px 1px 1px #000;
+  margin-top: 9px;
+  width: 125px;
+}
+
+.search_button {
+  width: 125px;
+  background: url("img/strelka_select.png") no-repeat;
+}
+
+.search_car h1, h2 {
+  display: inline-block;
+  text-align: center;
+  float: left;
+  margin-top: 2px;
+  margin-left: 18px;
+  color: #154468;
+  font-family: "Arial Black", Arial, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+.search_car h2{
+  font-size: 8pt;
+  line-height: 2;
+}
+
+.search_car h2.block_disc {
+  float: left;
+}
+
+.search_car h1, h2.block_tires {
+  margin-left: 80px;
+}
+.discs {
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+}
+
+.discs_choice {
+  display: block;
+  float: left;
+  width: 17%;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.discs_choice p {
+  font-family: Arial;
+  font-size: 8pt;
+  color: #000;
+  margin-top: 10px;
+}
+
+.search_car span {
+  font-size: 7pt;
+  color: #77858b;
+}
+
+.discs_select {
+  display: inline-block;
+  /*float: left;*/
+  width: 25%;
+}
+
+/*.discs_select select {
+  margin-top: 9px;
+  width: 125px;
+}*/
+
+select.choice_year {
+  width: 50px;
+}
+
+
+
 
 
 .products_fon {
