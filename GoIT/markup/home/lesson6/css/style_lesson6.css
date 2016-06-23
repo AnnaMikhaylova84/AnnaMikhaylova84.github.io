@@ -16,7 +16,9 @@ body {
 }
 
 .container {
-   width: 1000px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  width: 1000px;
   margin: 0 auto;
   padding-top: 20px;
 }
@@ -24,19 +26,17 @@ body {
 .header_top {
   display: inline-block;
   width: 100%;
-
 }
 
 .number{
   display: inline-block;
   width: 338px;
 }
+
 .number .phone {
   position: absolute;
   float: left;
-
 }
-
 
 .number .phone img {
   width: 23px;
@@ -63,7 +63,6 @@ body {
   -webkit-box-shadow: 2px 2px 6px 0px rgba(150,150,150,1);
   -moz-box-shadow: 2px 2px 6px 0px rgba(150,150,150,1);
   box-shadow: 2px 2px 6px 0px rgba(150,150,150,1);
-
 }
 
 .autorization_form {
@@ -83,13 +82,12 @@ body {
   width: 119px;
 }
 
-
 .autorization_form a, span {
   color: #fff;
   text-decoration: none;
   margin-left: 3px;
-
 }
+
 .autorization_form a.forgot {
   text-decoration: underline;
   font-size: 9pt;
@@ -104,6 +102,7 @@ body {
   float: left;
   margin: 4px 0 0 8px;
 }
+
 .autorization_form {
   display: inline-block;
   float: right;
@@ -143,6 +142,7 @@ body {
   height: 12px;
   padding: 3px 4px 3px 4px;
 }
+
 .header_bottom img {
   width: 100%;
   height: auto;
@@ -160,10 +160,11 @@ body {
   box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
   /*opacity: 0.75;*/
 }
+
 .menu ul{
   margin-left: 164px;
-
 }
+
 .menu_button li {
   display: inline-block;
   float: left;
@@ -177,6 +178,7 @@ body {
   color: #b1bcc0;
   text-decoration: none;
 }
+
 .menu_bin li{
   margin-left: 5px;
   display: inline-block;
@@ -198,12 +200,13 @@ li.bin {
   font-size: 10pt;
   color: #929b9f;
   text-decoration: none;
-
 }
+
 .menu_bin span {
   font-family: Arial, sans-serif;
   color: #0d5a8f;
 }
+
 .menu_button li:hover {
   background: -webkit-linear-gradient(top,#206988,#0c3256);
   border-radius: 22px;
@@ -222,11 +225,16 @@ li.bin img:hover {
 
                      /*MENU___SEARCH*/
                   /*FOR index_lesson6.html*/
+.search {
+  display: inline-block;
+}
+
 .search_car {
   display: block;
+  float: left;
   margin-top: 10px;
   width: 460px;
-  height: 250px;
+  height: 161px;
   border: 1px solid #9c9c9d;
   border-radius: 25px;
   -webkit-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
@@ -235,16 +243,9 @@ li.bin img:hover {
 }
 
 .search_car select {
-  background: transparent;
   border: none;
-  box-shadow: inset 1px 1px 1px #000;
-  margin-top: 9px;
-  width: 125px;
-}
-
-.search_button {
-  width: 125px;
-  background: url("img/strelka_select.png") no-repeat;
+  box-shadow: inset 1px 1px 2px #5e5e5e;
+  opacity: 0.75;
 }
 
 .search_car h1, h2 {
@@ -257,6 +258,7 @@ li.bin img:hover {
   font-family: "Arial Black", Arial, Tahoma, sans-serif;
   font-size: 10pt;
 }
+
 .search_car h2{
   font-size: 8pt;
   line-height: 2;
@@ -269,18 +271,18 @@ li.bin img:hover {
 .search_car h1, h2.block_tires {
   margin-left: 80px;
 }
+
 .discs {
   display: inline-block;
-  width: 100%;
-  height: 150px;
+  width: 49%;
 }
 
 .discs_choice {
   display: block;
   float: left;
-  width: 17%;
+  width: 34%;
   margin-top: 5px;
-  margin-left: 18px;
+  margin-left: 15px;
 }
 
 .discs_choice p {
@@ -297,18 +299,317 @@ li.bin img:hover {
 
 .discs_select {
   display: inline-block;
-  /*float: left;*/
-  width: 25%;
+  width: 55%;
 }
 
-/*.discs_select select {
-  margin-top: 9px;
+.discs_select select {
+  margin-top: 11px;
   width: 125px;
-}*/
-
-select.choice_year {
-  width: 50px;
 }
+
+.search_car select.choice_year {
+  width: 85px;
+}
+
+.tires {
+  display: inline-block;
+  width: 49%;
+}
+
+.tires_choice {
+  display: block;
+  float: left;
+  width: 34%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.tires_choice p {
+  font-family: Arial;
+  font-size: 8pt;
+  color: #000;
+  margin-top: 10px;
+}
+
+.tires_select {
+  display: inline-block;
+  width: 55%;
+}
+
+.tires_select select {
+  margin-top: 11px;
+  width: 125px;
+}
+
+.search_down {
+  display: block;
+  float: right;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.search_down a {
+  font-size: 12pt;
+  font-family: "Arial Italic", Arial, sans-serif;
+  color: #154467;
+  font-style: italic;
+}
+
+.search_down a:visited {
+  color: none;
+}
+
+.search_car select:focus {
+  outline: none;
+}
+
+
+
+.search_tires {
+  display: block;
+  float: left;
+  width: 210px;
+  height: 161px;
+  margin: 10px 15px;
+  border: 1px solid #9c9c9d;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+  box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+}
+
+.search_tires h1 {
+  display: inline-block;
+  text-align: center;
+  float: left;
+  margin-top: 2px;
+  margin-left: 18px;
+  color: #154468;
+  font-family: "Arial Black", Arial, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+
+.tires_type {
+  display: block;
+  float: left;
+  text-align: end;
+  width: 27%;
+  margin-top: 11px;
+  margin-left: 8px;
+}
+
+.tires_type p {
+  margin-top: 12px;
+  color: #000;
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+  font-size: 8pt;
+}
+
+.tires_type_font p {
+  font-family: "Arial Regular", Arial, sans-serif;
+}
+
+.tires_variant {
+  display: inline-block;
+  width: 64%;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+.tires_variant select {
+  border: none;
+  box-shadow: inset 1px 1px 2px #5e5e5e;
+  opacity: 0.75;
+  width: 58px;
+  height: 17px;
+}
+
+.tires_variant select:focus {
+  outline: none;
+}
+
+.tires_size1 {
+  display: block;
+  float: left;
+  font-family: "Arial Regular", Arial, sans-serif;
+  font-size: 8pt;
+  color: #000;
+}
+
+.slash {
+  display: block;
+  float: left;
+}
+
+.slash span {
+  font-family: "Arial Regular", Arial, sans-serif;
+  font-size: 11pt;
+  color: #000;
+}
+
+.tires_size2 {
+  display: block;
+  float: left;
+  margin-left: 3px;
+  font-family: "Arial Regular", Arial, sans-serif;
+  font-size: 8pt;
+  color: #000;
+}
+
+.tires_variant_slash {
+  display: block;
+  width: 135px;
+}
+
+.tires_r {
+  font-family: "Arial Regular", Arial, sans-serif;
+  font-size: 8pt;
+  color: #000;
+  margin-top: 26px;
+}
+
+.checkbox_season {
+  display: block;
+  /*float: left;*/
+  width: 60px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.checkbox_season input {
+  position: absolute;
+}
+
+.checkbox_season label {
+  /*display: block;
+  float: left;*/
+  /*margin-top: 17px;*/
+  color: #000;
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+  font-size: 8pt;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+
+
+.search_discs {
+  display: block;
+  float: left;
+  width: 290px;
+  height: 161px;
+  margin-top: 10px;
+  border: 1px solid #9c9c9d;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+  box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
+}
+
+.search_discs h1 {
+  display: block;
+  text-align: center;
+  float: left;
+  margin-top: 2px;
+  margin-left: 12px;
+  color: #154468;
+  font-family: "Arial Black", Arial, Tahoma, sans-serif;
+  font-size: 10pt;
+
+}
+
+.search_button select {
+  font-family: "Arial Regular", Arial, sans-serif;
+  font-size: 8pt;
+  color: #000;
+}
+
+.discs_all_choice {
+  display: block;
+  float: left;
+  width: 30%;
+  margin-left: -95px;
+  margin-top: 20px;
+}
+
+.discs_all_choice p {
+  font-family: "Lucida Sans Unicode Regular", Arial,sans-serif;
+  font-size: 8pt;
+  color: #000;
+  margin-top: 8px;
+}
+
+.discs_all_choice span {
+  font-size: 7pt;
+  color: #77858b;
+}
+
+.discs_all_select {
+  width: 30%;
+  display: block;
+  float: left;
+  margin-top: 8px;
+  margin-left: -7px;
+}
+
+.discs_all_select select {
+  width: 50px;
+  height: 17px;
+  border: none;
+  box-shadow: inset 1px 1px 2px #5e5e5e;
+  opacity: 0.75;
+}
+
+.discs_all select {
+  outline: none;
+}
+
+.discs_field1, .discs_field {
+  margin-top: 17px;
+
+}
+
+.discs_line {
+  display: block;
+  float: left;
+  width: 3px;
+  height: 118px;
+  border-left: 1px solid #5e5e5e;
+  opacity: 0.3;
+  margin-top: 6px;
+  margin-left: -9px;
+}
+
+.discs_box {
+  width: 32%;
+  height: 133px;
+  display: block;
+  float: right;
+  margin-left: 170px;
+  margin-top: -123px;
+  padding-left: 15px;
+}
+
+.discs_box p {
+  font-size: 7pt;
+  color: #000;
+  margin-top: 8px;
+}
+
+.discs_box span {
+  font-size: 6pt;
+  color: #77858b;
+}
+
+.discs_box select {
+  width: 50px;
+  height: 17px;
+  border: none;
+  box-shadow: inset 1px 1px 2px #5e5e5e;
+  opacity: 0.75;
+}
+
+
 
 
 
