@@ -305,6 +305,7 @@ li.bin img:hover {
 .discs_select select {
   margin-top: 11px;
   width: 125px;
+  height: 17px;
 }
 
 .search_car select.choice_year {
@@ -339,6 +340,7 @@ li.bin img:hover {
 .tires_select select {
   margin-top: 11px;
   width: 125px;
+  height: 17px;
 }
 
 .search_down {
