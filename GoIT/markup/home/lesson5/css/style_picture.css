@@ -1,0 +1,64 @@
+body {
+  background: url("../img/pattern08.jpg");
+}
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+  color: transparent;
+}
+
+td {
+  border: 10px solid #27291c;
+  width: 65px;
+  height: 65px;
+}
+
+td.small {
+  width: 145px;
+  height: 35px;
+}
+
+td.big {
+  width: 130px;
+  height: 130px;
+}
+
+td.white {
+  background-color: #fff;
+}
+
+ td.red {
+   background-color: #ff5f40;
+   width: 290px;
+   height: 290px;
+ }
+
+td.yellow {
+  background-color: #ffe35a;
+}
+
+td.blue {
+  background-color: #125292;
+  width: 145px;
+}
+
+td.black {
+  background-color: #515453;
+}
+
+td.top {
+  border-top: none;
+}
+
+td.right {
+  border-right: 0;
+}
+
+td.bottom {
+  border-bottom: 0;
+}
+
+td.left {
+  border-left: 0;
+}
