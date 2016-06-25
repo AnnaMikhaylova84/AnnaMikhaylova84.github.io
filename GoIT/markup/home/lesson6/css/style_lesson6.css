@@ -36,6 +36,8 @@ body {
 .number .phone {
   position: absolute;
   float: left;
+  margin-left: 5px;
+  margin-top: -28px;
 }
 
 .number .phone img {
@@ -47,10 +49,13 @@ body {
 }
 
 .number p {
-  color: #5e696d;
+  position: absolute;
+  float: right;
+  margin-top: -25px;
+  margin-left: 34px;
   font-family: Arial,sans-serif;
   font-size: 15pt;
-  margin-left: 30px;
+  color: #5e696d;
 }
 
 .autorization {
