@@ -1,0 +1,43 @@
+@font-face {
+	font-family:"OpenSansLight";
+		src: url("../font/OpenSans-Light.woff") format("woff"),
+				 url("../font/OpenSans-Light.ttf") format("ttf"),
+				 url("../font/OpenSans-Light.svg#OpenSans-Light") format("svg");
+		font-style:normal;
+		font-weight:normal;
+}
+@font-face {
+	font-family: "LeagueGothicRegular";
+		src: url("../font/LeagueGothic-Regular.woff") format("woff"),
+				 url("../font/LeagueGothic-Regular.ttf") format("ttf"),
+				 url("../font/LeagueGothic-Regular.svg#LeagueGothic-Regular") format("svg");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../font/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../font/opensans-extrabold-webfont.woff') format('woff'),
+         url('../font/OpenSans-ExtraBold.ttf') format('ttf'),
+	  font-weight: bold;
+    font-style: normal;
+
+}
+body {
+
+}
+
+.container {
+	/*margin-left: -480px;
+	width: 960px;
+  left: 50%;
+  position: absolute;*/
+	background: url("img/background_960px.png");
+	background-size: cover;
+
+
+}
+/*.main {
+	background: url("../img/background_960px.png");
+	background-size: cover;
+}*/

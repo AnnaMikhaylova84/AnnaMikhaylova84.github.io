@@ -75,6 +75,9 @@ body {
 
 .autorization_form {
   margin-top: 3px;
+  display: inline-block;
+  float: left;
+  padding: 3px 0 3px 0;
 }
 
 .autorization_form input {
@@ -84,31 +87,43 @@ body {
   -webkit-box-shadow: 0px 0px 2px 2px rgba(155,161,163,0.75);
   -moz-box-shadow: 0px 0px 2px 2px rgba(155,161,163,0.75);
   box-shadow: 0px 0px 2px 2px rgba(155,161,163,0.75);
-  /*margin-top: 5px;*/
-  margin-left: 4px;
+  margin-top: -1px;
+  margin-left: 5px;
   padding-left: 4px;
-  width: 119px;
+  /*width: 120px;*/
+  height: 15px;
 }
 
 input.autoriz_log {
   width: 100px;
+
 }
 
 input.autoriz_pass {
   width: 100px;
+  margin-left: 7px;
 }
 
 .autorization_form a, span {
   color: #fff;
   text-decoration: none;
+}
+.autorization_form a.a1 {
+  margin-left: 10px;
+}
+.autorization_form span {
   margin-left: 3px;
 }
+.autorization_form a.a2 {
+  margin-left: 0px;
+}
+
 
 .autorization_form a.forgot {
   text-decoration: underline;
   font-size: 9pt;
   color: #bfbfbf;
-  margin: 0 5px 0 13px;
+  margin-left: 27px;
 }
 
 .autorization .img img{
@@ -117,12 +132,6 @@ input.autoriz_pass {
   display: inline-block;
   float: left;
   margin: 4px 0 0 8px;
-}
-
-.autorization_form {
-  display: inline-block;
-  float: right;
-  padding: 3px 0 3px 0;
 }
 
 .navi {
@@ -299,7 +308,7 @@ li.bin img:hover {
   display: inline-block;
   /*text-align: center;*/
   /*float: left;*/
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 23px;
   color: #154468;
   font-family: "Arial Black", Arial, Tahoma, sans-serif;
@@ -324,6 +333,7 @@ li.bin img:hover {
 
 .discs {
   display: inline-block;
+  float: left;
   width: 49%;
 }
 
@@ -331,8 +341,8 @@ li.bin img:hover {
   display: block;
   float: left;
   width: 37%;
-  margin-top: 7px;
-  margin-left: 15px;
+  margin-top: 3px;
+  margin-left: 18px;
 }
 
 .discs_choice p {
@@ -350,47 +360,51 @@ li.bin img:hover {
 .discs_select {
   display: inline-block;
   width: 53%;
+  margin-top: -2px;
 }
 
 .discs_select select {
-  margin-top: 11px;
+  margin-top: 7px;
   width: 114px;
   height: 18px;
   line-height: 0;
 }
 
 .search_car select.choice_year {
-  width: 85px;
+  width: 65px;
 }
 
 .tires {
   display: inline-block;
+  float: left;
   width: 49%;
+  height: 100px;
 }
 
 .tires_choice {
   display: block;
   float: left;
   width: 34%;
-  margin-top: 5px;
-  margin-left: 10px;
+  margin-top: 1px;
+  margin-left: 20px;
 }
 
 .tires_choice p {
   font-family: Arial;
   font-size: 8pt;
   color: #000;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .tires_select {
   display: inline-block;
-  width: 55%;
+  width: 52%;
+  margin-left: 9px;
 }
 
 .tires_select select {
-  margin-top: 11px;
-  width: 125px;
+  margin-top: 6px;
+  width: 114px;
   height: 17px;
 }
 
@@ -398,7 +412,7 @@ li.bin img:hover {
   display: block;
   float: right;
   margin-bottom: 5px;
-  margin-right: 20px;
+  margin-right: 21px;
 }
 
 .search_down a {
@@ -422,10 +436,10 @@ li.bin img:hover {
   display: block;
   float: left;
   width: 210px;
-  height: 161px;
-  margin: 10px 15px;
+  height: 148px;
+  margin: 12px 16px;
   border: 1px solid #9c9c9d;
-  border-radius: 25px;
+  border-radius: 20px;
   -webkit-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
   -moz-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
   box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
@@ -435,8 +449,8 @@ li.bin img:hover {
   display: inline-block;
   text-align: center;
   float: left;
-  margin-top: 2px;
-  margin-left: 18px;
+  margin-top: 5px;
+  margin-left: 12px;
   color: #154468;
   font-family: "Arial Black", Arial, Tahoma, sans-serif;
   font-size: 10pt;
@@ -447,8 +461,8 @@ li.bin img:hover {
   float: left;
   text-align: end;
   width: 27%;
-  margin-top: 11px;
-  margin-left: 8px;
+  margin-top: -1px;
+  margin-left: 7px;
 }
 
 .tires_type p {
@@ -465,17 +479,21 @@ li.bin img:hover {
 .tires_variant {
   display: inline-block;
   width: 64%;
-  margin-top: 16px;
-  margin-left: 5px;
+  margin-top: 7px;
+  margin-left: 9px;
 }
 
 .tires_variant select {
   /*border: none;
   box-shadow: inset 1px 1px 2px #5e5e5e;
   opacity: 0.75;*/
-  width: 58px;
+  width: 56px;
   height: 17px;
 }
+.tires_variant select.tires_r {
+  width: 50px;} 
+
+
 /*
 .tires_variant select:focus {
   outline: none;
