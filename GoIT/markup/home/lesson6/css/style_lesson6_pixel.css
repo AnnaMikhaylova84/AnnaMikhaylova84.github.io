@@ -831,7 +831,7 @@ figure {
   display: inline-block;
   width: 27%;
   text-align: center;
-  margin: 16px;
+  margin: 15px;
   line-height: 0.9;
 }
 
@@ -856,9 +856,7 @@ p.price {
   color: #114165;
 }
 
-.image_product1,
-.image_product2,
-.image_product3 {
+figure .image_product {
   width: 150px;
   height: 139px;
   border: 1px solid #a4aeb1;
