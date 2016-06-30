@@ -285,7 +285,8 @@ li.bin img:hover {
 
 .search_button select {
   font-family: "Arial Regular", Arial, sans-serif;
-  font-size: 8pt;
+  font-size: 9pt;
+  padding-left: 3px;
   color: #000;
   border: none;
   box-shadow: inset 1px 1px 2px #5e5e5e;
@@ -308,11 +309,11 @@ li.bin img:hover {
   display: inline-block;
   /*text-align: center;*/
   /*float: left;*/
-  margin-top: 6px;
+  margin-top: 3px;
   margin-left: 23px;
   color: #154468;
   font-family: "Arial Black", Arial, Tahoma, sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 .search_car h2{
@@ -320,6 +321,7 @@ li.bin img:hover {
   /*line-height: 2;*/
 }
 .search_car h1.title_search_car {
+  /*margin-top: 1px;*/
   margin-top: 1px;
 }
 
@@ -328,7 +330,7 @@ li.bin img:hover {
 }*/
 
 .search_car h1, h2.block_tires {
-  margin-left: 73px;
+  margin-left: 60px;
 }
 
 .discs {
@@ -449,11 +451,12 @@ li.bin img:hover {
   display: inline-block;
   text-align: center;
   float: left;
-  margin-top: 5px;
-  margin-left: 12px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  margin-left: 11px;
   color: #154468;
   font-family: "Arial Black", Arial, Tahoma, sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 .tires_type {
@@ -570,11 +573,12 @@ li.bin img:hover {
 .search_discs {
   display: block;
   float: left;
-  width: 290px;
-  height: 161px;
-  margin-top: 10px;
+  width: 292px;
+  height: 146px;
+  margin-top: 12px;
+  margin-left: -5px;
   border: 1px solid #9c9c9d;
-  border-radius: 25px;
+  border-radius: 20px;
   -webkit-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
   -moz-box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
   box-shadow: 1px 1px 7px 0px rgba(104,104,104,1);
@@ -584,18 +588,18 @@ li.bin img:hover {
   display: block;
   text-align: center;
   float: left;
-  margin-top: 2px;
-  margin-left: 12px;
+  margin-top: 3px;
+  margin-left: 9px;
   color: #154468;
   font-family: "Arial Black", Arial, Tahoma, sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 .discs_all_choice {
   display: block;
   float: left;
   width: 30%;
-  margin-left: -95px;
+  margin-left: -103px;
   margin-top: 20px;
 }
 
@@ -615,16 +619,20 @@ li.bin img:hover {
   width: 30%;
   display: block;
   float: left;
-  margin-top: 8px;
-  margin-left: -7px;
+  margin-top: 6px;
+  margin-left: -4px;
 }
 
 .discs_all_select select {
-  width: 50px;
+  width: 62px;
   height: 17px;
   /*border: none;
   box-shadow: inset 1px 1px 2px #5e5e5e;
   opacity: 0.75;*/
+}
+
+.discs_all_select select.discs_field1 {
+  width: 54px;
 }
 
 .discs_field1, .discs_field {
@@ -635,36 +643,36 @@ li.bin img:hover {
   display: block;
   float: left;
   width: 3px;
-  height: 118px;
+  height: 114px;
   border-left: 1px solid #5e5e5e;
   opacity: 0.3;
   margin-top: 6px;
-  margin-left: -9px;
+  margin-left: -11px;
 }
 
 .discs_box {
   width: 32%;
-  height: 133px;
+  height: 123px;
   display: block;
-  float: right;
-  margin-left: 170px;
-  margin-top: -123px;
-  padding-left: 15px;
+  float: left;
+  margin-left: 205px;
+  margin-top: -125px;
+  /*padding-left: 15px;*/
 }
 
 .discs_box p {
-  font-size: 7pt;
+  font-size: 8pt;
   color: #000;
   margin-top: 8px;
 }
 
 .discs_box span {
-  font-size: 6pt;
+  font-size: 7pt;
   color: #77858b;
 }
 
 .discs_box select {
-  width: 50px;
+  width: 64px;
   height: 17px;
   /*border: none;
   box-shadow: inset 1px 1px 2px #5e5e5e;
