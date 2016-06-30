@@ -822,7 +822,7 @@ li.bin img:hover {
   margin: -5px 11px 20px 9px;
   padding-top: 4px;
   width: 58%;
-  height: 687px
+  height: 687px;
   background: -webkit-linear-gradient(top,#e5e7e8,#93a7b0);
   border-radius: 5px;
 }
@@ -856,7 +856,9 @@ p.price {
   color: #114165;
 }
 
-.image_product {
+.image_product1,
+.image_product2,
+.image_product3 {
   width: 150px;
   height: 139px;
   border: 1px solid #a4aeb1;
