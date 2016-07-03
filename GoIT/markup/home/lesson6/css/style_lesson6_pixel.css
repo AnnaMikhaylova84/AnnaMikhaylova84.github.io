@@ -901,7 +901,7 @@ p.price2 {
   font-style: italic;
   font-weight: bold;
   color: #114165;
-  padding-left: 25px;
+  padding-left: 12px;
 
 }
 
@@ -1096,53 +1096,65 @@ footer {
 .footer_top {
   /*border: 1px solid red;*/
   width: 80%;
-  height: 79px;
+  height: 78px;
   margin-left: 126px;
 }
 
+/*.footer_top img {
+  display: inline-block;
+}*/
 /*.footer_top img {
   width: 88px;
   margin: 6px 3px;
 }*/
 .footer_top img.brandLogo1 {
   width: 88px;
-  margin: 6px 3px;
+  margin-bottom: -34px;
+  margin-left: 4px;
 }
 
 .footer_top img.brandLogo2 {
   width: 104px;
-  margin-top: 7px;
+  margin-bottom: -28px;
+  margin-left: 12px;
 }
 
 .footer_top img.brandLogo3 {
   width: 88px;
-  margin: 7px 8px;
+  margin-bottom: -35px;
+  margin-left: 9px;
 }
 
 .footer_top img.brandLogo4 {
   width: 63px;
-  margin: 18px 18px;
+  margin-bottom: -34px;
+  margin-left: 11px;
 }
 
 .footer_top img.brandLogo5 {
   width: 87px;
-  margin: 1px 4px;
+  margin-bottom: -27px;
+  margin-left: 12px;
 }
 
 .footer_top img.brandLogo6 {
   width: 63px;
-  margin: 22px 15px;
+  margin-bottom: -38px;
+  margin-left: 4px;
 }
 
 .footer_top img.brandLogo7 {
   width: 70px;
-  margin: 10px 10px;
+  margin-bottom: -29px;
+  margin-left: 9px;
 }
 
 .footer_top img.brandLogo8 {
   width: 78px;
-  margin: 6px 6px;
+  margin-bottom: -27px;
+  margin-left: 8px;
 }
+
 
 
 
@@ -1155,7 +1167,7 @@ footer {
 }
 .footer_bottom li {
   display: inline-block;
-  margin: 10px 0;
+  margin: 12px 0;
 
   /*width: 74px;*/
   height: 10px;
@@ -1171,15 +1183,15 @@ footer {
   font-family: Arial, sans-serif;
   font-size: 10pt;
   text-decoration: none;
-  margin: 0 10px 0 10px;
+  margin: 0 13px 0 13px;
 
 }
 
 .footer_bottom p {
   color: #7f4740;
   font-family: Arial, sans-serif;
-  font-size: 8pt;
-  margin-top: 5px;
+  font-size: 9pt;
+  margin-top: 7px;
 }
 
 .footer_bottom li:hover a {
