@@ -839,13 +839,14 @@ p.bold {
   font-size: 13pt;
   font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
   color: #206988;
-  padding-left: 11px;
+  padding-left: 17px;
   font-weight: bold;
 }
 
 .bold span {
   font-size: 10pt;
   color: #1f2528;
+  padding-left: 18px;
 }
 
 p.price {
@@ -856,36 +857,57 @@ p.price {
   color: #114165;
 }
 
-figure .image_product {
+figure .image_product1 {
   width: 150px;
   height: 139px;
   border: 1px solid #a4aeb1;
   border-radius: 10px;
   background-color: #fff;
-  margin-left: 6px;
+  margin-left: 11px;
 }
 
-.image_product img .image_product1{
-  margin-top: 5px;
-  margin-left: -4px;
+figure .image_product1 img.image_goodyear1 {
   width: 82px;
-}
-
-.image_product img .image_product2{
-  margin-top: 5px;
-  margin-left: -4px;
-  width: 76px;
-}
-
-.image_product img .image_product3{
   margin-top: 4px;
-  margin-left: -11px;
-  width: 87px;
 }
+figure .image_product2 {
+  width: 150px;
+  height: 139px;
+  border: 1px solid #a4aeb1;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 5px;
+}
+
+figure .image_product2 img.image_nokian1 {
+  width: 77px;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+
+figure .image_product3 {
+  width: 150px;
+  height: 139px;
+  border: 1px solid #a4aeb1;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: -2px;
+}
+
+figure .image_product3 img.image_hankook1 {
+  width: 88px;
+  margin-top: 4px;
+  margin-left: -1px;
+}
+
+figure .image_product img.image_nokian1 {
+
+}
+
 
 figcaption {
   margin-top: 5px;
-  margin-left: 34px;
+  margin-left: 38px;
 }
 
                       /* RIGHT_sidebar */
