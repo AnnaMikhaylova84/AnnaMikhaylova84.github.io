@@ -835,28 +835,6 @@ figure {
   line-height: 0.9;
 }
 
-p.bold {
-  font-size: 13pt;
-  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
-  color: #206988;
-  padding-left: 17px;
-  font-weight: bold;
-}
-
-.bold span {
-  font-size: 10pt;
-  color: #1f2528;
-  padding-left: 18px;
-}
-
-p.price {
-  font-size: 14pt;
-  font-family: Arial, Tahoma, sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  color: #114165;
-}
-
 figure .image_product1 {
   width: 150px;
   height: 139px;
@@ -866,10 +844,33 @@ figure .image_product1 {
   margin-left: 11px;
 }
 
+p.bold1 {
+  font-size: 13pt;
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+  color: #206988;
+  padding-left: 17px;
+  font-weight: bold;
+}
+
+.bold1 span {
+  font-size: 10pt;
+  color: #1f2528;
+  padding-left: 18px;
+}
+
+p.price1 {
+  font-size: 14pt;
+  font-family: Arial, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #114165;
+}
+
 figure .image_product1 img.image_goodyear1 {
   width: 82px;
   margin-top: 4px;
 }
+
 figure .image_product2 {
   width: 150px;
   height: 139px;
@@ -877,6 +878,28 @@ figure .image_product2 {
   border-radius: 10px;
   background-color: #fff;
   margin-left: 5px;
+}
+
+p.bold2 {
+  font-size: 13pt;
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+  color: #206988;
+  padding-left: 17px;
+  font-weight: bold;
+}
+
+.bold2 span {
+  font-size: 10pt;
+  color: #1f2528;
+  padding-left: 18px;
+}
+
+p.price2 {
+  font-size: 14pt;
+  font-family: Arial, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #114165;
 }
 
 figure .image_product2 img.image_nokian1 {
@@ -894,16 +917,33 @@ figure .image_product3 {
   margin-left: -2px;
 }
 
+p.bold3 {
+  font-size: 13pt;
+  font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+  color: #206988;
+  padding-left: 17px;
+  font-weight: bold;
+}
+
+.bold3 span {
+  font-size: 10pt;
+  color: #1f2528;
+  padding-left: 18px;
+}
+
+p.price3 {
+  font-size: 14pt;
+  font-family: Arial, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #114165;
+}
+
 figure .image_product3 img.image_hankook1 {
   width: 88px;
   margin-top: 4px;
   margin-left: -1px;
 }
-
-figure .image_product img.image_nokian1 {
-
-}
-
 
 figcaption {
   margin-top: 5px;
