@@ -770,19 +770,21 @@ li.bin img:hover {
   display: block;
   font-size: 11pt;
   line-height: 2;
+
 }
+
 .tires_list a,
 .discs_list a,
 .bolts_list a {
   color: #465961;
 }
 
-
 .tires_list li,
 .discs_list li,
 .bolts_list li {
   margin-left: 38px;
-
+  background: url("../img/shape_mini2.png") no-repeat 0 10px;
+  padding-left: 10px;
 }
 
 .tires_list img,
@@ -792,6 +794,7 @@ li.bin img:hover {
   width: 8px;
   border-radius: 100%
 }
+
 .tires_list a,
 .discs_list a,
 .bolts_list a  {
@@ -815,6 +818,12 @@ li.bin img:hover {
   font-size: 11pt;
 }
 
+.tires_list ul li:hover,
+.discs_list ul li:hover,
+.bolts_list ul li:hover {
+    background: url("../img/shape_hover2.png") no-repeat 0 10px;
+    padding-left: 10px;
+}
                         /* PRODUCTS */
 .products {
   display: block;
