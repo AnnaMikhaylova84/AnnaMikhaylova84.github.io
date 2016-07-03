@@ -853,9 +853,9 @@ p.bold1 {
 }
 
 .bold1 span {
-  font-size: 10pt;
+  font-size: 11pt;
   color: #1f2528;
-  padding-left: 18px;
+  padding-left: 6px;
 }
 
 p.price1 {
@@ -871,6 +871,11 @@ figure .image_product1 img.image_goodyear1 {
   margin-top: 4px;
 }
 
+figcaption .fig_goodyear1 {
+  margin-top: 6px;
+  margin-left: 38px;
+}
+
 figure .image_product2 {
   width: 150px;
   height: 139px;
@@ -884,14 +889,14 @@ p.bold2 {
   font-size: 13pt;
   font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
   color: #206988;
-  padding-left: 17px;
+  padding-left: 12px;
   font-weight: bold;
 }
 
 .bold2 span {
-  font-size: 10pt;
+  font-size: 11pt;
   color: #1f2528;
-  padding-left: 18px;
+  padding-left: 2px;
 }
 
 p.price2 {
@@ -908,6 +913,11 @@ figure .image_product2 img.image_nokian1 {
   margin-right: 2px;
 }
 
+figcaption .fig_nokian1 {
+  margin-top: 6px;
+  margin-left: 26px;
+}
+
 figure .image_product3 {
   width: 150px;
   height: 139px;
@@ -921,14 +931,14 @@ p.bold3 {
   font-size: 13pt;
   font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
   color: #206988;
-  padding-left: 17px;
+  padding-left: 0px;
   font-weight: bold;
 }
 
 .bold3 span {
-  font-size: 10pt;
+  font-size: 11pt;
   color: #1f2528;
-  padding-left: 18px;
+  /*padding-left: 18px;*/
 }
 
 p.price3 {
@@ -945,10 +955,11 @@ figure .image_product3 img.image_hankook1 {
   margin-left: -1px;
 }
 
-figcaption {
-  margin-top: 5px;
-  margin-left: 38px;
+figcaption .fig_goodyear1 {
+  margin-top: 6px;
+  margin-left: 13px;
 }
+
 
                       /* RIGHT_sidebar */
 .sidebar_right {
@@ -1059,7 +1070,7 @@ figcaption {
 }
 
 .button_choice{
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 .button_choice button {
