@@ -835,6 +835,11 @@ figure {
   line-height: 0.9;
 }
 
+/*figcaption {
+  display: block;
+  width: 100%;
+}*/
+
 figure .image_product1 {
   width: 150px;
   height: 139px;
@@ -858,7 +863,7 @@ p.bold1 {
   padding-left: 6px;
 }
 
-p.price1 {
+.fig_goodyear1 p.price1 {
   font-size: 14pt;
   font-family: Arial, Tahoma, sans-serif;
   font-style: italic;
@@ -871,10 +876,10 @@ figure .image_product1 img.image_goodyear1 {
   margin-top: 4px;
 }
 
-figcaption .fig_goodyear1 {
+/*figcaption .fig_goodyear1 {
   margin-top: 6px;
   margin-left: 38px;
-}
+}*/
 
 figure .image_product2 {
   width: 150px;
@@ -913,10 +918,10 @@ figure .image_product2 img.image_nokian1 {
   margin-right: 2px;
 }
 
-figcaption .fig_nokian1 {
+/*figcaption .fig_nokian1 {
   margin-top: 6px;
   margin-left: 26px;
-}
+}*/
 
 figure .image_product3 {
   width: 150px;
@@ -955,7 +960,13 @@ figure .image_product3 img.image_hankook1 {
   margin-left: -1px;
 }
 
-figcaption .fig_goodyear1 {
+/*figcaption .fig_hankook1 {
+  margin-top: 6px;
+  margin-left: 13px;
+}*/
+
+figcaption  {
+  /*display: block;*/
   margin-top: 6px;
   margin-left: 13px;
 }
