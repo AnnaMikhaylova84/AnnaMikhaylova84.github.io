@@ -835,11 +835,6 @@ figure {
   line-height: 0.9;
 }
 
-/*figcaption {
-  display: block;
-  width: 100%;
-}*/
-
 figure .image_product1 {
   width: 150px;
   height: 139px;
@@ -863,23 +858,19 @@ p.bold1 {
   padding-left: 6px;
 }
 
-.fig_goodyear1 p.price1 {
+p.price1 {
   font-size: 14pt;
   font-family: Arial, Tahoma, sans-serif;
   font-style: italic;
   font-weight: bold;
   color: #114165;
+  padding-left: 25px;
 }
 
 figure .image_product1 img.image_goodyear1 {
   width: 82px;
   margin-top: 4px;
 }
-
-/*figcaption .fig_goodyear1 {
-  margin-top: 6px;
-  margin-left: 38px;
-}*/
 
 figure .image_product2 {
   width: 150px;
@@ -910,6 +901,8 @@ p.price2 {
   font-style: italic;
   font-weight: bold;
   color: #114165;
+  padding-left: 25px;
+
 }
 
 figure .image_product2 img.image_nokian1 {
@@ -917,11 +910,6 @@ figure .image_product2 img.image_nokian1 {
   margin-top: 3px;
   margin-right: 2px;
 }
-
-/*figcaption .fig_nokian1 {
-  margin-top: 6px;
-  margin-left: 26px;
-}*/
 
 figure .image_product3 {
   width: 150px;
@@ -943,7 +931,6 @@ p.bold3 {
 .bold3 span {
   font-size: 11pt;
   color: #1f2528;
-  /*padding-left: 18px;*/
 }
 
 p.price3 {
@@ -960,13 +947,7 @@ figure .image_product3 img.image_hankook1 {
   margin-left: -1px;
 }
 
-/*figcaption .fig_hankook1 {
-  margin-top: 6px;
-  margin-left: 13px;
-}*/
-
 figcaption  {
-  /*display: block;*/
   margin-top: 6px;
   margin-left: 13px;
 }
@@ -1119,10 +1100,51 @@ footer {
   margin-left: 126px;
 }
 
-.footer_top img {
+/*.footer_top img {
+  width: 88px;
+  margin: 6px 3px;
+}*/
+.footer_top img.brandLogo1 {
   width: 88px;
   margin: 6px 3px;
 }
+
+.footer_top img.brandLogo2 {
+  width: 104px;
+  margin-top: 7px;
+}
+
+.footer_top img.brandLogo3 {
+  width: 88px;
+  margin: 7px 8px;
+}
+
+.footer_top img.brandLogo4 {
+  width: 63px;
+  margin: 18px 18px;
+}
+
+.footer_top img.brandLogo5 {
+  width: 87px;
+  margin: 1px 4px;
+}
+
+.footer_top img.brandLogo6 {
+  width: 63px;
+  margin: 22px 15px;
+}
+
+.footer_top img.brandLogo7 {
+  width: 70px;
+  margin: 10px 10px;
+}
+
+.footer_top img.brandLogo8 {
+  width: 78px;
+  margin: 6px 6px;
+}
+
+
 
 .footer_bottom {
   width: 100%;
