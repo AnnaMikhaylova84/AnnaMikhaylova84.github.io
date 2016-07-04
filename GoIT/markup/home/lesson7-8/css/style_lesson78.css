@@ -168,11 +168,53 @@ header {
 	width: 100%;
 	height: 168px;
 }
+.navigation__group {
+	display: block;
+	float: right;
+	margin-top: 95px;
+	margin-right: 160px;
+
+}
+.navigation__group__item {
+  display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 2px;
+  background: #000;
+	border-radius: 100%;
+	opacity: 0.3;
+	cursor: pointer;
+}
+.navigation__group__item:hover {
+	background: #3f3b44 url("../img/nav_point.png") center no-repeat;
+	opacity: 1;
 
 
-.blurb:after {
+}
+
+/*.blurb:after {
 	content: "";
 	clear: both;
 	display: block;
+	}*/
 
+.blurb {
+	display: block;
+	width: 100%;
+	height: 350px;
+}
+
+.blurb__right {
+	display: inline-block;
+	width: 30%;
+}
+
+.blurb__central {
+	display: inline-block;
+	width: 30%;
+}
+
+.blurb__left {
+	display: inline-block;
+	width: 30%;
 }
