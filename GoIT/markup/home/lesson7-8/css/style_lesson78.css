@@ -24,20 +24,155 @@
 
 }
 body {
-
+	display: block;
+	background: url("../img/background_all.jpg") no-repeat center 0;
+	z-index: 1;
 }
 
 .container {
-	/*margin-left: -480px;
+	/*border: 1px solid red;*/
+	position: absolute;
 	width: 960px;
   left: 50%;
-  position: absolute;*/
-	background: url("img/background_960px.png");
-	background-size: cover;
+	margin-left: -480px;
+}
 
+header {
+	display: block;
+	margin-top: 70px;
+	width: 100%;
+	height: 195px;
+	font-family: "LeagueGothicRegular", Arial, sans-serif;
+}
+
+.big_log {
+	display: inline-block;
+	float: left;
+	font-size: 48px;
+}
+
+.big_log p {
+	color: #fff;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+
+.big_log span {
+	background: -webkit-linear-gradient(top,#a482b2,#2b2031);
+	-moz-linear-gradient(top,#a482b2,#2b2031);
+	-o-linear-gradient(top,#a482b2,#2b2031);
+	-ms-linear-gradient(top,#a482b2,#2b2031);
+	-webkit-background-clip: text;
+   /*color: transparent;*/
+	 -webkit-text-fill-color: transparent;
+}
+.menu:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.menu__group {
+	display: block;
+	float: right;
+	/*margin-left: 117px;*/
+	margin-top: 3px;
+}
+
+.menu__group li{
+	display: inline-block;
+	width: auto;
+	margin-left: 50px;
+}
+
+.menu__group li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+	font-size: 24px;
+}
+
+.menu__group li:hover a {
+	border-bottom: 2px solid #edbfff;
+}
+
+.slider {
+	display: block;
+	width: 100%;
+	height: 413px;
+}
+
+.slider__content {
+	display: block;
+	float: left;
+	text-align: left;
+	width: 520px;
+	margin-top: 93px;
+}
+.slider__content h1 {
+	font-family: LeagueGothicRegular;
+	font-size: 60px;
+	color: #fff;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+.slider__content h2 {
+	font-family: LeagueGothicRegular;
+	font-size: 32px;
+	color: #edbfff;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+.slider__content p {
+	margin-top: 5px;
+	font-family: OpenSansLight;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+	line-height: 1.5;
+}
+
+.slider__phone {
+	display: block;
+	float: right;
+	position: relative;
+	width: 440px;
+	height: 413px;
+}
+
+.slider__phone__phoneback {
+	display: block;
+	/*float: right;
+	position: absolute;*/
+	z-index: 2;
+	margin-top: 73px;
+	margin-left: 90px;
+}
+
+.slider__phone__phonebig {
+	display: block;
+	position: absolute;
+	top: -5px;
+	right: 77px;
+	z-index: 3;
+}
+
+.slider__phone__play {
+	display: block;
+	/*float: right;*/
+	position: absolute;
+	top: 147px;
+	right: 136px;
+	z-index: 4;
+	/*opacity: 0.5;*/
+}
+.navigation {
+	width: 100%;
+	height: 168px;
+}
+
+
+.blurb:after {
+	content: "";
+	clear: both;
+	display: block;
 
 }
-/*.main {
-	background: url("../img/background_960px.png");
-	background-size: cover;
-}*/
