@@ -352,8 +352,6 @@ header {
 	float: left;
 	width: 49%;
 	height: 490px;
-	/*border: 1px solid red;
-	box-sizing: border-box;*/
 }
 
 .testimonials__fon {
@@ -418,24 +416,34 @@ header {
 	margin-left: 20px;
 	width: 47%;
 	height: 490px;
-	border: 1px solid red;
-	box-sizing: border-box;
+	/*border: 1px solid red;
+	box-sizing: border-box;*/
 }
 
 .blog__title {
 	display: inline-block;
 	float: left;
+	width: 100%;
 	margin-top: 133px;
-	/*margin-left: 10px;*/
+	margin-bottom: 10px;
 	font-size: 30px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
 }
 .blog__first {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	width: 100%;
 	height: 50px;
 	font-size: 16px;
+	line-height: 1.5;
 	color: #454545;
+}
+
+.blog__first p{
+	display: inline-block;
+	padding-left: 10px;
 }
 
 .blog__first__post {
@@ -453,15 +461,25 @@ header {
 	display: inline-block;
 	float: left;
 	overflow: hidden;
-	width: 50px;
-	height: 50px;
+	width: 49px;
+	height: 49px;
 	background: url("../img/sprite_2.png") no-repeat 0 0;
 }
+
 .blog__second {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	width: 100%;
 	height: 50px;
 	font-size: 16px;
+	line-height: 1.5;
 	color: #454545;
+}
+
+.blog__second p{
+	display: inline-block;
+	padding-left: 10px;
 }
 
 .blog__second__post {
@@ -472,43 +490,64 @@ header {
 .blog__second__from {
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	font-weight: normal;
-
 }
 
 .blog__second__img {
 	display: inline-block;
 	float: left;
 	overflow: hidden;
-	width: 50px;
-	height: 50px;
-	background: url("../img/sprite_2.png") no-repeat 0 0;
+	width: 49px;
+	height: 48px;
+	background: url("../img/sprite_2.png") no-repeat 0 -49px;
 }
 
 .blog__third {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	width: 100%;
 	height: 50px;
 	font-size: 16px;
+	line-height: 1.5;
 	color: #454545;
 }
 
+.blog__third p{
+	display: inline-block;
+	padding-left: 10px;
+}
 
 .blog__third__post {
 	font-family: open_sansextrabold, Tahoma, Arial,sans-serif;
 	font-weight: bold;
 }
 
-
 .blog__third__from {
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	font-weight: normal;
-
 }
 
 .blog__third__img {
 	display: inline-block;
 	float: left;
 	overflow: hidden;
-	width: 50px;
-	height: 50px;
-	background: url("../img/sprite_2.png") no-repeat 0 0;
+	width: 49px;
+	height: 49px;
+	background: url("../img/sprite_2.png") no-repeat 0 -98px;
+}
+
+.blog__read {
+	float: right;
+}
+
+.blog__read a{
+	color: #454545;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
+	margin-right: 20px;
+}
+
+.blog__read:hover a {
+	text-shadow: 0 0 9px rgba(0,0,0,0.5);
 }
