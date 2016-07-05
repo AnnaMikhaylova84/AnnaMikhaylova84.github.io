@@ -34,7 +34,7 @@ body {
 	position: absolute;
 	width: 960px;
   left: 50%;
-	margin-left: -480px;
+	margin-left: -483px;
 }
 
 header {
@@ -75,7 +75,7 @@ header {
 	display: block;
 	float: right;
 	/*margin-left: 117px;*/
-	margin-top: 3px;
+	margin-top: 8px;
 }
 
 .menu__group li{
@@ -111,7 +111,7 @@ header {
 }
 .slider__content h1 {
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
-	font-size: 60px;
+	font-size: 59px;
 	color: #fff;
 	text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
@@ -122,12 +122,12 @@ header {
 	text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
 .slider__content p {
-	margin-top: 5px;
+	margin-top: 8px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	font-size: 18px;
 	color: #fff;
 	text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 .slider__phone {
@@ -150,8 +150,8 @@ header {
 .slider__phone__phonebig {
 	display: block;
 	position: absolute;
-	top: -5px;
-	right: 77px;
+	top: 0;
+	right: 70px;
 	z-index: 3;
 }
 
@@ -159,8 +159,8 @@ header {
 	display: block;
 	/*float: right;*/
 	position: absolute;
-	top: 147px;
-	right: 136px;
+	top: 149px;
+	right: 130px;
 	z-index: 4;
 	/*opacity: 0.5;*/
 }
@@ -171,8 +171,8 @@ header {
 .navigation__group {
 	display: block;
 	float: right;
-	margin-top: 95px;
-	margin-right: 160px;
+	margin-top: 98px;
+	margin-right: 167x;
 
 }
 .navigation__group__item {
@@ -201,9 +201,9 @@ header {
 
 .blurb__left {
 	display: inline-block;
-	width: 32%;
-	margin-top: 65px;
-	margin-left: 4px;
+	width: 35%;
+	margin-top: 74px;
+	margin-left: 11px;
 	}
 
 .blurb__left__img {
@@ -236,8 +236,8 @@ header {
 .blurb__left__read {
 	display: block;
   float: right;
-  margin-top: 15px;
-  margin-right: 35px;
+  margin-top: 19px;
+  margin-right: 67px;
 	font-size: 18px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -249,14 +249,14 @@ header {
 
 .blurb__central {
 	display: inline-block;
-	width: 33%;
+	width: 30%;
   margin-top: 65px;
 }
 
 .blurb__central__img {
   display: inline-block;
   float: left;
-  margin-top: 11px;
+  margin-top: 13px;
   width: 29px;
   height: 35px;
   overflow: hidden;
@@ -283,8 +283,8 @@ header {
 .blurb__central__read {
   display: block;
   float: right;
-  margin-top: 15px;
-  margin-right: 37px;
+  margin-top: 19px;
+  margin-right: 17px;
   font-size: 18px;
   font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -303,7 +303,8 @@ header {
 .blurb__right__img {
 	display: inline-block;
 	float: left;
-	margin-top: 11px;
+	margin-top: 12px;
+	margin-left: 45px;
 	width: 29px;
 	height: 35px;
 	overflow: hidden;
@@ -312,8 +313,8 @@ header {
 
 .blurb__right__content {
 	display: inline-block;
-	width: 230px;
-	margin-left: 25px;
+	width: 226px;
+	margin-left: 16px;
 	line-height: 1.5;
 }
 
@@ -330,8 +331,8 @@ header {
 .blurb__right__read {
 	display: block;
   float: right;
-  margin-top: 15px;
-  margin-right: 37px;
+  margin-top: 19px;
+  /*margin-right: 37px;*/
 	font-size: 18px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -355,7 +356,8 @@ header {
 }
 
 .testimonials__fon {
-	margin-top: 100px;
+	margin-top: 103px;
+	margin-left: 3px;
 	width: 100%;
 	height: 300px;
 	background: url("../img/testimonial_fon.png") no-repeat 23px 0;
@@ -364,7 +366,8 @@ header {
 .testimonials__fon__img {
 	display: block;
 	float: left;
-	margin-top: 22px;
+	margin-top: 18px;
+	margin-left: -2px;
 	z-index: 5;
 }
 
@@ -373,8 +376,8 @@ header {
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
 	text-transform: uppercase;
-	padding-top: 33px;
-	margin-left: 60px;
+	padding-top: 29px;
+	margin-left: 61px;
 }
 
 .testimonials__fon__title span {
@@ -383,8 +386,8 @@ header {
 
 .testimonials__fon__content {
 	width: 360px;
-	margin-left: 60px;
-	padding-top: 8px;
+	margin-left: 61px;
+	padding-top: 10px;
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	color: #454545;
@@ -392,7 +395,8 @@ header {
 }
 
 .testimonials__nav {
-	margin-left: 200px;
+	margin-top: -5px;
+	margin-left: 213px;
 }
 
 .testimonials__nav__item {
@@ -424,8 +428,9 @@ header {
 	display: inline-block;
 	float: left;
 	width: 100%;
-	margin-top: 133px;
-	margin-bottom: 10px;
+	margin-top: 132px;
+  margin-bottom: 6px;
+  margin-left: 2px;
 	font-size: 30px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
@@ -434,6 +439,7 @@ header {
 	float: left;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: 4px;
 	width: 100%;
 	height: 50px;
 	font-size: 16px;
@@ -443,7 +449,7 @@ header {
 
 .blog__first p{
 	display: inline-block;
-	padding-left: 10px;
+	padding-left: 16px;
 }
 
 .blog__first__post {
@@ -468,8 +474,9 @@ header {
 
 .blog__second {
 	float: left;
-	margin-top: 10px;
+	margin-top: 7px;
 	margin-bottom: 10px;
+	margin-left: 4px;
 	width: 100%;
 	height: 50px;
 	font-size: 16px;
@@ -479,7 +486,7 @@ header {
 
 .blog__second p{
 	display: inline-block;
-	padding-left: 10px;
+	padding-left: 16px;
 }
 
 .blog__second__post {
@@ -503,8 +510,9 @@ header {
 
 .blog__third {
 	float: left;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 4px;
+	margin-bottom: 21px;
+	margin-left: 4px;
 	width: 100%;
 	height: 50px;
 	font-size: 16px;
@@ -514,7 +522,7 @@ header {
 
 .blog__third p{
 	display: inline-block;
-	padding-left: 10px;
+	padding-left: 16px;
 }
 
 .blog__third__post {
