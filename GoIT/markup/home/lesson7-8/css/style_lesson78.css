@@ -12,7 +12,7 @@
 	display: block;
 }
 
-header {
+.top {
 	display: block;
 	margin-top: 66px;
 	width: 100%;
@@ -20,18 +20,18 @@ header {
 	font-family: LeagueGothicRegular, Tahoma, Arial, sans-serif;
 }
 
-.big_log {
+.top__big_log {
 	display: inline-block;
 	float: left;
 	font-size: 48px;
 }
 
-.big_log p {
+.top__big_log__name {
 	color: #fff;
   text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
 
-.big_log span {
+.top__big_log__name__small {
 	background: -webkit-linear-gradient(top,#a482b2,#2b2031);
 	-moz-linear-gradient(top,#a482b2,#2b2031);
 	-o-linear-gradient(top,#a482b2,#2b2031);
@@ -39,25 +39,25 @@ header {
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.menu:after {
+.top__menu:after {
 	content: "";
 	clear: both;
 	display: block;
 }
 
-.menu__group {
+.top__menu__group {
 	display: block;
 	float: right;
 	margin-top: 8px;
 }
 
-.menu__group li{
+.top__menu__group__item {
 	display: inline-block;
 	width: auto;
-	margin-left: 50px;
+	margin-left: 49px;
 }
 
-.menu__group li a{
+.top__menu__group__item__link {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -65,7 +65,7 @@ header {
 	font-size: 24px;
 }
 
-.menu__group li:hover a {
+.top__menu__group__item:hover {
 	border-bottom: 2px solid #edbfff;
 }
 
@@ -80,7 +80,8 @@ header {
 	float: left;
 	text-align: left;
 	width: 520px;
-	margin-top: 93px;
+	margin-top: 95px;
+	margin-left: 2px;
 }
 .slider__content h1 {
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
@@ -107,7 +108,7 @@ header {
 	display: block;
 	float: right;
 	position: relative;
-	width: 440px;
+	width: 435px;
 	height: 413px;
 }
 
@@ -210,8 +211,8 @@ header {
 .blurb__left__read {
 	display: block;
   float: right;
-  margin-top: 19px;
-  margin-right: 67px;
+  margin-top: 16px;
+  margin-right: 66px;
 	font-size: 18px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -260,8 +261,8 @@ header {
 .blurb__central__read {
   display: block;
   float: right;
-  margin-top: 19px;
-  margin-right: 17px;
+  margin-top: 16px;
+  margin-right: 16px;
   font-size: 18px;
   font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -375,7 +376,7 @@ header {
 
 .testimonials__nav {
 	margin-top: -5px;
-	margin-left: 213px;
+	margin-left: 193px;
 }
 
 .testimonials__nav__item {
@@ -547,8 +548,8 @@ header {
 .logos__img {
 	width: 775px;
 	height: 66px;
-	margin-top: 27px;
-  margin-left: 92px;
+	margin-top: 24px;
+  margin-left: 96px;
 	background: url("../img/logos.png") no-repeat center;
 }
 
@@ -556,18 +557,19 @@ header {
 	display: block;
 	float: left;
 	width: 100%;
-	height: 400px;
+	height: 397px;
 }
 
 .articles__left {
 	display: block;
 	float: left;
-	width: 335px;
+	width: 340px;
 	height: 312px;
 }
 
 .articles__left__title {
-	margin-top: 100px;
+	margin-top: 95px;
+	margin-left: 2px;
 	font-size: 48px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	text-transform: uppercase;
@@ -583,7 +585,7 @@ header {
 
 .articles__left__copyright {
 	margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 	font-size: 16px;
 	font-family: Georgia, Arial, sans-serif;
 	font-style: italic;
@@ -610,8 +612,8 @@ header {
 }
 
 .articles__center__title {
-	margin-top: 100px;
-	margin-bottom: 15px;
+	margin-top: 97px;
+	margin-bottom: 9px;
 	font-size: 30px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
@@ -630,13 +632,14 @@ header {
 .articles__right {
 	display: block;
 	float: right;
-	width: 270px;
+	width: 279px;
 	height: 312px;
 }
 
 .articles__right__title {
-	margin-top: 100px;
-	margin-bottom: 15px;
+	margin-top: 97px;
+	margin-bottom: 9px;
+	margin-left: -1px;
 	font-size: 30px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
@@ -662,7 +665,7 @@ header {
 	float: left;
 	width: 70%;
 	height: 60px;
-	margin-top: 50px;
+	margin-top: 46px;
 }
 
 /*.bottom__menu__list {
