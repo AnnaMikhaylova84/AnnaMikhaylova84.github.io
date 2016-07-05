@@ -562,7 +562,7 @@ header {
 .articles__left {
 	display: block;
 	float: left;
-	width: 300px;
+	width: 335px;
 	height: 312px;
 }
 
@@ -604,7 +604,8 @@ header {
 .articles__center {
 	display: block;
 	float: left;
-	width: 350px;
+	/*padding-left: 15px;*/
+	width: 340px;
 	height: 312px;
 }
 
@@ -629,7 +630,7 @@ header {
 .articles__right {
 	display: block;
 	float: right;
-	width: 300px;
+	width: 270px;
 	height: 312px;
 }
 
@@ -651,6 +652,66 @@ header {
 	color: #787878;
 	line-height: 1.5;
 }
+.bottom {
+	width: 100%;
+	height: 110px;
+	float: left;
+}
+
+.bottom__menu {
+	float: left;
+	width: 70%;
+	height: 60px;
+	margin-top: 50px;
+}
+
+/*.bottom__menu__list {
+	margin-top: 50px;
+}*/
+
+
+.bottom__menu__list__item{
+	display: inline-block;
+	width: auto;
+	margin-right: 40px;
+}
+
+.bottom__menu__list__item__link {
+	font-size: 20px;
+	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+}
+
+.bottom__menu__list__item__link:hover {
+	text-shadow: 0px 0px 9px rgb(255, 255, 255);
+	/*font-style: italic;*/
+}
+
+.bottom__design {
+	display: block;
+	float: right;
+	width: 29%;
+	height: 60px;
+	margin-top: 50px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	font-size: 12px;
+}
+
+.bottom__design__text {
+	display: block;
+	float: right;
+	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
+}
+
+.bottom__design__text__name {
+	font-family: open_sansextrabold, Tahoma, Arial,sans-serif;
+}
+
+
 
 body {
 	display: block;
