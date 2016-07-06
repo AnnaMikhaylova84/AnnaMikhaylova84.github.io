@@ -1,9 +1,20 @@
 
 .container {
-	position: absolute;
+	position: relative;
 	width: 960px;
+	min-width: 769px;
   left: 50%;
 	margin-left: -483px;
+	/*border: 1px solid red;
+	box-sizing: border-box;*/
+}
+
+@media (max-width:960px) {
+.container {
+	width: 768px;
+  left: 50%;
+	margin-left: -385px;
+}
 }
 
 .clearfix:after {
