@@ -125,7 +125,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .arrow {
 	display: block;
 	position: absolute;
-	width: 2400px;
+	width: 100%;
 	height: 50px;
 	margin-top: 395px;
 }
@@ -133,14 +133,14 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	width: 23px;
 	height: 35px;
 	float: left;
-	margin-left: 402px;
+	margin-left: -402px;
 	/*margin-top: -200px;*/
 }
 .arrow-right{
 	width: 23px;
 	height: 35px;
 	float: right;
-	margin-right: 401px;
+	margin-right: -401px;
 	/*margin-top: -200px;*/
 }
 
@@ -669,6 +669,12 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	margin-top: 11px;
 }
 
+.blog__more {
+	display: none;
+	float: right;
+	margin-top: 11px;
+}
+
 .blog__link {
 	color: #454545;
 	text-decoration: none;
@@ -707,6 +713,9 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	float: left;
 	width: 340px;
 	height: 312px;
+}
+.articles__left_mod {
+	display: none;
 }
 
 .articles__left__title {
@@ -750,6 +759,9 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	float: left;
 	width: 340px;
 	height: 312px;
+}
+.articles__center_mod {
+	display: none;
 }
 
 .articles__center__title {

@@ -113,10 +113,10 @@ box-shadow: 0px 1px 25px 0px rgba(0,0,0,0.75);*/
 box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 .fon__bootom {
-	background-image: url("../img/footer_960.jpg");
+	background-image: url("../img/footer_768.jpg");
 	background-size: cover;
 	width: 2400px;
-	height: 112px;
+	height: 201px;
 	float: left;
 	margin-top: 397px;
 	/*position: absolute;*/
@@ -375,7 +375,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .blurb__left__title {
-	margin-left: 0px;
+	margin: 0 0 0 2px;
 	font-size: 23px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -384,6 +384,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .blurb__left__text {
+	width: 163px;
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	/*text-overflow: clip;*/
@@ -430,7 +431,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .blurb__central__title {
-	margin: -5px 0 0 0;
+	margin: -3px 0 0 -1px;
   font-size: 24px;
   font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -440,7 +441,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 
 .blurb__central__text {
 	margin: -2px 0 0 0;
-	width: 165px;
+	width: 163px;
   font-size: 16px;
   font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	/*text-overflow: clip;*/
@@ -501,6 +502,8 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .blurb__right__text {
+	width: 163px;
+
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
 	/*text-overflow: clip;*/
@@ -536,8 +539,9 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .testimonials__fon {
-	margin-top: 103px;
-	margin-left: 3px;
+	margin: 103px 0 0 22px;
+	/*margin-top: 103px;
+	margin-left: 22px;*/
 	width: 89%;
 	height: 300px;
 	background: url("../img/testimonial_fon.png") no-repeat 23px 0;
@@ -546,8 +550,9 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .testimonials__img {
 	display: block;
 	float: left;
-	margin-top: 17px;
-	/*margin-left: -2px;*/
+	margin: 17px 0 0 -2px;
+	/*margin-top: 17px;
+	margin-left: 17px;*/
 	z-index: 5;
 }
 
@@ -557,7 +562,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	color: #454545;
 	text-transform: uppercase;
 	padding-top: 29px;
-	margin-left: 63px;
+	margin: 0 0 0 62px;
 	letter-spacing: -0.5px;
 }
 
@@ -567,7 +572,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 
 .testimonials__content {
 	width: 257px;
-	margin-left: 170px;
+	margin-left: 60px;
 	padding-top: 10px;
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
@@ -575,9 +580,15 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	line-height: 1.5;
 }
 
+.testimonials__content__text {
+	width: 257px;
+	height: 143px;
+	overflow: hidden;
+}
+
 .testimonials__nav {
 	margin-top: -4px;
-	margin-left: 198px;
+	margin-left: 158px;
 }
 
 .testimonials__item {
@@ -598,7 +609,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .blog {
 	display: block;
 	float: right;
-	margin-right: -2px;
+	margin-right: -5px;
 	width: 47%;
 	height: 490px;
 }
@@ -607,9 +618,10 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	display: inline-block;
 	float: left;
 	width: 100%;
-	margin-top: 132px;
+	/*margin-top: 131px;
   margin-bottom: 6px;
-  margin-left: 2px;
+  margin-left: 6px;*/
+	margin: 131px 0 6px 3px;
 	font-size: 30px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
@@ -627,11 +639,11 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .blog__tag_mod_first {
-	margin-bottom: 7px;
+	margin-bottom: 8px;
 
 }
 .blog__tag_mod_second {
-	margin-bottom: 4px;
+	margin-bottom: 6px;
 }
 
 .blog__tag_mod_third {
@@ -641,7 +653,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .blog__post,
 .blog__from {
 	display: inline-block;
-	padding-left: 16px;
+	padding-left: 17px;
 }
 
 .blog__post {
@@ -650,6 +662,9 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 
 .blog__from {
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
+	width: 255px;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .blog__from_mod {
 	letter-spacing: -0.4px;
@@ -685,14 +700,20 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .blog__read {
 	float: right;
 	margin-top: 11px;
+	display: none;
+}
+.blog__more {
+	float: right;
+	margin-top: 8px;
 }
 
 .blog__link {
 	color: #454545;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 19.5px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
-	margin-right: 20px;
+	margin-right: 30px;
+	letter-spacing: -0.4px;
 }
 
 .blog__link:hover {
@@ -710,7 +731,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	height: 66px;
 	margin-top: 24px;
   margin-left: 96px;
-	background: url("../img/logos.png") no-repeat center;
+	background: url("../img/logos_768.png") no-repeat center;
 }
 
 .articles {
@@ -721,11 +742,19 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 }
 
 .articles__left {
-	display: block;
+	display: none;
 	float: left;
 	width: 340px;
 	height: 312px;
 }
+.articles__left_mod {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 265px;
+	height: 312px
+}
+
 
 .articles__left__title {
 	margin-top: 95px;
@@ -736,6 +765,18 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	letter-spacing: -0.5px;
 	color: #454545;
 	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+.articles__left_mod__title {
+	margin-top: 101px;
+	margin-left: 2px;
+	font-size: 25px;
+	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+	color: #454545;
+	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+	letter-spacing: -0.4px;
 
 }
 
@@ -762,11 +803,27 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	color: #787878;
 	line-height: 1.5;
 }
+.articles__left_mod__text {
+	overflow: hidden;
+	width: 215px;
+	height: 170px;
+	font-size: 16px;
+	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
+	color: #787878;
+	line-height: 1.5;
+}
 
 .articles__center {
-	display: block;
+	display: none;
 	float: left;
 	width: 340px;
+	height: 312px;
+}
+
+.articles__center_mod {
+	display: block;
+	float: left;
+	width: 265px;
 	height: 312px;
 }
 
@@ -780,9 +837,29 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
+.articles__center_mod__title {
+	margin-top: 101px;
+	margin-bottom: 9px;
+	margin-left: 1px;
+	font-size: 25px;
+	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
+	color: #454545;
+	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+	letter-spacing: -0.4px;
+}
+
 .articles__center__text {
 	overflow: hidden;
 	width: 283px;
+	height: 170px;
+	font-size: 16px;
+	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
+	color: #787878;
+	line-height: 1.5;
+}
+.articles__center_mod__text {
+	overflow: hidden;
+	width: 215px;
 	height: 170px;
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
@@ -794,23 +871,24 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .articles__right {
 	display: block;
 	float: right;
-	width: 279px;
+	width: 218px;
 	height: 312px;
 }
 
 .articles__right__title {
-	margin-top: 97px;
+	margin-top: 101px;
 	margin-bottom: 9px;
 	/*margin-left: -1px;*/
-	font-size: 30px;
+	font-size: 25px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 	color: #454545;
 	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+	letter-spacing: -0.4px;
 }
 
 .articles__right__text {
 	overflow: hidden;
-	width: 283px;
+	width: 215px;
 	height: 170px;
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
@@ -820,16 +898,16 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 
 .bottom {
 	width: 100%;
-	height: 110px;
+	height: 201px;
 	float: left;
 }
 
 .bottom__menu {
 	float: left;
-	width: 70%;
+	width: 74%;
 	height: 60px;
-	margin-top: 46px;
-	margin-left: 3px;
+	margin-top: 45px;
+	margin-left: 20px;
 }
 
 /*.bottom__menu__list {
@@ -860,10 +938,11 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 .bottom__design {
 	display: block;
 	float: right;
-	width: 29%;
+	width: 22%;
 	height: 60px;
-	margin-top: 54px;
-	margin-right: -5px;
+	/*margin-top: 54px;
+	margin-right: -5px;*/
+	margin: 101px 0 0 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	color: #fff;
 	font-size: 12px;
@@ -873,6 +952,7 @@ box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
 	display: block;
 	float: right;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
+	margin: 0 0 0 20px;
 }
 
 .bottom__design__text_name {
