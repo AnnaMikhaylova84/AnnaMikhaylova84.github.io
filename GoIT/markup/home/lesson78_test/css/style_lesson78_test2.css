@@ -332,7 +332,7 @@ body {
 	display: inline-block;
 	float: left;
 	width: 30%;
-  margin: 65px 0 0 0;
+  margin: 69px 0 0 4px;
 }
 
 .blurb__central__img {
@@ -384,15 +384,15 @@ body {
 
 .blurb__right {
 	display: inline-block;
-	float: right;
+	float: left;
 	width: 33%;
-	margin: 69px 5px 0 0;
+	margin: 69px 0 0 5px;
 }
 
 .blurb__right__img {
 	display: inline-block;
 	float: left;
-	margin: 13px 0 0 47px;
+	margin: 13px 7px 0 47px;
 	width: 28px;
 	height: 35px;
 	overflow: hidden;
@@ -401,23 +401,23 @@ body {
 
 .blurb__right__content {
 	display: inline-block;
-	/*position: absolute;*/
+	position: absolute;
 	overflow: hidden;
-	width: 235px;
+	width: 234px;
   height: 165px;
-	margin: 0 0 0 15px;
+	margin: 2px 0 0 9px;
 	line-height: 1.5;
 }
 
 .blurb__right__title {
 	overflow: visible;
   margin: 0 0 0 10px;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
 
 .blurb__right__title_mod {
-	letter-spacing: -0.2px;
+	letter-spacing: 1.5px;
 }
 
 .blurb__right__text {
@@ -750,6 +750,7 @@ body {
 .articles__right {
 	display: block;
 	float: left;
+	margin: 0 0 0 11px;
 	width: 284px;
 	height: 312px;
 }
@@ -838,8 +839,9 @@ body {
 	font-family: open_sansextrabold, Tahoma, Arial,sans-serif;
 }
 
+@media screen and (max-width: 1400px) and (min-width: 768px) {
 
-@media screen and (max-width: 959px) and (min-width: 768px) {
+/*@media screen and (max-width: 959px) and (min-width: 768px) {*/
 
 .head {
 	height: 244px;
@@ -1126,7 +1128,7 @@ body {
 .blurb__right__read {
   /*display: block;
   float: right;*/
-  margin: 4px 27px 0 0;
+  margin: 184px 27px 0 0;
   /*font-size: 18px;
   font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;*/
 }
@@ -1223,6 +1225,9 @@ body {
   background: url("../img/logos_768.png") no-repeat center;
 }
 
+.articles__container {
+	width: 768px;
+}
 .articles__left {
   display: none;
 }
@@ -1230,7 +1235,7 @@ body {
 .articles__left_mod {
 	display: block;
 	float: left;
-	margin: 0 0 0 20px;
+	margin: 2px 0 0 20px;
 	width: 265px;
 	height: 312px
 }
@@ -1268,6 +1273,7 @@ body {
 	float: left;
 	width: 265px;
 	height: 312px;
+	margin: 2px 0 0 0;
 }
 
 .articles__center_mod__title {
@@ -1297,6 +1303,7 @@ body {
   float: right;*/
   width: 221px;
   /*height: 312px;*/
+	margin: 2px 0 0 -4px;
 }
 
 .articles__right__title {
