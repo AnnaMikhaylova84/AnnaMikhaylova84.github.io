@@ -975,11 +975,11 @@ body {
 .navigation__group {
   /*display: block;
   float: right;*/
-  margin: 38px 194px 0 0;
+  margin: 38px 144px 0 0;
 }
 
 .blurb {
-	height: 344	px;
+	height: 343	px;
 }
 
 .blurb__container {
