@@ -51,7 +51,7 @@
 	display: inline-block;
 	float: left;
 	font-size: 48px;
-	margin: -212px 0 0 -4px;
+	margin: -212px 0 0 -3px;
 }
 
 .head__logo__name {
@@ -81,7 +81,7 @@
 .head__menu {
   display: block;
   float: left;
-	margin: -204px 0 0 279px;
+	margin: -204px 0 0 277px;
 }
 
 .head__menu__item_mod,
@@ -140,7 +140,7 @@
 	float: left;
 	text-align: left;
 	width: 520px;
-	margin: -500px 0 0 -3px;
+	margin: -491px 0 0 -2px;
 }
 .slider__title {
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
@@ -181,7 +181,7 @@
 	position: relative;
 	width: 435px;
 	height: 413px;
-	margin: -576px 0 0 0;
+	margin: -567px 0 0 0;
 }
 
 .slider__phoneback {
@@ -239,7 +239,7 @@
 .navigation__group {
 	display: block;
 	float: right;
-	margin: -94px 0 0 266px;
+	margin: -74px 168px 0 0;
 }
 
 .navigation__item {
@@ -856,9 +856,9 @@
 
 @media screen and (max-width: 959px) and (min-width: 768px) {
 
-/*.head {
-	height: 244px;
-}*/
+.head {
+	padding: 244px 0 168px 0;
+}
 
 .head__container {
   width: 768px;
@@ -869,13 +869,13 @@
   /*display: inline-block;
   float: left;
   font-size: 48px;*/
-  margin: -212px 0px 0 17px;
+  margin: -178px 0px 0 18px;
 }
 
 .head__menu {
   /*display: block;
   float: left;*/
-  margin: -140px 0 0 -32px;
+  margin: -101px 0 0 -30px;
 }
 
 .slider__container {
@@ -889,7 +889,7 @@
   float: left;
   text-align: left;*/
   width: 330px;
-  margin: -502px 0 0 41px;
+  margin: -456px 0 0 41px;
 }
 
 .slider__title {
@@ -931,11 +931,12 @@
   position: relative;*/
   width: 395px;
   height: 380px;
+	margin: -554px -1px 0 0;
 }
 
 .slider__phoneback {
   /*display: block;*/
-  margin: 56px 0 0 73px;
+  margin: 55px 0 0 74px;
 }
 
 .slider__phonebig {
@@ -963,14 +964,14 @@
   /*width: 23px;
   height: 35px;
   float: left;*/
-  margin: 0;
+  margin: 17px 0 0 -1px;
 }
 
 .arrow-right {
   /*width: 23px;
   height: 35px;
   float: right;*/
-  margin: 0;
+  margin: 17px -1px 0 0 ;
 }
 
 .navigation {
@@ -988,7 +989,7 @@
 .navigation__group {
   /*display: block;
   float: right;*/
-  margin: -138px 144px 0 0;
+  margin: -116px 144px 0 0;
 }
 
 .blurb {
@@ -1248,7 +1249,7 @@
 .articles__left_mod {
 	display: block;
 	float: left;
-	margin: 2px 0 0 20px;
+	margin: -1px 0 0 19px;
 	width: 265px;
 	height: 312px
 }
@@ -1286,7 +1287,7 @@
 	float: left;
 	width: 265px;
 	height: 312px;
-	margin: 2px 0 0 0;
+	margin: -1px 0 0 0;
 }
 
 .articles__center_mod__title {
@@ -1316,7 +1317,7 @@
   float: right;*/
   width: 221px;
   /*height: 312px;*/
-	margin: 2px 0 0 -4px;
+	margin: -1px 0 0 -2px;
 }
 
 .articles__right__title {
