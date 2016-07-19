@@ -32,13 +32,13 @@ body {
 .head {
 	display: block;
 	width: 100%;
-	height: 278px;
+	height: 203px;        	/*  CHANGED_value */
 }
 
 .head__container {
 	display: block;
 	position: relative;
-	width: 960px;
+	width: 480px;      	/*  CHANGED_value */
 	margin: 0 auto;
 	font-family: LeagueGothicRegular, Tahoma, Arial, sans-serif;
 
@@ -48,7 +48,7 @@ body {
 	display: inline-block;
 	float: left;
 	font-size: 48px;
-	margin: 66px 0 0 -4px;
+	margin: 66px 0 0 162px;       	/*  CHANGED_value */
 }
 
 .head__logo__name {
@@ -75,16 +75,35 @@ body {
 	display: block;
 }*/
 
+/*.head__menu__backgroud {
+	display: block;
+	float: left;
+	margin: 25px 0 0 125px;
+
+}*/
 .head__menu {
-  display: block;
-  float: left;
-	margin: 74px 0 0 125px;
+	display: block;
+	float: left;
+	margin: 20px 0 0 118px;          /*  CHANGED_value */
 }
 
-.head__menu__item {
-	display: inline-block;
-	width: auto;
-	margin-left: 49px;
+.head__menu__item_mod {
+	display: block;
+	               	/*  CHANGED_value */
+	width: 246px;               	/*  CHANGED_value */
+	height: 40px;               	/*  CHANGED_value */
+	padding: 9px 0 0 0px;               	/*  CHANGED_value */
+	text-align: center;               	/* + CHANGED_value */
+	/*border-bottom: 1px solid #35273d;              	/* + CHANGED_value */
+	border: 1px solid #051116;
+	/*border-top: 1px solid #051116;
+	border-left: 1px solid #051116;*/
+	border-radius: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	background-color: #36293e;
+	opacity: 0.9;
+	box-shadow: 0 1px 4px 0 #000;
+
 }
 
 .head__menu__link {
@@ -95,13 +114,80 @@ body {
 	font-size: 24px;
 }
 
-.head__menu__item:hover {
-	border-bottom: 2px solid #edbfff;
+.head__menu__item {   /* + CHANGED_value */
+	display: none;
 }
+
+.head__submenu {  /* + CHANGED_value */
+  display: none;
+	/*position: absolute;*/
+	float: left;
+	margin: 0;
+	width: 246px;
+	height: 200px;
+	background-color: #36293e;
+	opacity: 0.9;
+	border-right: 1px solid #051116;
+	border-bottom: 1px solid #051116;
+	border-left: 1px solid #051116;
+	border-radius: 0 0 10px 10px;
+	overflow: hidden;
+	box-shadow: 0 1px 4px 0 #000;
+	box-sizing: border-box;
+}
+
+.head__submenu__item {               	/* + CHANGED_value */
+	display: block;;               	/*  CHANGED_value */
+	width: 246px;               	/*  CHANGED_value */
+	height: 40px;               	/*  CHANGED_value */
+	margin: 0 0 0 0px;               	/*  CHANGED_value */
+	text-align: center;               	/* + CHANGED_value */
+	border-bottom: 1px solid #35273d;              	/* + CHANGED_value */
+	border-top: 1px solid #695272;              	/* + CHANGED_value */
+	box-sizing: border-box;              	/* + CHANGED_value */
+}
+
+.head__submenu__link {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+	font-size: 24px;
+	padding: 9px 0 0 0;               	/* + CHANGED_value */
+}
+
+.head__submenu__item:hover,
+.head__menu__item_mod:hover {                 	/* + CHANGED_value  */
+	border-bottom: 2px solid #edbfff;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.head__menu:hover .head__submenu {
+	display: block;
+}
+
+.head__menu__item_mod:hover{
+/*.head__submenu__item:hover .head__menu__item_mod {*/
+	border-bottom: 1px solid #35273d;              	/* + CHANGED_value */
+	border-right: 1px solid #051116;
+	border-top: 1px solid #051116;
+	border-left: 1px solid #051116;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 2px solid #edbfff;
+	/*border-bottom-style: double;*/
+
+}
+
+/*.head__menu__item_mod:hover .head__submenu {
+	display: block;
+}*/
+
+
 .slider__opacityblock {
 	display: block;
 	width: 100%;
-	height: 400px;
+	height: 246px;               	/*  CHANGED_value */
 	background-color: black;
 	margin: 0 auto;
 	opacity: 0.3;
@@ -109,15 +195,15 @@ body {
 .slider {
 	display: block;
 	width: 100%;
-	height: 400px;
+	height: 246px;               	/*  CHANGED_value */
 	/*background-color: black;*/
 	margin: 0 auto;
 	/*opacity: 0.3;*/
 }
 
 .slider__container {
-	display: block;
-	width: 960px;
+	display: none;               	/*  CHANGED_value */
+	width: 480px;                   	/*  CHANGED_value */
 	margin: 0 auto;
 }
 
