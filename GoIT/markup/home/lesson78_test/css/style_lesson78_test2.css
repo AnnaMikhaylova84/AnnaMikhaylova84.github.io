@@ -661,6 +661,7 @@
 }
 .logos__img {
 	display: inline-block;
+	margin: 13px 20px;
 	/*width: 775px;
 	height: 66px;
 	margin: 24px 0 0 92px;
@@ -670,7 +671,7 @@
 .logos__img1 {
 	display: inline-block;
   float: left;
-  margin: 13px 0 0 2px;
+  margin: 0 0 0 75px;
   width: 70px;
   height: 66px;
   overflow: hidden;
@@ -679,7 +680,7 @@
 .logos__img2 {
 	display: inline-block;
   float: left;
-  margin: 13px 0 0 2px;
+	margin: 0 0 0 19px;
   width: 74px;
   height: 66px;
   overflow: hidden;
@@ -688,7 +689,7 @@
 .logos__img3 {
 	display: inline-block;
   float: left;
-  margin: 13px 0 0 2px;
+	margin: 0 0 0 17px;
   width: 68px;
   height: 66px;
   overflow: hidden;
@@ -697,7 +698,7 @@
 .logos__img4 {
 	display: inline-block;
   float: left;
-  margin: 13px 0 0 2px;
+	margin: 0 0 0 22px;
   width: 63px;
   height: 66px;
   overflow: hidden;
@@ -706,7 +707,7 @@
 .logos__img5 {
 	display: inline-block;
   float: left;
-  margin: 13px 0 0 2px;
+	margin: 0 0 0 15px;
   width: 109px;
   height: 66px;
   overflow: hidden;
@@ -715,7 +716,7 @@
 .logos__img6 {
 	display: inline-block;
   float: left;
-  margin: 13px 0 0 2px;
+	margin: 13px 0 0 16px;
   width: 82px;
   height: 66px;
   overflow: hidden;
