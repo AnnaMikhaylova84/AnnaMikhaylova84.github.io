@@ -415,7 +415,7 @@
 
 .blurb__right__content {
 	display: inline-block;
-	/*position: absolute;*/
+	position: absolute;
 	overflow: hidden;
 	width: 234px;
   height: 165px;
@@ -1309,7 +1309,7 @@
 .head-menu {
 	position: absolute;
 	float: none;
-	margin: 145px 0 0 79px;
+	margin: 145px 0 0 184px;
 }
 
 .head-menu__item_mod {
@@ -1751,7 +1751,7 @@
 
 
 .bottom__design {
-	height: 198px;
+	/*height: 198px;*/
 	margin: 0px 160px 0 0;
 }
 
