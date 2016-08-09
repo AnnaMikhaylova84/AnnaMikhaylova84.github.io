@@ -562,7 +562,7 @@
 .blog__title {
 	display: inline-block;
 	float: left;
-	width: 100%;
+	width: 60%;
 	margin: 132px 0 16px 2px;
 	font-size: 30px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
@@ -572,7 +572,7 @@
 .blog__tag {
 	float: left;
 	margin: 10px 0 0 4px;
-	width: 100%;
+	width: 98%;
 	height: 50px;
 	font-size: 16px;
 	line-height: 1.5;
@@ -957,7 +957,7 @@
 	float: right;
 	width: 29%;
 	height: 60px;
-	margin: 54px 0 0 -2px;
+	margin: 54px 0 0 0px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	color: #fff;
 	font-size: 12px;
@@ -1167,7 +1167,7 @@
 }
 
 .blurb__right__read {
-  margin: 184px 27px 0 0;
+  margin: 2px 27px 0 0;
 }
 
 .block {
@@ -1210,7 +1210,7 @@
 
 
 .blog__tag_mod_first {
-  margin: 0 0 17px 4px;
+  margin: 0 0 17px 0;
 }
 
 .blog__from {
@@ -1219,11 +1219,11 @@
   white-space: nowrap;
 }
 .blog__tag_mod_second {
-  margin: 1px 0 16px 4px;
+  margin: 1px 0 16px 0;
 }
 
 .blog__tag_mod_third {
-  margin: 0 0 11px 4px;
+  margin: 0 0 11px 0;
 }
 
 .blog__read {
@@ -1335,6 +1335,7 @@
 .head-menu__item_mod {
 	height: 34px;
 	width: auto;
+
 
 }
 
@@ -1474,7 +1475,7 @@
 }
 
 .blurb__left {
-	width: 100%;
+	width: 99%;
 	margin: 70px 0 0 6px;
 }
 
@@ -1497,7 +1498,7 @@
 }
 
 .blurb__central {
-	width: 100%;
+	width: 99%;
 	margin: 17px 0 0 6px;
 }
 
@@ -1522,7 +1523,7 @@
 }
 
 .blurb__right {
-	width: 100%;
+	width: 99%;
 	margin: 21px 0 0 6px;
 }
 
@@ -1670,8 +1671,8 @@
 
 .articles__left_mod {
 	display: block;
-	margin: 0 0 0 28px;
-	width: 100%;
+	margin: 0 0 0 20px;
+	width: 93%;
 	height: 255px
 }
 
@@ -1680,7 +1681,7 @@
 }
 
 .articles__left_mod__text {
-	width: 93%;
+	width: 100%;
 	height: 100px;
 }
 
@@ -1690,9 +1691,9 @@
 
 .articles__center_mod {
 	display: block;
-	width: 100%;
+	width: 93%;
 	height: 140px;
-	margin: 9px 0 0 29px;
+	margin: 9px 0 0 20px;
 }
 
 .articles__center_mod__title {
@@ -1700,13 +1701,13 @@
 }
 
 .articles__center_mod__text {
-	width: 93%;
+	width: 100%;
 	height: 100px;
 }
 
 .articles__right {
-	margin: 49px 0 0 29px;
-	width: 100%;
+	margin: 49px 0 0 20px;
+	width: 93%;
 	height: 140px;
 }
 
@@ -1716,7 +1717,7 @@
 }
 
 .articles__right__text {
-	width: 93%;
+	width: 100%;
 	height: 100px;
 	margin: 0 0 0 0px;
 }
@@ -1732,13 +1733,17 @@
 }
 
 .bottom__menu {
-	width: 100%;
+	width: 93%;
 	height: 56px;
 	margin: 44px 0 0 33px;
 }
 
 .bottom__item{
 	margin: 0 21px 0 0;
+}
+
+.bottom__item-last {
+	margin-right: 0;
 }
 
 .bottom__design {
@@ -1754,17 +1759,18 @@
 }
 
 .head__logo {
-  margin: 66px 0 0 114px;
+  margin: 69px 0 0 83px;
 }
 
 .head-menu {
   position: absolute;
   float: none;
-  margin: 145px 0 0 124px;
+  margin: 145px 0 0 98px;
 }
 .head-menu__item_mod {
 	height: 34px;
 	width: auto;
+		border-bottom: 2px solid #edbfff;
 
 }
 
@@ -1783,6 +1789,8 @@
 
 .head-menu:hover .head-menu__item,
 .head-menu:hover .head-menu__item_mod {
+/*.head-menu__item,
+.head-menu__item_mod {*/
 	display: block;
 	width: 246px;
 	height: 40px;
@@ -1797,17 +1805,20 @@
 
 
 .head-menu:hover {
+/*.head-menu{*/
 	border: 1px solid #051116;
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 0 1px 4px 0 #000;
 	box-sizing: border-box;
-	margin: 140px 0 0 127px;
+	margin: 136px 0 0 40px;
 	z-index: 1;
 }
 
 .head-menu:hover .head-menu__item:hover,
 .head-menu:hover .head-menu__item_mod:hover{
+/*.head-menu__item:hover,
+.head-menu__item_mod:hover{*/
 	border-bottom: 2px solid #edbfff;
 	background-color:  rgba(30, 16, 40, 0.9);
 }
@@ -1825,7 +1836,7 @@
 }
 
 .slider__content {
-	width: 248px;
+	width: 205px;
 	height: 62px;
 	margin: 93px 0 0 94px;
 	overflow: hidden;
@@ -1878,8 +1889,8 @@
 }
 
 .blurb__left {
-	width: 100%;
-	margin: 63px 0 0 53px;
+	width: 95%;
+	/*margin: 63px 0 0 53px;*/
 }
 
 .blurb__left__img {
@@ -1905,8 +1916,8 @@
 }
 
 .blurb__central {
-	width: 100%;
-  margin: 18px 0 0 51px;
+	width: 95%;
+  /*margin: 18px 0 0 51px;*/
 }
 
 .blurb__central__content {
@@ -1931,8 +1942,8 @@
 }
 
 .blurb__right {
-	width: 100%;
-	margin: 33px 0 0 53px;
+	width: 95%;
+	/*margin: 33px 0 0 53px;*/
 }
 .blurb__right__img {
     margin: 7px 0 0 7.5px;
@@ -2018,15 +2029,15 @@
 }
 
 .blog__tag_mod_first {
-	margin: 0 0 15px 131px;
+	/*margin: 0 0 15px 131px;*/
 
 }
 .blog__tag_mod_second {
-	margin: 0 0 21px 131px;
+	/*margin: 0 0 21px 131px;*/
 }
 
 .blog__tag_mod_third {
-		margin: 0 0 6px 131px;
+		/*margin: 0 0 6px 131px;*/
 }
 
 .blog__post {
