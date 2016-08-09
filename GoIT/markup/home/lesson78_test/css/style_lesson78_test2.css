@@ -54,7 +54,7 @@
 	display: inline-block;
 	float: left;
 	font-size: 48px;
-	margin: 66px 0 0 -1px;
+	margin: 66px 0 0 0;
 }
 
 .head__logo__name {
@@ -325,8 +325,6 @@
 .blurb__left__text {
 	font-size: 16px;
 	font-family: OpenSansLight, Tahoma, Arial,sans-serif;
-	/*margin: 1px 0 0 -1px;*/
-	/*text-overflow: clip;*/
 }
 
 .blurb__left__read {
@@ -400,7 +398,9 @@
 	display: inline-block;
 	float: left;
 	width: 33%;
-	margin: 69px 0 0 5px;
+	/*margin: 69px 0 0 5px;*/
+	margin: 69px 0 0 0;
+
 }
 
 .blurb__right__img {
@@ -415,11 +415,11 @@
 
 .blurb__right__content {
 	display: inline-block;
-	position: absolute;
+	/*position: absolute;*/
 	overflow: hidden;
 	width: 234px;
   height: 165px;
-	margin: 2px 0 0 9px;
+	margin: 2px 0 0 0;
 	line-height: 1.5;
 }
 
@@ -443,7 +443,7 @@
 .blurb__right__read {
 	display: block;
   float: right;
-	margin: 184px -1px 0 0;
+	margin: 15px -3px 0 0;
 	font-size: 18px;
 	font-family: LeagueGothicRegular, Tahoma, Arial,sans-serif;
 }
@@ -1072,7 +1072,7 @@
 }
 
 .blurb__container {
-  padding: 71px 0 0 21px;
+  padding: 71px 0 0 0;
 	max-width: 768px;
 }
 
@@ -1475,7 +1475,7 @@
 
 .blurb__left {
 	width: 100%;
-	margin: 70px 0 0 34px;
+	margin: 70px 0 0 6px;
 }
 
 .blurb__left__img {
@@ -1498,7 +1498,7 @@
 
 .blurb__central {
 	width: 100%;
-	margin: 17px 0 0 34px;
+	margin: 17px 0 0 6px;
 }
 
 .blurb__central__img {
@@ -1523,7 +1523,7 @@
 
 .blurb__right {
 	width: 100%;
-	margin: 21px 0 0 34px;
+	margin: 21px 0 0 6px;
 }
 
 .blurb__right__img {
