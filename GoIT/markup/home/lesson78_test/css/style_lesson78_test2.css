@@ -1329,7 +1329,7 @@
 .head-menu {
 	position: absolute;
 	float: none;
-	margin: 145px 0 0 184px;
+	margin: 150px 0 0 184px;
 }
 
 .head-menu__item_mod {
@@ -1374,21 +1374,14 @@
 	overflow: hidden;
 	box-shadow: 0 1px 4px 0 #000;
 	box-sizing: border-box;
-	margin: 140px 0 0 121px;
+	margin: 140px 0 0 127px;
 	z-index: 1;
 }
 
-/*.head-menu__item:hover,
-.head-menu__item_mod:hover {*/
-.hover-menu__link:hover .head-menu__item,
-.hover-menu__link:hover .head-menu__item_mod{
+.head-menu:hover .head-menu__item:hover,
+.head-menu:hover .head-menu__item_mod:hover{
 	border-bottom: 2px solid #edbfff;
-
 	background-color:  rgba(30, 16, 40, 0.9);
-	/*background-color:  none;*/
-	/*border-bottom: 1px solid #35273d;*/
-	border-top: 1px solid #695272;
-	box-sizing: border-box;
 }
 
 .head__slider {
