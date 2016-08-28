@@ -10,6 +10,8 @@ for ( var i = 0; i < 5; i++)
 	console.log('Имя ' + (i + 1) + ' =>', name);
 
 }
+alert('НЕ получается сравнить имена в массиве ((');
+
 
 var nameUser = prompt('Введите имя пользователя:');
 if (nameUser != arr[i])
