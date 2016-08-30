@@ -23,7 +23,7 @@ for (var j = 0; j < 5; j++)
 	if (nameUser == '' || nameUser == null)
 	{
 		alert('Нужно было ввести имя пользователя.');
-		// return checkName();
+		return checkName();
 
 	} else
 		if (nameUser == arr[j])
