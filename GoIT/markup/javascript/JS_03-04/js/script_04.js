@@ -7,10 +7,8 @@ wrapper.style.marginTop = 0;
 wrapper.style.marginBottom = 0;
 wrapper.style.marginLeft = 'auto';
 wrapper.style.marginRight = 'auto';
-
-
 document.body.appendChild(wrapper);
-console.log(document.body);
+// console.log(document.body);
 
 var titleHead = document.createElement('div');
 titleHead.classList.add('titleHead');
@@ -82,8 +80,10 @@ var button = document.createElement('input');
 button.classList = 'button';
 button.type = 'button';
 button.value = 'Проверить мои результаты';
+button.style.fontSize = 18 + 'px';
+
 button.style.marginTop = 30 + 'px';
-button.style.marginLeft = 100 + 'px';
+button.style.marginLeft = 75 + 'px';
 button.style.paddingLeft = 30 + 'px';
 button.style.paddingTop = 10 + 'px';
 button.style.paddingRight = 30 + 'px';
