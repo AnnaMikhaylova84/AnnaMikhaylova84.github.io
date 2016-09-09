@@ -22,19 +22,19 @@ var pauseButtonLeft = 0;
 
 function timeLeft() {
 
-		time = new Date().getTime();
-		count = time - startButtonLeft + pauseButtonLeft;
-		var msec = count%1000;
-		var sec = Math.floor(count/1000)%60;
-		var min = Math.floor(count/60000)%60;
-		var hours = Math.floor(count/(60000*60))%24;
+	time = new Date().getTime();
+	count = time - startButtonLeft + pauseButtonLeft;
+
+	var msec = count%1000;
+	var sec = Math.floor(count/1000)%60;
+	var min = Math.floor(count/60000)%60;
+	var hours = Math.floor(count/(60000*60))%24;
 
 		if (msec < 10) {
 			msec = '00' + msec;
 		} else if (msec < 100) {
 			msec = '0' + msec;
 		}
-
 		if (sec < 10) {
 			sec = '0' + sec;
 		}
@@ -44,10 +44,9 @@ function timeLeft() {
 		if (hours < 10) {
 			hours = '0' + hours;
 		}
-
-		watchLeft.innerHTML = hours + ':' + min + ':' + sec;
-		divMsecLeft.innerHTML = msec;
-		return count;
+	watchLeft.innerHTML = hours + ':' + min + ':' + sec;
+	divMsecLeft.innerHTML = msec;
+	return count;
 }
 
 function startLeft_click() {
@@ -56,19 +55,16 @@ function startLeft_click() {
 	pauseLeft.style.display = 'inline-block';
 
 	if (go == 0) {
-
 		startButtonLeft = new Date().getTime();
 		timer = setInterval(timeLeft, 1);
 		go = 1;
 
 	} else if (go == 2) {
-
 		startButtonLeft = new Date().getTime();
 		timer = setInterval(timeLeft, 1);
 		go = 1;
 	}
 }
-
 function pauseLeft_click() {
 
 	startLeft.style.display = 'inline-block';
@@ -77,14 +73,13 @@ function pauseLeft_click() {
 	pauseButtonLeft = count;
 	clearInterval(timer);
 	go = 2;
-
 }
 
 function clearLeft_click() {
-
 	clearInterval(timer);
 	startLeft.style.display = 'inline-block';
 	pauseLeft.style.display = 'none';
+
 	count = 0;
 	pauseButtonLeft = 0;
 	go = 0;
