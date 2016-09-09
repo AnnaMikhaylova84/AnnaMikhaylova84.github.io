@@ -4,7 +4,7 @@ body {
 
 .wrapper_left {
 	margin: 120px auto;
-	width: 690px;
+	/*width: 690px;*/
 	height: 300px;
 	font-size: 80px;
 	font-weight: bold;
