@@ -1,0 +1,42 @@
+body {
+	background-color: grey;
+}
+
+.wrapper_left {
+	margin: 120px auto;
+	width: 690px;
+	height: 300px;
+	font-size: 80px;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+}
+
+.watchLeft {
+	width: 290px;
+  margin: 0 auto;
+}
+
+.msecLeft  {
+	margin: 0 auto;
+  font-size: 30px;
+  /* font-style: italic; */
+  text-align: right;
+  width: 290px;
+}
+.startLeft,
+.pauseLeft,
+.clearLeft {
+	margin-left: 130px;
+  width: 136px;
+  height: 50px;
+  font-size: 30px;
+  color: grey;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+/*.wrapper_right {
+	display: inline-block;
+  width: 500px;
+}*/
