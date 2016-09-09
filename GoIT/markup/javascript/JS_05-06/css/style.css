@@ -1,10 +1,14 @@
 body {
 	background-color: grey;
 }
+.wrapper {
+	margin: 200px auto;
+	width: 690px;
+}
 
 .wrapper_left {
-	margin: 120px auto;
-	/*width: 690px;*/
+	/*margin: 120px auto;*/
+	width: 690px;
 	height: 300px;
 	font-size: 80px;
 	font-weight: bold;
