@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Use_jQuery_plugins</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style_js_10.css" media="screen">
+		<link href="css/nice-select.css" rel="stylesheet">
+		<script src="js/jquery-3.1.0.js" charset="utf-8"></script>
+		<script src="js/jquery.jcarousel.js"></script>
+		<script src="js/jquery.jcarousel-autoscroll.js" charset="utf-8"></script>
+		<script src="js/jquery.jcarousel-control.js" charset="utf-8"></script>
+		<script src="js/jquery.jcarousel-pagination.js" charset="utf-8"></script>
+		<script src="js/jquery.jcarousel-scrollintoview.js" charset="utf-8"></script>
+		<script src="js/jquery.nice-select.js"></script>
+		<script src="js/cusel-min-2.5.js"></script>
+		<script src="js/script_js_10.js"></script>
+
+	</head>
+
+	<body>
+		<nav>
+	  <ul class="menu">
+			<li><a href="#">Nav 1</a></li>
+			<li><a href="#">Nav 2</a></li>
+			<li class="dropdown">
+				<a href="#">Nav 3</a>
+					<ul class="sub-menu">
+						<li><a href="#">Nav 3.1</a></li>
+						<li><a href="#">Nav 3.2</a></li>
+						<li><a href="#">Nav 3.3</a></li>
+						<li class="dropdown">
+								<a href="#">Nav 3.4</a>
+										<ul class="sub-menu">
+											<li><a href="#">Nav 3.4.1</a></li>
+											<li class="dropdown">
+													<a href="#">Nav 3.4.2</a>
+															<ul class="sub-menu">
+																<li><a href="#">Nav 3.4.2.1</a></li>
+																<li><a href="#">Nav 3.4.2.2</a></li>
+																<li><a href="#">Nav 3.4.2.3</a></li>
+																<li><a href="#">Nav 3.4.2.4</a></li>
+																<li><a href="#">Nav 3.4.2.5</a></li>
+															</ul>
+											</li>
+											<li><a href="#">Nav 3.4.3</a></li>
+											<li><a href="#">Nav 3.4.4</a></li>
+											<li><a href="#">Nav 3.4.5</a></li>
+										</ul>
+						</li>
+						<li><a href="#">Nav 3.5</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Nav 4</a></li>
+				<li><a href="#">Nav 5</a></li>
+		</ul>
+		</nav>
+
+		<div class="wrapper_jcarousel">
+			<div class="jcarousel">
+				<ul>
+					<li><img src="img/picture1.jpg" alt=""></li>
+					<li><img src="img/picture2.jpg" alt=""></li>
+					<li><img src="img/picture3.jpg" alt=""></li>
+					<li><img src="img/picture4.jpg" alt=""></li>
+					<li><img src="img/picture5.jpg" alt=""></li>
+					<li><img src="img/picture6.jpg" alt=""></li>
+					<li><img src="img/picture7.jpg" alt=""></li>
+					<li><img src="img/picture8.jpg" alt=""></li>
+					<li><img src="img/picture9.jpg" alt=""></li>
+				</ul>
+			</div>
+
+				<a class="jcarousel-prev" href="#">‹</a>
+				<a class="jcarousel-next" href="#">›</a>
+		</div>
+
+
+		<div class="wrap_select">
+			<select>
+				<!-- <option data-display="Your Choice">Some Choice</option> -->
+				<option value="1">Some Choice</option>
+				<option value="2">First Choice</option>
+				<option value="3">Second Choice</option>
+				<option value="4">Third Choice</option>
+				<option value="5">Fourth Choice</option>
+				<option value="6">Fifth Choice</option>
+			</select>
+		</div>
+
+		<div class="check-box">
+
+			<div class="jquery-check">
+				 <p>jQuery CheckBox</p><br>
+				 <span class="checkBox__title">CheckBox_1</span>
+				 <span class="checkBox">
+						 <input type="checkbox" name="test" id="">
+					</span><br>
+				 <span class="checkBox">
+						 <input type="checkbox" name="test" id="">
+						 </span>
+				 <span class="checkBox__title">CheckBox_2</span><br>
+				 <span class="checkBox">
+						 <input type="checkbox" name="test" id="">
+						 </span>
+				 <span class="checkBox__title">CheckBox_3</span><br><br>
+				 <br>
+			</div>
+
+			<div class="css-check">
+				 <p>CSS CheckBox</p><br>
+				 <div class="css-checkBox">
+						 <input type="checkbox" id="css_check1">
+						 <label for="css_check1">CheckBox_1</label><br>
+				 </div>
+				 <div class="css-checkBox">
+						 <input type="checkbox" id="css_check2">
+						 <label for="css_check2">CheckBox_2</label><br>
+				 </div>
+				 <div class="css-checkBox">
+						 <input type="checkbox" id="css_check3">
+						 <label for="css_check3">CheckBox_3</label><br>
+				 </div>
+			</div>
+		</div>
+
+
+
+	</body>
+</html>
