@@ -1,0 +1,99 @@
+.wrapper {
+  margin: 40px auto;
+  width: 630px;
+	font-family: sans-serif;
+}
+
+.tabs,
+.tabs_border {
+	margin: 8px;
+	border: 1px solid #bbb;
+}
+
+.tab {
+	margin: 5px;
+  background-color: #ddd;
+  border-radius: 3px;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  display: inline-block;
+	padding: 9px;
+  background: #eee;
+	border: 1px solid #bbb;
+  border-radius: 3px 3px 0 0;
+}
+
+.tab1:hover,
+.tab2:hover,
+.tab3:hover {
+	background: #fff;
+	cursor: pointer;
+}
+
+.active {
+	color: #fff;
+  background: #77f !important;
+}
+
+.tab li:first-child {
+  margin: 9px 0 0 5px;
+}
+
+.tabText {
+  margin: 30px 20px;
+  overflow: auto;
+  height: 200px;
+	line-height: 1.3;
+}
+
+.tabText1,
+.tabText2 {
+  display: none;
+}
+
+.form {
+  border: 1px solid #bbb;
+  margin: 8px;
+}
+
+input {
+    margin-top: 30px;
+    margin-left: 17px;
+}
+
+.inputAddress {
+  margin-left: 28px !important;
+}
+
+.show {
+  margin-top: 24px;
+  padding: 7px;
+  font: italic sans-serif;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.showField1,
+.showField2,
+.showField3 {
+  display: none;
+}
+
+form {
+  padding: 35px;
+  padding-top: 0px;
+}
+
+.showButton {
+  margin: 17px 30px;
+  padding: 10px;
+  background: #77f;
+  color: #fff;
+  border-radius: 5px;
+}
