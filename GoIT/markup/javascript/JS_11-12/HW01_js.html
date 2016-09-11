@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>About_myself_with_JS</title>
+	<link rel="stylesheet" href="css/style_about.css">
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/tmpl.js"></script>
+  <script src="js/template_my.js"></script>
+</head>
+<body>
+  <script type="text/html" id="about">
+  <div class="fon_box">
+
+    <div class="box1">
+      <h2 class="name"><%= name %></h2>
+      <div class="foto">
+        <%= photo %>
+      </div>
+        <p><%= job %></p>
+
+    </div> <!--box1-->
+
+    <div class="box2">
+
+      <p><%= question %></p>
+        <ul>
+          <% for (var i = 0; i < answers.length; i++) { %>
+            <li>
+              <%= answers[i] %>
+            </li>
+          <% } %>
+            <!-- <li>Нужно развиваться</li>
+            <li>Это востребовано и перспективно</li>
+            <li>Нравится создавать нечто красивое и стильное</li> -->
+        </ul>
+
+    </div> <!--box2-->
+
+    <div class="box3">
+
+        <p><%= phone %></p>
+        <p><%= number %></p>
+    </div> <!--box3-->
+
+    <div class="box4">
+        <p><%= facebook %></p>
+
+          <p><%= link %></p>
+         <!--facebook-->
+    </div> <!--box4-->
+
+
+
+    <div class="box5">
+
+        <p>Мой фидбек:</p>
+        <p><%= feedback %></p>
+
+    </div> <!--box5 -->
+
+  </div> <!-- fon_box -->
+</script>
+</body>
+</html>
