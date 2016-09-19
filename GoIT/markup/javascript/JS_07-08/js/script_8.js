@@ -17,20 +17,25 @@ $(function() {
 
 // ---------------------------------
 
+$('label').append('<span>'+$('input').attr('title')+'</span>');
 
- $('label').append('<span>'+$('input').attr('title')+'</span>');
+$('input').hover(function () {
 
- $('input').hover(function () {
-   $(this).siblings('span').css('opacity', '1');
-   var titleText = $(this).attr('title');
-   $(this).siblings('span').text(titleText);
- }, function() {
-      $(this).siblings('span').css('opacity', '0');
+
+    $(this).siblings('span').css('opacity', '1');
+    var titleText = $(this).attr('title');
+    $(this).attr('title', '');
+    $(this).children('input').text(titleText);
+
+}, function() {
+     $(this).siblings('span').css('opacity', '0');
+     $(this).attr('title', $(this).text());
+     $(this).children('input').remove();
+});
+
+
+ $('.showButton').on('click', function() {
+   $('span').show().css('opacity', '1');
  });
-
-
-  $('.showButton').on('click', function() {
-    $('span').show().css('opacity', '1');
-  });
 
 });
