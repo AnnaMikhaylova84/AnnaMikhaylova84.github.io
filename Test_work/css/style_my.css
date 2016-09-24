@@ -12,7 +12,7 @@ body {
 header {
 	display: block;
 	background-size: cover;
-	height: 1000px;
+	height: 750px;
 	background-image: url("../img/header_bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -28,6 +28,7 @@ header {
 	/*border-bottom: 1px solid #444;*/
 	box-sizing: border-box;
 	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+	z-index: 1000;
 }
 
 .header_menu_left,
@@ -61,6 +62,7 @@ header {
 
 .header_menu_li:hover a {
 	color: #e6540b;
+	transition: .5s;
 }
 
 .header_menu_li-active {
@@ -79,7 +81,8 @@ header {
 }
 
 .header_menu-active_link:hover {
-	background-color: #2d2d2d ;
+	background-color: #000 ;
+	transition: .5s;
 }
 
 .header_logo_link {
@@ -109,29 +112,200 @@ header {
 .header_welcome {
 	margin: 0 auto;
 	width: 1230px;
-	height: 472px;
+	height: 710px;
+	/*clear: both;
+	overflow: hidden;*/
 }
 
 .header_welcome_info {
 	padding-top: 240px;
 	width: 100%;
 	height: auto;
+	text-align: center;
 }
 
 .header_welcome_info h1{
 	font-family: 'Old Standard TT', serif;
 	color: #ffffcc;
-	font-size: 50px;
-	text-align: center;
+	font-size: 48px;
 	line-height: 1.2;
 }
-
 
 .white_text {
 	color: #fff;
 }
+
 .header_welcome_info h2{
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 50px;
+	font-size: 24px;
+	margin-top: 20px;
 	color: #fff;
+}
+
+.header_welcome_number {
+	text-decoration: none;
+	text-shadow: 2px 2px 1px #000;
+	color: #fff;
+}
+
+.header_welcome_number:hover {
+	text-shadow: -2px -2px 1px #000;
+	transition: .2s;
+
+}
+
+hr.header_welcome_line {
+	margin-top: 17px;
+	color: #fff;
+	width: 40%;
+	clear: both;
+}
+
+hr.header_welcome_line:after {
+	background: none repeat scroll 0% 0% #fff;
+	content: "";
+	width: 10px;
+	height: 10px;
+	left: 50%;
+	margin: -5px auto auto -5px;
+	position: absolute;
+	transform: rotate(-45deg);
+}
+
+
+.header_welcome_discover {
+	margin: 20px auto;
+	padding: 20px;
+	width: 231px;
+	/*height: 60px;*/
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.header_welcome_discover a {
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.header_welcome_discover:hover {
+	background-color: #000;
+	transition: .5s;
+}
+
+.header_welcome_discover:hover a {
+	color: #fff;
+	transition: .5s;
+}
+
+.welcome_nav {
+	display: inline-block;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.welcome_nav li{
+	display: inline-block;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.welcome_nav a {
+	color: #fff;
+	font-size: 330%;
+}
+
+.welcome_nav p {
+	margin-top: 18px;
+}
+
+.welcome_nav_li:hover {
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.steak_house {
+	display: block;
+	background-size: cover;
+	height: 1000px;
+	background-image: url("../img/parallax_bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.steak_house_section {
+	background-color: #fff;
+	width: 100%;
+	height: 530px;
+}
+
+.steak_house_block {
+	margin: 0 auto;
+	padding-top: 140px;
+	width: 1230px;
+	text-align: center;
+	/*clear: both;*/
+}
+
+hr.steak_house_block_line,
+hr.steak_house_reservation_line {
+	display: inline-block;
+	width: 13%;
+	color: #a89c72;
+	clear: both;
+}
+.steak_house_block h1,
+.steak_house_reservation h1 {
+	display: inline-block;
+	padding: 13px;
+	font-family: 'Old Standard TT', serif;
+	font-size: 31px;
+	letter-spacing: -2px;
+}
+
+.steak_house_block h2 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	color: #a89c72;
+}
+
+.steak_house_block p {
+	margin: 0 auto;
+	padding-top: 55px;
+	font-family: 'Open Sans', sans-serif;
+	width: 850px;
+	color: #444;
+	line-height: 2;
+}
+
+.steak_house_reservation {
+	margin: 0 auto;
+	width: 1230px;
+	padding-top: 80px;
+	color: #fff;
+	text-align: center;
+}
+
+.steak_house_reservation h2 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	padding-bottom: 100px;
+}
+h1.steak_house_reservation_colortext {
+	text-shadow:  2px 1px 1px rgba(0, 0, 0, 0.66);
+	font-size: 35px;
+	color: #da8857;
+	letter-spacing: 1px;
+}
+.steak_house_reservation_colortext{
+}
+.steak_house_reservation h3 {
+	font-family: 'Open Sans', sans-serif;
+	color: #daa157;
+	padding-bottom: 15px;
 }
