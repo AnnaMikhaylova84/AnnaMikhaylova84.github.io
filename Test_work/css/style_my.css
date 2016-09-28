@@ -258,6 +258,7 @@ hr.steak_house_block_line,
 hr.steak_house_reservation_line {
 	display: inline-block;
 	width: 13%;
+	border-top: none;
 	color: #d5d5d5;
 	clear: both;
 }
@@ -532,7 +533,7 @@ h1.steak_house_reservation_colortext {
 .reclame_info {
 	display: block;
 	width: 100%;
-	/*height: 2000px;*/
+	height: 1840px;
 }
 
 .reclame_info_about {
@@ -589,10 +590,10 @@ h1.steak_house_reservation_colortext {
 
 /*.reclame_info_about_experience_text p {*/
 .reclame_info_about p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Old Standard TT';
 	margin: 35px 125px;
 	color: #aeaeae;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.9;
 	/*text-align: center;*/
 }
@@ -643,7 +644,7 @@ h1.steak_house_reservation_colortext {
 	color: #fdca19;
 	line-height: 1;
 	margin: 0;
-	padding: 22px 64px;
+	padding: 19px 64px;
 }
 
 .reclame_info_about_special_text h2 {
@@ -702,4 +703,183 @@ h1.steak_house_reservation_colortext {
 	font-size: 18px;
 	color: #999;
 	margin-bottom: 10px;
+}
+
+.menu {
+	display: block;
+	background-color: #faf8ea;
+	width: 100%;
+	height: 1300px;
+}
+
+.menu_block {
+	display: block;
+	width: 100%;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.menu_block_title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 120px;
+}
+
+.menu_block_title h2 {
+	display: inline-block;
+	font-family: 'Old Standard TT';
+	font-size: 32px;
+}
+
+.menu_block_title h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	color: #a89c72;
+}
+
+.menu_block_proposition {
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.menu_block_proposition_left,
+.menu_block_proposition_center,
+.menu_block_proposition_right {
+	display: block;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.menu_block_proposition_left h1,
+.menu_block_proposition_center h1,
+.menu_block_proposition_right h1 {
+	color: #d27244;
+	font-family: 'Old Standard TT';
+	font-size: 34px;
+	margin: 0 0 40px 0;
+}
+
+.menu_block_proposition_left img,
+.menu_block_proposition_center img,
+.menu_block_proposition_right img {
+	/*border: 1px solid #000;*/
+	box-shadow: 0 0 1px 1px #000;
+}
+
+.menu_block_proposition_left p,
+.menu_block_proposition_center p,
+.menu_block_proposition_right p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.9;
+	margin: 40px 35px;
+}
+
+.menu_block_proposition_center span {
+	color: #ff8c00;
+}
+
+.menu_block_proposition_left_button,
+.menu_block_proposition_center_button,
+.menu_block_proposition_right_button {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	/*cursor: pointer;*/
+}
+
+.menu_block_proposition_left_button {
+	margin-top: 190px;
+}
+
+.menu_block_proposition_right_button {
+	margin-top: 70px;
+}
+
+.menu_block_proposition_left_button a,
+.menu_block_proposition_center_button a,
+.menu_block_proposition_right_button a {
+
+	background-color:  #d27244;
+	display: inline-block;
+	width: 200px;
+	height: 33px;
+	padding-top: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu_block_proposition_left_button a:hover,
+.menu_block_proposition_center_button a:hover,
+.menu_block_proposition_right_button a:hover {
+	background-color: #000;
+	transition: 1s;
+}
+
+.menu_block_proposition_line {
+	display: inline-block;
+	margin: 0 10px;
+	width: 15px;
+	border-top: none;
+	color: #cbc4a8;
+}
+
+.menu_block_proposition_pic {
+	position: absolute;
+	width: 190px;
+  margin-top: -175px;
+  left: 85.9%;
+	overflow: hidden;
+  z-index: 0;
+}
+
+.send {
+	display: block;
+	width: 100%;
+	/*height: auto;*/
+}
+
+.send_block {
+	display: block;
+	margin: 0 auto 50px auto;
+	width: 100%;
+	max-width: 1230px;
+
+}
+
+.send_block_ul {
+	display: block;
+	width: 850px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.send_block_menu {
+	display: block;
+	width: 100%;
+	height: 30px;
+	background-color: #d27244;
+	color: #fff;
+	margin: 20px 0;
+	padding-top: 20px ;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.send_block_menu:hover {
+	background-color: #000;
+transition-property: background-color;
+transition-duration: 1s;
+/*transition-timing-function: ease;*/
+/*transition-timing-function: lianer;*/
+/*transition-timing-function: ease-in;*/
+
 }
