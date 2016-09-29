@@ -4,10 +4,57 @@
 		<meta charset="utf-8">
 		<title>My_Homework</title>
 		<link rel="stylesheet" href="css/style_js_14.css">
+		<link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
 		<script src="js/jquery-3.1.0.js"></script>
 		<script src="js/script_js_14.js"></script>
+		<script src="js/template.js" charset="utf-8"></script>
 	</head>
 	<body>
+
+		<div class="wrapper">
+			<form action="#">
+
+			</form>
+		</div>
+
+		  <script type="text/html" id="page">
+				<div class="title">Тест по программированию</div>
+					<ol type="a" style="margin: 0 0 20px 0; font-size: 18px;">
+						<p><%= question1.title %></p>
+						<% for(var i = 0; i < question1.answers.length; i++) { %>
+						<li>
+		  				<input type="radio" name="question1" value="<%= 'question1_' + (i + 1) %>" id="<%= 'question1_' + (i + 1) %>" >
+						  <label for="<%= 'question1_' + (i + 1) %>"><%= question1.answers[i] %></label>
+		  				<br>
+						</li>
+						<% } %>
+					</ol>
+
+					<ol type="a" style="margin: 0 0 20px 0; font-size: 18px;">
+						<p><%= question2.title %></p>
+						<% for(var i = 0; i < question2.answers.length; i++) { %>
+						<li>
+						  <input type="radio" name="question2" value="<%= 'question2_' + (i + 1) %>" id="<%= 'question2_' + (i + 1) %>" >
+						  <label for="<%= 'question2_' + (i + 1) %>"><%= question2.answers[i] %></label>
+						  <br>
+						</li>
+						<% } %>
+					</ol>
+
+					<ol type="a" style="margin: 0 0 20px 0; font-size: 18px;">
+						<p><%= question3.title %></p>
+						<% for(var i = 0; i < question3.answers.length; i++) { %>
+						<li>
+		  				<input type="radio" name="question3" value="<%= 'question3_' + (i + 1) %>" id="<%= 'question3_' + (i + 1) %>" >
+		  				<label style="font-size: 16px;" for="<%= 'question3_' + (i + 1) %>"><%= question3.answers[i] %></label>
+						  <br>
+						</li>
+						<% } %>
+					</ol>
+
+				<button class="button">Проверить мои результаты</button>
+
+			</script>
 
 	</body>
 </html>
