@@ -68,10 +68,12 @@ input {
   margin-left: 28px !important;
 }
 
-input:hover::after {
-  /*content: attr(data-title);*/
-  content: none;
-}
+/*input:hover {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px 0px #9e18b1;
+  border: none;
+}*/
+
 
 span {
   opacity: 0;
