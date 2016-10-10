@@ -140,9 +140,10 @@
 
 .steps__first {
 	display: block;
+	float: left;
 	width: 94%;
 	height: 239px;
-	margin: 0 10px;
+	margin: 0px 10px;
 	background: url("../img/stepF.jpg") no-repeat center 0;
 	background-size: cover;
 	color: #fff;
@@ -150,6 +151,7 @@
 
 .steps__second {
 	display: block;
+	float: left;
 	width: 94%;
 	height: 240px;
 	margin: 10px 10px;
@@ -160,19 +162,36 @@
 
 .steps__third {
 	display: block;
+	float: left;
 	width: 94%;
 	height: 240px;
-	margin: 10px;
+	margin: 0 10px;
 	background: url("../img/stepT.jpg") no-repeat center 0;
 	background-size: cover;
 	color: #fff;
 }
-.steps__first__name,
-.steps__second__name,
+
+.steps__first__name {
+	display: block;
+	margin: 65px 25px 20px 25px;
+}
+
+.steps__second__name {
+	display: block;
+	margin: 100px 25px 20px 25px;
+}
+
 .steps__third__name {
 	display: block;
-	float: left;
-	/*margin: 65px 100px 0px 25px;*/
+	margin: 75px 25px 20px 25px;
+}
+
+.steps__first__name__one,
+.steps__second__name__two,
+.steps__third__name__three {
+	display: block;
+	/*float: left;*/
+	width: 40px;
 	padding: 5px 15px;
 	font-family: MontserratRegular, Arial, sans-serif;
 	font-size: 10px;
@@ -184,24 +203,11 @@
 	content: '';*/
 }
 
-.steps__first__name {
-	margin: 65px 25px 20px 25px;
-}
-
-.steps__second__name {
-	margin: 100px 25px 20px 25px;
-}
-
-.steps__third__name {
-	margin: 75px 25px 20px 25px;
-}
-
-
 .steps__first__title,
 .steps__second__title,
 .steps__third__title {
 	display: block;
-	float: left;
+	/*float: left;*/
 	margin: 0 30px 20px 25px;
 	font-family: MontserratBold, Arial, sans-serif;
 	font-size: 24px;
@@ -212,7 +218,7 @@
 .steps__second__text,
 .steps__third__text {
 	display: block;
-	float: left;
+	/*float: left;*/
 	margin: 0 10px 0 25px;
 	font-family: RobotoLight, Arial, sans-serif;
 	font-size: 14px;
