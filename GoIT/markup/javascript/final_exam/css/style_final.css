@@ -185,15 +185,15 @@
 }
 
 .steps__first__name {
-	margin: 65px 5px 20px 25px;
+	margin: 65px 25px 20px 25px;
 }
 
 .steps__second__name {
-	margin: 100px 5px 20px 25px;
+	margin: 100px 25px 20px 25px;
 }
 
 .steps__third__name {
-	margin: 75px 5px 20px 25px;
+	margin: 75px 25px 20px 25px;
 }
 
 
@@ -221,6 +221,7 @@
 }
 
 .partner {
+	display: block;
 
 }
 
