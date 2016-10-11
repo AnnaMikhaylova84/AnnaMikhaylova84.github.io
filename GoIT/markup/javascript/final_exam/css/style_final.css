@@ -114,7 +114,7 @@
 	display: block;
 	width: 80%;
 	margin: 15px 20px;
-	padding: 11px;
+	padding: 11px 15px 11px 9px;
 	font-weight: bold;
 	letter-spacing: 0.75px;
 	background-color: #ff4e50;
@@ -125,7 +125,7 @@
 	display: block;
 	max-width: 320px;
 	margin: 0 auto;
-	height: 820px;
+	height: 812px;
 	/*border: 1px solid red;*/
 	box-sizing: border-box;
 }
@@ -142,7 +142,8 @@
 }
 
 .steps__title__text {
-	margin: 40px 0 15px 0;
+	margin: 37px 0 16px 0;
+	letter-spacing: 0.5px;
 }
 
 .steps__first {
@@ -150,7 +151,7 @@
 	float: left;
 	width: 94%;
 	height: 239px;
-	margin: 0px 10px;
+	margin: 0px 9.5px;
 	background: url("../img/stepF.jpg") no-repeat center 0;
 	background-size: cover;
 	color: #fff;
@@ -180,7 +181,7 @@
 
 .steps__first__name {
 	display: block;
-	margin: 65px 25px 20px 25px;
+	margin: 69px 0px 18px 22px;
 }
 
 .steps__second__name {
@@ -206,6 +207,7 @@
 	text-align: center;
 	background-color: #ff4e50;
 	border-radius: 15px;
+	letter-spacing: 0.6px;
 	/*clear: both;
 	content: '';*/
 }
@@ -215,10 +217,17 @@
 .steps__third__title {
 	display: block;
 	/*float: left;*/
-	margin: 0 30px 20px 25px;
+	margin: 0 30px 12px 20px;
 	font-family: MontserratBold, Arial, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+..steps__first__title__one,
+.steps__second__title__two,
+.steps__third__title__three {
+  letter-spacing: 1.3px;
+	line-height: 1.2;
 }
 
 .steps__first__text,
@@ -226,11 +235,12 @@
 .steps__third__text {
 	display: block;
 	/*float: left;*/
-	margin: 0 10px 0 25px;
+	margin: 0 10px 0 20px;
 	font-family: RobotoLight, Arial, sans-serif;
 	font-size: 14px;
 	color: #ccc;
 	letter-spacing: -0.2px;
+	line-height: 1.2;
 }
 
 .partner {
@@ -240,17 +250,19 @@
 	/*height: 1500px;*/
 	max-width: 320px;
 	text-align: center;
-	border: 1px solid red;
-	box-sizing: border-box;
+	/*border: 1px solid red;
+	box-sizing: border-box;*/
 }
 
 .partner__title {
 	display: block;
+	width: 97%;
 	text-align: center;
 	font-size: 22px;
 	font-weight: 800;
 	color: #333333;
-	letter-spacing: 0.5px;
+	letter-spacing: -0.9px;
+	line-height: 1.25;
 }
 
 .partner__column {
@@ -265,7 +277,22 @@
 .partner__column__fourth {
 	display: block;
 	width: 94%;
-	margin: 9px;
+}
+
+.partner__column__first {
+	margin: 10px;
+}
+
+.partner__column__second {
+	margin: 26px 0 0 11px;
+}
+
+.partner__column__third {
+	margin: 24px 0 10px 9px;
+}
+
+.partner__column__fourth {
+	margin: 24px 0 0 8px;
 }
 
 .partner__column__first__photo,
@@ -273,9 +300,9 @@
 .partner__column__third__photo,
 .partner__column__fourth__photo {
 	display: block;
-	margin: 15px auto;
-	width: 122px;
-	height: 122px;
+	margin: 14px auto;
+	width: 121px;
+	height: 121px;
 	background-size: contain;
 	border-radius: 50%;
 }
@@ -303,9 +330,10 @@
 	display: block;
 	position: relative;
 	float: right;
-	top: 85px;
+	top: 87px;
+	right: -3px;
 	width: 33px;
-	height: 33px;
+	height: 32px;
 	border: 3px solid #fff;
 	border-radius: 50%;
 }
@@ -330,7 +358,7 @@
 .partner__column__second__name,
 .partner__column__third__name,
 .partner__column__fourth__name {
-	margin: 15px;
+	margin: 20px 14px 15px 10px;
 	font-weight: 600;
 	color: #333333;
 }
@@ -347,18 +375,20 @@
 
 .partner__btn {
 	display: block;
-	margin: 20px;
-	padding: 12px;
+	margin: 26px 20px;
+	padding: 11px;
 	font-size: 14px;
+	font-weight: 600;
 	color: #ff4e50;
 	text-align: center;
+	letter-spacing: 1.2;
 	border: 2px solid #ff4e50;
 	border-radius: 25px;
 	cursor: pointer;
 }
 
 .partner__btn:active {
-	text-shadow: 0.3px 0.3px 0 #979797;
+	text-shadow: 1px 0.5px 0 #979797;
 }
 
 
