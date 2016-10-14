@@ -16,7 +16,7 @@
 	font-family: "RobotoLight";
 	src: url("../fonts/Roboto-Light.ttf") format("ttf");
 	font-style: normal;
-	font-weight: normal;
+	/*font-weight: normal;*/
 }
 
 .wrapper {
@@ -44,8 +44,8 @@
 	/*font-family: "MontserratBold", Arial, sans-serif;*/
 	/*font-size: 14px;*/
 	color: #fff;
-	/*border: 1px solid red;*/
-	/*box-sizing: border-box;*/
+	border: 1px solid red;
+	box-sizing: border-box;
 }
 
 .head__container__sign {
@@ -94,6 +94,7 @@
 	display: block;
 	text-align: center;
 	line-height: 1.25;
+	margin: 0 auto;
 }
 
 .head__container__title__top {
@@ -108,15 +109,16 @@
 
 .head__container__title__undertop {
 	display: block;
-	margin: 8px 0;
+	margin: 8px 45px;
 	font-family: "RobotoLight", Arial, sans-serif;
 	font-size: 18px;
+	/*font-weight: normal;*/
 }
 
 .head__container__title__btn {
 	display: block;
 	width: 80%;
-	margin: 15px 20px;
+	margin: 15px auto;
 	padding: 11px 15px 11px 9px;
 	font-weight: bold;
 	/*letter-spacing: 0.75px;*/
@@ -627,6 +629,46 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+.head__container {
+	max-width: 768px;
+}
+
+.head__container__sign {
+	margin-top: 37px;
+}
+
+.head__container__sign__up {
+	margin: 0 50px 0 9px;
+}
+
+.head__container__url {
+	margin: 49px 0 29px 47px;
+}
+
+.head__container__title {
+	margin: 127px auto 0;
+}
+
+.head__container__title__top {
+	font-size: 52px;
+}
+
+.head__container__title__undertop {
+	font-size: 24px;
+}
+
+.head__container__title__btn {
+	width: 27%;
+}
+
+
+
+
 
 }
 
