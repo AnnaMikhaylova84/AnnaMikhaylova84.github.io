@@ -31,14 +31,18 @@
 .head {
 	display: block;
 	/*width: 100%;*/
-	height: 540px;
+
+	height: 700px;
+
 	background: url("../img/background.jpg") no-repeat center 0;
 	background-size: cover;
 }
 .head__container {
 	display: block;
 	width: 100%;
-	max-width: 959px;
+
+	max-width: 768px;
+
 	margin: 0 auto;
 	color: #fff;
 	/*font-family: "MontserratBold", Arial, sans-serif;*/
@@ -98,7 +102,13 @@
 
 .head__container__title__top {
 	display: block;
-	font-weight: bold;
+
+  width: 500px;
+  margin: 0 auto;
+  letter-spacing: 0.6px;
+  line-height: 1.2;
+
+	font-weight: 600;
 	font-size: 52px;
 }
 
@@ -108,7 +118,9 @@
 
 .head__container__title__undertop {
 	display: block;
-	margin: 8px 14%;
+
+	margin: 25px 14%;
+
 	font-family: "RobotoLight", Arial, sans-serif;
 	font-size: 24px;
 	/*font-weight: normal;*/
@@ -116,9 +128,11 @@
 
 .head__container__title__btn {
 	display: block;
-	width: 27%;
-	margin: 15px auto;
-	padding: 11px 15px 11px 9px;
+
+	width: 26%;
+	margin: 32px auto;
+	padding: 12px 15px 11px 9px;
+
 	font-weight: bold;
 	/*letter-spacing: 0.75px;*/
 	background-color: #ff4e50;
@@ -128,9 +142,11 @@
 
 .steps {
 	display: block;
-	max-width: 320px;
 	margin: 0 auto;
-	height: 791px;
+
+	max-width: 768px;
+	height: 530px;
+
 	/*border: 1px solid red;
 	box-sizing: border-box;*/
 }
@@ -139,7 +155,9 @@
 	display: block;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 320px;
+
+	max-width: 768px;
+
 	/*font-family: "MontserratBold", Arial, sans-serif;*/
 	font-size: 22px;
 	font-weight: bold;
@@ -147,17 +165,25 @@
 }
 
 .steps__title__text {
-	margin: 37px 0 16px 0;
-	letter-spacing: 0.5px;
+	/*margin: 37px 0 16px 0;
+	letter-spacing: 0.5px;*/
+
+	margin: 97px 0 16px 0;
+  letter-spacing: 0.7px;
+  padding: 0 0px 0 12px;
+
 }
 
 .steps__first {
 	display: block;
 	float: left;
-	width: 94%;
-	height: 239px;
-	margin: 0px 3%;
-	background: url("../img/stepF.jpg") no-repeat center 0;
+
+	width: 30.7%;
+  height: 400px;
+  margin: 20px 1.4%;
+	background: url("../img/stepF.jpg") no-repeat -140px 0;
+  border-radius: 4px;
+
 	background-size: cover;
 	color: #fff;
 }
@@ -165,10 +191,13 @@
 .steps__second {
 	display: block;
 	float: left;
-	width: 94%;
-	height: 240px;
-	margin: 11px 10px;
-	background: url("../img/stepS.jpg") no-repeat center 0;
+
+	width: 30.7%;
+	height: 400px;
+	margin: 20px 1.2%;
+	background: url("../img/stepS.jpg") no-repeat -141px 0;
+	border-radius: 4px;
+
 	background-size: cover;
 	color: #fff;
 }
@@ -176,27 +205,36 @@
 .steps__third {
 	display: block;
 	float: left;
-	width: 94%;
-	height: 240px;
-	margin: -1px 10px;
-	background: url("../img/stepT.jpg") no-repeat center 0;
+
+	width: 30.7%;
+	height: 400px;
+	margin: 20px 1.3%;
+	background: url(../img/stepT.jpg) no-repeat -125px 0;
+
 	background-size: cover;
 	color: #fff;
+	border-radius: 4px;
 }
 
 .steps__first__name {
 	display: block;
-	margin: 69px 0px 18px 7.3%;
+
+  margin: 212px 0px 18px 8.3%;
+
 }
 
 .steps__second__name {
 	display: block;
-	margin: 99px 25px 20px 20px;
+
+	margin: 259px 25px 20px 20px;
+
 }
 
 .steps__third__name {
 	display: block;
-	margin: 69px 25px 20px 21px;
+
+  margin: 212px 25px 20px 22px;
+
 }
 
 .steps__first__name__one,
@@ -230,12 +268,14 @@
 }
 
 .steps__first__title {
-	margin: -2px 30px 12px 20px;
+
+	margin: -2px 30px 12px 18px;
+
 }
 
 .steps__second__title,
 .steps__third__title {
-	margin: -4px 30px 12px 20px;
+	margin: -4px 20px 12px 19px;
 }
 
 .steps__first__title__one,
@@ -250,28 +290,44 @@
 .steps__third__text {
 	display: block;
 	/*float: left;*/
-	margin: 0 10px 0 20px;
+
+	margin: 0 10px 0 18px;
+
 	font-family: RobotoLight, Arial, sans-serif;
 	/*font-size: 14px;*/
 	color: #ccc;
-	line-height: 1.2;
 }
 
 .steps__first__text {
-	letter-spacing: -0.2px;
+
+	letter-spacing: -0.3px;
+	line-height: 1.25;
+
 }
 
 .steps__second__text {
-	letter-spacing: -0.1px;
+
+	letter-spacing: 0.1px;
+	line-height: 1.2;
+
+}
+
+.steps__third__text {
+
+	letter-spacing: -0.3px;
+	line-height: 1.25;
+
 }
 
 
 .partner {
 	display: block;
-	margin: 20px auto;
 	/*font-family: MontserratBold, Arial, sans-serif;*/
-	/*height: 1500px;*/
-	max-width: 320px;
+
+	height: 695px;
+	margin: 23px auto;
+	max-width: 768px;
+
 	text-align: center;
 	/*border: 1px solid red;
 	box-sizing: border-box;*/
@@ -279,7 +335,9 @@
 
 .partner__title {
 	display: block;
-	width: 97%;
+
+	width: 100%;
+
 	text-align: center;
 	font-size: 22px;
 	font-weight: 800;
@@ -298,24 +356,40 @@
 .partner__column__second,
 .partner__column__third,
 .partner__column__fourth {
+
 	display: block;
-	width: 94%;
+	float: left;
+	width: 49%;
+
 }
 
 .partner__column__first {
-	margin: 11px;
+
+	margin: 0;
+
 }
 
 .partner__column__second {
-	margin: 25px 0 0 10px;
+
+	position: absolute;
+	float: none;
+	margin: 235px 0 0 0;
+
 }
 
+
 .partner__column__third {
-	margin: 25px 0 10px 8px;
+
+	margin: 0px 0 0 -111px;
+
 }
 
 .partner__column__fourth {
-	margin: 26px 0 0 8px;
+
+	float: none;
+  position: absolute;
+  margin: 226px 0 0 269px;
+
 }
 
 .partner__column__first__photo,
@@ -323,7 +397,9 @@
 .partner__column__third__photo,
 .partner__column__fourth__photo {
 	display: block;
-	margin: 15px auto;
+
+	margin: 32px 0 0 197px;
+
 	width: 120px;
 	height: 120px;
 	background-size: contain;
@@ -331,7 +407,7 @@
 }
 
 .partner__column__first__photo {
-	background: url("../img/photo1.jpg") no-repeat center 0;
+	background: url("../img/photo1.jpg") no-repeat  -2px -1px;;
 }
 
 .partner__column__second__photo {
@@ -381,7 +457,7 @@
 .partner__column__second__name,
 .partner__column__third__name,
 .partner__column__fourth__name {
-	margin: 20px auto 15px;
+	margin: 20px 0 0 200px;
 	font-weight: 600;
 	color: #333333;
 	width: 115px;
@@ -392,7 +468,7 @@
 .partner__column__second__about,
 .partner__column__third__about,
 .partner__column__fourth__about {
-	margin: 10px auto;
+	margin: 15px  0 0 143px;
   width: 230px;
 	font-family: RobotoLight, Arial, sans-serif;
 	color: #666666;
@@ -401,8 +477,9 @@
 
 .partner__btn {
 	display: block;
-	margin: 25px 18px;
+	margin: 550px auto 0;
 	padding: 11px;
+	width: 50%;
 	/*font-size: 14px;*/
 	font-weight: 600;
 	color: #ff4e50;
