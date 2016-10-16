@@ -421,6 +421,7 @@
 .ideas {
 	display: block;
 	max-width: 320px;
+	height: 980px;
 	margin: 0 auto;
 	/*font-family: MontserratBold, Arial, sans-serif;*/
 	text-align: center;
@@ -440,8 +441,8 @@
 
 .ideas__block {
 	display: block;
-	/*width: 95%;*/
-	/*height: 122px;*/
+	width: 94%;
+	height: 122px;
 	margin: 4px auto;
 	letter-spacing: 0.6px;
 	cursor: pointer;
@@ -464,36 +465,43 @@
 }
 
 .ideas__block__fon {
-	/*border-radius: 5px;*/
-	/*height: 100%;*/
+	border-radius: 4px;
+	height: 100%;
 }
 
 .fon--one {
 	background: url("../img/block1.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .fon--two {
 	background: url("../img/block2.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .fon--three {
 	background: url("../img/block3.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .fon--four {
 	background: url("../img/block4.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .fon--five {
 	background: url("../img/block5.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .fon--six {
 	background: url("../img/block6.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .fon--seven {
 	background: url("../img/block7.jpg") no-repeat center 0;
+	/*background-size: inherit;*/
 }
 
 .ideas__block__text {
@@ -505,17 +513,18 @@
 }
 
 .text--three{
-	padding: 35px 60px 39px;
+	padding: 35px 50px 39px;
 	line-height: 1.1;
 }
 
 .text--five {
-	padding: 50px 30px;
+	padding: 50px 20px;
 }
 
 .search {
 	display: block;
 	max-width: 320px;
+	height: 190px;    /* ПРОВЕРИТЬ ВЫСОТУ БЛОКА */
 	margin: 33px auto;
 	text-align: center;
 	color: #333;
@@ -547,6 +556,7 @@
 .search__form__field {
 	margin: 10px auto;
 	width: 88%;
+	float: none;
 	padding: 12px;
 	font-family: RobotoLight, Arial, sans-serif;
 	border-radius: 5px;
@@ -563,6 +573,8 @@
 
 .search__form__btn {
 	width: 97%;
+	float: none;
+	margin: auto;  /* ПРОВЕРИТЬ МАРДЖИН */
 	padding: 12px;
 	font-weight: 600;
 	color: #fff;
