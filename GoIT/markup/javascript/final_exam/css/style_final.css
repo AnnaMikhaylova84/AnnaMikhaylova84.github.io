@@ -91,13 +91,16 @@
 
 .head__container__title {
 	display: block;
+	margin: 0 auto;
 	text-align: center;
 	line-height: 1.25;
-	margin: 0 auto;
 }
 
 .head__container__title__top {
 	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -108,7 +111,7 @@
 
 .head__container__title__undertop {
 	display: block;
-	margin: 8px 14%;
+	margin: 8px auto;
 	font-family: "RobotoLight", Arial, sans-serif;
 	font-size: 18px;
 	/*font-weight: normal;*/
@@ -116,11 +119,10 @@
 
 .head__container__title__btn {
 	display: block;
-	width: 256px;   /* ПРОВЕРИТЬ ШИРИНУ */
+	width: 256px;
 	margin: 15px auto;
 	padding: 11px 15px 11px 9px;
 	font-weight: bold;
-	/*letter-spacing: 0.75px;*/
 	background-color: #ff4e50;
 	border-radius: 20px;
 	cursor: pointer;
@@ -187,18 +189,36 @@
 .steps__arrow {
 	display: none;
 	width: 100%;
-	margin: 40px 20px;
+	margin: 39px 20px;
 }
 
 .steps__arrow__left {
 	display: inline-block;
 	float: left;
+	margin: 0 0 0 2px;
 }
 
 .steps__arrow__right {
 	display: inline-block;
 	float: right;
-	margin: 0 40px 0 0;
+	margin: 0 39px 0 0;
+}
+
+.arrow__left--second {
+	margin: 0 0 0 -10px;
+
+}
+
+.arrow__right--second {
+	margin: 0 30px 0 0;
+}
+
+.arrow__left--third {
+	margin: 0 0 0 2px;
+}
+
+.arrow__right--third {
+	margin: 0 39px 0 0;
 }
 
 .steps__arrow__left:hover,
@@ -569,7 +589,7 @@
 .search {
 	display: block;
 	max-width: 320px;
-	height: 190px;    /* ПРОВЕРИТЬ ВЫСОТУ БЛОКА */
+	height: 190px;
 	margin: 33px auto;
 	text-align: center;
 	color: #333;

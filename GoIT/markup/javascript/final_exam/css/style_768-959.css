@@ -54,7 +54,9 @@
 .head__container__sign {
 	display: block;
 	float: right;
-	margin-top: 37px;
+
+	margin-top: 38px;
+
 }
 
 .head__container__sign__log {
@@ -65,7 +67,9 @@
 
 .head__container__sign__up {
 	display: inline-block;
+
 	margin: 0 50px 0 9px;
+
 	padding: 9px 18px;
 	border: 2px solid #fff;
 	border-radius: 20px;
@@ -80,8 +84,10 @@
 .head__container__url {
 	display: block;
 	float: left;
-	margin: 49px 0 29px 47px;
-	letter-spacing: 0.7px;
+
+	margin: 48px 0 29px 49px;
+	letter-spacing: 0.8px;
+
 	font-size: 20px;
 	font-weight: bold;
 
@@ -107,21 +113,24 @@
 
   width: 500px;
   margin: 0 auto;
-  letter-spacing: 0.6px;
-  line-height: 1.2;
+	padding: 1px 0 0 0;
+  letter-spacing: 0.5px;
+  line-height: 1.22;
 
 	font-weight: 600;
 	font-size: 52px;
 }
 
 .head__container__title__top_mod {
-	letter-spacing: 0.4px;
+
+	letter-spacing: 1px;
+
 }
 
 .head__container__title__undertop {
 	display: block;
 
-	margin: 25px 14%;
+	margin: 24px auto;
 	letter-spacing: -0.2px;
 
 	font-family: "RobotoLight", Arial, sans-serif;
@@ -236,6 +245,23 @@
 	display: inline-block;
 	float: right;
 	margin: 0 40px 0 0;
+}
+
+.arrow__left--second {
+	margin: 0 0 0 -10px;
+
+}
+
+.arrow__right--second {
+	margin: 0 30px 0 0;
+}
+
+.arrow__left--third {
+	margin: 0 0 0 2px;
+}
+
+.arrow__right--third {
+	margin: 0 39px 0 0;
 }
 
 .steps__arrow__left:hover,
@@ -640,28 +666,35 @@
 
 .text--two {
 
-	padding: 133px 6% 0px 6%;
-	/*letter-spacing: 0.5px;*/
+	padding: 133px 6% 0px 8%;
+	line-height: 1.1;
 
+	letter-spacing: 0.5px;
 }
 
 .text--three{
 
-	padding: 130px 6% 0px 6%;
+	padding: 128px 6% 0px 6%;
 
 	line-height: 1.2;
 	letter-spacing: 0.6px;
 }
 
 .text--four {
-	padding: 50px 20px;
+	/*padding: 145px 20px;*/
 	letter-spacing: 0.1px;
 }
 
 .text--five {
 
-	/*padding: 50px 30px;*/
+	padding: 145px 6% 0 7%;
 
+}
+
+.text--seven {
+
+	padding: 143px 6% 0px 6%;
+	
 }
 
 .search {
