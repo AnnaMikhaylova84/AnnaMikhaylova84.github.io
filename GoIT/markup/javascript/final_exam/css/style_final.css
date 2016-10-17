@@ -610,6 +610,7 @@
 
 .footer__title {
 	display: block;
+	float: none;     /* ПРОВЕРИТЬ FLOAT */
 	margin: 0 auto;
 	font-size: 16px;
 	color: #ff4e50;

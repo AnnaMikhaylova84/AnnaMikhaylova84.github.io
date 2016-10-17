@@ -519,7 +519,9 @@
 	font-size: 22px;
 	font-weight: 600;
 	color: #333333;
-	padding: 10px 0px;
+
+	padding: 10px 0px 32px;
+
 	line-height: 1.2;
 }
 
@@ -528,22 +530,40 @@
 	display: inline-block;
 	width: 31%;
 	height: 310px;
+	margin: 0px 0.9%;
 
-	margin: 4px auto;
 	letter-spacing: 0.6px;
 	cursor: pointer;
+	clear: both;
+	overflow: hidden;
 }
 
 .block--two {
-	padding: 4px;
+
+	padding: 0px;
+
 }
 
 .block--four {
-	padding: 5px;
+
+	padding: 0px;
+	margin: 18px 0 0 0.9%;
+
+}
+
+.block--five {
+
+	width: 66%;
+	margin: 0 0 0 0.9%;
+
 }
 
 .block--six {
-	padding: 3px;
+
+	width: 65%;
+	padding: 0px;
+	margin: 18px 0.5% 0 0.7%;
+
 }
 
 .block--seven {
@@ -587,17 +607,30 @@
 	font-size: 22px;
 	font-weight: 600;
   color: #fff;
-  padding: 50px 20px;
+
+  padding: 145px 6% 0px 6%;
+
 	letter-spacing: 1px;
 }
 
+.text--two {
+
+	padding: 133px 6% 0px 6%;
+	letter-spacing: 0.5px;
+
+}
+
 .text--three{
-	padding: 35px 60px 39px;
+
+	padding: 130px 6% 0px 6%;
+
 	line-height: 1.1;
 }
 
 .text--five {
-	padding: 50px 30px;
+
+	/*padding: 50px 30px;*/
+
 }
 
 .search {
@@ -605,8 +638,8 @@
 
 	max-width: 768px;
 	height: 187px;
+	margin: 33px auto 69px;
 
-	margin: 3px auto 99px;
 	text-align: center;
 	color: #333;
 	/*border: 1px solid red;
@@ -693,7 +726,7 @@
 	max-width: 768px;
 
 	margin: 0 auto;
-	padding: 8px;
+	padding: 28px;
 	text-align: center;
 	/*border: 1px solid red;
 	box-sizing: border-box;*/
@@ -701,7 +734,10 @@
 
 .footer__title {
 	display: block;
-	margin: 0 auto;
+
+	float: left;
+	margin: 0 40px;
+
 	font-size: 16px;
 	color: #ff4e50;
 	text-transform: uppercase;
@@ -709,7 +745,9 @@
 }
 
 .footer__name {
-	letter-spacing: 1.1px;
+
+	letter-spacing: 0.7px;
+
 }
 
 .footer__company {
