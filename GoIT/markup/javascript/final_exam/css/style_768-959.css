@@ -132,7 +132,7 @@
 .head__container__title__btn {
 	display: block;
 
-	width: 26%;
+	width: 201px;
 	margin: 32px auto;
 	padding: 12px 15px 11px 9px;
 
@@ -219,10 +219,32 @@
 	border-radius: 4px;
 }
 
+.steps__arrow {
+	display: block;
+	width: 100%;
+	margin: 40px 20px;
+}
+
+.steps__arrow__left {
+	display: inline-block;
+	float: left;
+}
+
+.steps__arrow__right {
+	display: inline-block;
+	float: right;
+	margin: 0 40px 0 0;
+}
+
+.steps__arrow__left:hover,
+.steps__arrow__right:hover {
+	cursor: pointer;
+}
+
 .steps__first__name {
 	display: block;
 
-  margin: 212px 0px 18px 8.3%;
+  margin: 212px 0px 18px 20px;
 
 }
 
@@ -482,9 +504,9 @@
 	display: block;
 
 	margin: 563px auto 0;
-	width: 22%;
+	width: 189px;
+	padding: 11px 0;
 
-	padding: 11px;
 	/*font-size: 14px;*/
 	font-weight: 600;
 	color: #ff4e50;
@@ -567,7 +589,9 @@
 }
 
 .block--seven {
-	padding: 1px;
+
+	padding: 0px;
+
 }
 
 .ideas__block__fon {
@@ -666,7 +690,7 @@
 .search__form {
 	display: block;
 
-	width: 57%;
+	width: 438px;
 	margin: 26px auto;
 
 }
@@ -674,7 +698,7 @@
 .search__form__field {
 
 	margin: 10px 0 0 13px;
-	width: 49%;
+	width: 214px;
 	float: left;
 
 	padding: 12px;
@@ -693,7 +717,7 @@
 
 .search__form__btn {
 
-	width: 36.5%;
+	width: 160px;
 	float: left;
 	margin: 10px 0 0 10px;
 
@@ -724,6 +748,8 @@
 	display: block;
 
 	max-width: 768px;
+	height: 130px;
+
 
 	margin: 0 auto;
 	padding: 28px;
@@ -752,8 +778,11 @@
 
 .footer__company {
 	display: block;
-	margin: 14px auto;
-	text-align: center;
+
+	float: left;
+	margin: 0px 0px 0 43px;
+	text-align: left;
+
 }
 
 .footer__company__ur,
@@ -769,8 +798,9 @@
 }
 
 .footer__company__item {
-	display: inline-block;
-	margin: 6px 5px;
+
+	display: block;
+	margin: 16px 0 -6px -1px;
 
 }
 
@@ -780,11 +810,23 @@
 }
 
 .footer__partners {
-	margin: -4px 10px 12px;
+	display: block;
+
+	float: left;
+	margin: 0 0 0 107px;
+
+}
+
+.footer__logotype {
+	display: block;
+	float: right;
+	margin: -17px 40px 0 0px;
 }
 
 .footer__logotype__by {
-	margin: 18px 10px 8px;
+
+	margin: 18px -36px 8px 0;
+
 	color: #ccc;
 	font-size: 10px;
 	font-weight: 600;
