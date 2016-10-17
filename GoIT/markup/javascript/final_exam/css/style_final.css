@@ -116,7 +116,7 @@
 
 .head__container__title__btn {
 	display: block;
-	width: 280px;   /* ПРОВЕРИТЬ ШИРИНУ */
+	width: 256px;   /* ПРОВЕРИТЬ ШИРИНУ */
 	margin: 15px auto;
 	padding: 11px 15px 11px 9px;
 	font-weight: bold;
@@ -185,7 +185,7 @@
 }
 
 .steps__arrow {
-	display: block;
+	display: none;
 	width: 100%;
 	margin: 40px 20px;
 }
@@ -208,7 +208,7 @@
 
 .steps__first__name {
 	display: block;
-	margin: 69px 0px 18px 7.3%;
+	margin: 69px 0px 18px 20px;
 }
 
 .steps__second__name {
@@ -423,8 +423,8 @@
 
 .partner__btn {
 	display: block;
-	width: 280px;      /*  ПРОВЕРИТЬ ШИРИНУ */
-	margin: 25px 18px;
+	width: 253px;      /*  ПРОВЕРИТЬ ШИРИНУ */
+	margin: 26px 18px;
 	padding: 11px;
 	/*font-size: 14px;*/
 	font-weight: 600;
@@ -464,11 +464,12 @@
 
 .ideas__block {
 	display: block;
-	width: 94%;
+	width: 300px;
 	height: 122px;
 	margin: 4px auto;
-	letter-spacing: 0.6px;
 	cursor: pointer;
+	clear: both;
+	overflow: hidden;
 }
 
 .block--two {
@@ -531,17 +532,38 @@
 	font-size: 22px;
 	font-weight: 600;
   color: #fff;
-  padding: 50px 20px;
-	letter-spacing: 1px;
+  padding: 49px 20px;
+	letter-spacing: 0.9px;
+}
+
+.text--two {
+	padding: 51px 20px;
+	letter-spacing: 0.5px;
 }
 
 .text--three{
-	padding: 35px 50px 39px;
-	line-height: 1.1;
+	padding: 33px 50px 39px;
+	line-height: 1.2;
+	letter-spacing: 0.6px;
+}
+
+.text--four {
+	padding: 50px 20px;
+	letter-spacing: 0.1px;
 }
 
 .text--five {
+	padding: 49px 20px 0;
+	letter-spacing: 0.6px;
+}
+
+.text--six {
 	padding: 50px 20px;
+}
+
+.text--seven {
+	padding: 48px 20px;
+	letter-spacing: 0.7px;
 }
 
 .search {
@@ -564,21 +586,22 @@
 }
 
 .search__question {
+	margin: 0 auto;
 	padding: 3px 0;
 	font-family: RobotoLight, Arial, sans-serif;
 	font-size: 18px;
-	letter-spacing: -0.2px;
+	letter-spacing: -0.1px;
 }
 
 .search__form {
 	display: block;
-	width: 90%;   /* ПРОВЕРИТЬ ШИРИНУ  */
+	width: 90%;
 	margin: 4px auto;
 }
 
 .search__form__field {
 	margin: 10px auto;
-	width: 88%;     /* ПРОВЕРИТЬ ШИРИНУ  */
+	width: 255px;
 	float: none;
 	padding: 12px;
 	font-family: RobotoLight, Arial, sans-serif;
@@ -595,10 +618,10 @@
 
 
 .search__form__btn {
-	width: 97%;     /* ПРОВЕРИТЬ ШИРИНУ  */
+	width: 280px;
 	float: none;
-	margin: auto;  /* ПРОВЕРИТЬ МАРДЖИН */
-	padding: 12px;
+	margin: -1px auto;
+	padding: 12px 12px 13px;
 	font-weight: 600;
 	color: #fff;
 	background-color: #ff4e50;
@@ -624,7 +647,7 @@
 .footer {
 	display: block;
 	max-width: 320px;
-	height: auto;  			 /* ПРОВЕРИТЬ ВЫСОТУ БЛОКА */
+	height: 163px;
 	margin: 0 auto;
 	padding: 8px;
 	text-align: center;
@@ -634,7 +657,7 @@
 
 .footer__title {
 	display: block;
-	float: none;     /* ПРОВЕРИТЬ FLOAT */
+	float: none;
 	margin: 0 auto;
 	font-size: 16px;
 	color: #ff4e50;
@@ -643,12 +666,12 @@
 }
 
 .footer__name {
-	letter-spacing: 1.1px;
+	letter-spacing: 0.7px;
 }
 
 .footer__company {
 	display: block;
-	float: none;   /* ПРОВЕРИТЬ FLOAT */
+	float: none;
 	margin: 14px auto;
 	text-align: center;
 }
@@ -685,7 +708,7 @@
 .footer__logotype {
 	display: block;
 	float: none;
-	margin: 0;      /* ПРОВЕРИТЬ МАРДЖИН */
+	margin: -1px 1px 0 0;
 }
 
 .footer__logotype__by {
