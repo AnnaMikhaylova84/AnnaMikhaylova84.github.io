@@ -181,8 +181,8 @@
 	letter-spacing: 0.5px;*/
 
 	margin: 97px 0 16px 0;
+	padding: 0 0px 0 12px;
   letter-spacing: 0.7px;
-  padding: 0 0px 0 12px;
 
 }
 
@@ -194,9 +194,9 @@
   height: 400px;
   margin: 20px 1.4%;
 	background: url("../img/stepF.jpg") no-repeat -140px 0;
-  border-radius: 4px;
-
 	background-size: cover;
+
+	border-radius: 4px;
 	color: #fff;
 }
 
@@ -208,9 +208,9 @@
 	height: 400px;
 	margin: 20px 1.2%;
 	background: url("../img/stepS.jpg") no-repeat -141px 0;
-	border-radius: 4px;
-
 	background-size: cover;
+
+	border-radius: 4px;
 	color: #fff;
 }
 
@@ -222,8 +222,8 @@
 	height: 400px;
 	margin: 20px 1.3%;
 	background: url(../img/stepT.jpg) no-repeat -125px 0;
-
 	background-size: cover;
+
 	color: #fff;
 	border-radius: 4px;
 }
@@ -233,7 +233,7 @@
 	display: block;
 
 	width: 100%;
-	margin: 40px 20px;
+	margin: 39px 20px;
 }
 
 .steps__arrow__left {
@@ -244,7 +244,7 @@
 .steps__arrow__right {
 	display: inline-block;
 	float: right;
-	margin: 0 40px 0 0;
+	margin: 0 41px 0 0;
 }
 
 .arrow__left--second {
@@ -292,7 +292,7 @@
 
 .steps__first__name__one,
 .steps__second__name__two,
-.steps__third__name__three {
+.steps__third__name__three {   /* */
 	display: block;
 	/*float: left;*/
 	width: 40px;
@@ -322,18 +322,20 @@
 
 .steps__first__title {
 
-	margin: -2px 30px 12px 18px;
+	margin: -2px 30px 12px 18px; /* !!!!! */
 
 }
 
 .steps__second__title,
 .steps__third__title {
-	margin: -4px 20px 12px 19px;
+
+	margin: -4px 20px 12px 19px;  /* !!!!! */
+
 }
 
 .steps__first__title__one,
 .steps__second__title__two,
-.steps__third__title__three {
+.steps__third__title__three {  /* !!!!! */
   letter-spacing: 0.6px;
 	line-height: 1.2;
 }
@@ -344,28 +346,28 @@
 	display: block;
 	/*float: left;*/
 
-	margin: 0 10px 0 18px;
+	margin: 0 10px 0 18px;  /* !!!!! */
 
 	font-family: RobotoLight, Arial, sans-serif;
 	/*font-size: 14px;*/
 	color: #ccc;
 }
 
-.steps__first__text {
+.steps__first__text {   /* !!!!! */
 
 	letter-spacing: -0.3px;
 	line-height: 1.25;
 
 }
 
-.steps__second__text {
+.steps__second__text {  /* !!!!! */
 
 	letter-spacing: 0.1px;
 	line-height: 1.2;
 
 }
 
-.steps__third__text {
+.steps__third__text {  /* !!!!! */
 
 	letter-spacing: -0.3px;
 	line-height: 1.25;
@@ -402,7 +404,10 @@
 .partner__column {
 	display: block;
 	/*font-size: 14px;*/
-	/*width: 100%;*/
+
+	width: 768px;
+	margin: 0 auto;
+
 }
 
 .partner__column__first,
@@ -412,7 +417,7 @@
 
 	display: block;
 	float: left;
-	width: 49%;
+	width: 374px;
 
 }
 
@@ -433,7 +438,7 @@
 
 .partner__column__third {
 
-	margin: 0px 0 0 -120px;
+	margin: 0px 0 0 -114px;
 
 }
 
@@ -694,7 +699,7 @@
 .text--seven {
 
 	padding: 143px 6% 0px 6%;
-	
+
 }
 
 .search {
