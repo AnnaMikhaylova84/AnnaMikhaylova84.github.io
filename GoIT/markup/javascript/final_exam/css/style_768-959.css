@@ -414,40 +414,28 @@
 .partner__column__second,
 .partner__column__third,
 .partner__column__fourth {
-
 	display: block;
-	float: left;
-	width: 374px;
+
+	width: 250px;
 
 }
 
 .partner__column__first {
-
-	margin: 0;
-
-}
-
-.partner__column__second {
-
-	position: absolute;
-	float: none;
-	margin: 259px 0 0 0;
+	float: left;
+    margin: 0 0 0 18%;
 
 }
-
 
 .partner__column__third {
-
-	margin: 0px 0 0 -114px;
+	float: left;
+    margin: 34px 0 0 18%;
 
 }
 
+.partner__column__second,
 .partner__column__fourth {
-
-	float: none;
-  position: absolute;
-  margin: 259px 0 0 256px;
-
+	float: right;
+  margin: 0 16% 0 0;
 }
 
 .partner__column__first__photo,
@@ -455,9 +443,6 @@
 .partner__column__third__photo,
 .partner__column__fourth__photo {
 	display: block;
-
-	margin: 32px 0 0 197px;
-
 	width: 120px;
 	height: 120px;
 	background-size: contain;
@@ -465,19 +450,31 @@
 }
 
 .partner__column__first__photo {
+
 	background: url("../img/photo1.jpg") no-repeat  -2px -1px;;
+	margin: 32px 0 0 59px;
+
 }
 
 .partner__column__second__photo {
 	background: url("../img/photo2.jpg") no-repeat center 0;
+
+	margin: 32px 0 0 66px;
+
 }
 
 .partner__column__third__photo {
 	background: url("../img/photo3.jpg") no-repeat center 0;
+
+	margin: 22px 0 0 59px;
+
 }
 
 .partner__column__fourth__photo {
 	background: url("../img/photo4.jpg") no-repeat center 0;
+
+	margin: 22px 0 0 51px;
+
 }
 
 .partner__column__first__photo__log,
@@ -512,10 +509,30 @@
 }
 
 .partner__column__first__name,
-.partner__column__second__name,
-.partner__column__third__name,
+.partner__column__third__name {
+
+	margin: 20px 0 0 60px;
+
+	font-weight: 600;
+	color: #333333;
+	width: 115px;
+	letter-spacing: 0.6px;
+}
+
+.partner__column__second__name {
+
+	margin: 20px 0 0 69px;
+
+	font-weight: 600;
+	color: #333333;
+	width: 115px;
+	letter-spacing: 0.6px;
+}
+
 .partner__column__fourth__name {
-	margin: 20px 0 0 200px;
+
+	margin: 20px 0 0 54px;
+
 	font-weight: 600;
 	color: #333333;
 	width: 115px;
@@ -523,11 +540,32 @@
 }
 
 .partner__column__first__about,
-.partner__column__second__about,
-.partner__column__third__about,
+.partner__column__third__about {
+
+	margin: 15px  0 0 3px;
+
+	width: 230px;
+	font-family: RobotoLight, Arial, sans-serif;
+	color: #666666;
+	line-height: 1.25;
+}
+
+
+.partner__column__second__about {
+
+	margin: 15px 0 0 9px;
+
+	width: 230px;
+	font-family: RobotoLight, Arial, sans-serif;
+	color: #666666;
+	line-height: 1.25;
+}
+
 .partner__column__fourth__about {
-	margin: 15px  0 0 143px;
-  width: 230px;
+
+  margin: 15px 0 0 -4px;
+
+	width: 230px;
 	font-family: RobotoLight, Arial, sans-serif;
 	color: #666666;
 	line-height: 1.25;
