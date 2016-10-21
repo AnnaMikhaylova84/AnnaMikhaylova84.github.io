@@ -146,6 +146,12 @@
 	letter-spacing: 0.5px;
 }
 
+.steps__all {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
 .steps__first {
 	display: block;
 	float: left;
@@ -462,6 +468,13 @@
 	line-height: 1.2;
 }
 
+.ideas__block__all {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
 .ideas__block {
 	display: block;
 	width: 300px;
@@ -747,9 +760,7 @@
 @media screen and (min-width: 551px) and (max-width: 767px) {
 
 .steps__all {
-	display: block;
 	width: 551px;
-	margin: 0 auto;
 }
 
 	.steps__first,
@@ -760,9 +771,7 @@
 	}
 
 	.ideas__block__all {
-		display: block;
 		width: 553px;
-		margin: 0 auto;
 	}
 
 	.ideas__block__fon {
@@ -1157,6 +1166,12 @@
 .footer__logotype__by {
 	margin: 18px -36px 8px 0;
 }
+
+
+}
+
+@media screen and (min-width: 960px) {
+
 
 
 }
