@@ -495,37 +495,37 @@
 
 .fon--one {
 	background: url("../img/block1.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .fon--two {
 	background: url("../img/block2.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .fon--three {
 	background: url("../img/block3.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .fon--four {
 	background: url("../img/block4.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .fon--five {
 	background: url("../img/block5.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .fon--six {
 	background: url("../img/block6.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .fon--seven {
 	background: url("../img/block7.jpg") no-repeat center 0;
-	/*background-size: inherit;*/
+	background-size: cover;
 }
 
 .ideas__block__text {
@@ -728,11 +728,18 @@
 	max-width: 520px;
 }
 
+.ideas {
+	max-width: 767px;
+}
 
+.ideas__block {
+	width: 94%;
+	/*height: 12.5%;*/
+}
 
-
-
-
+.ideas__block__fon {
+	max-width: 520px;
+}
 
 
 }
@@ -751,6 +758,18 @@
 		max-width: 520px;
 		/*margin: 10px auto;*/
 	}
+
+	.ideas__block__all {
+		display: block;
+		width: 553px;
+		margin: 0 auto;
+	}
+
+	.ideas__block__fon {
+		max-width: 520px;
+	}
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
