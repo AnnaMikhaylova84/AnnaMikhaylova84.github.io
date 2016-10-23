@@ -191,7 +191,7 @@
 .steps__arrow {
 	display: none;
 	width: auto;
-	margin: 39px 20px;
+	margin: 39px 21px 0px 19px;
 }
 
 .steps__arrow__left {
@@ -202,23 +202,23 @@
 .steps__arrow__right {
 	display: inline-block;
 	float: right;
-	margin: 0 41px 0 0;
+	margin: 0 1px 0 0;
 }
 
 .arrow__left--second {
-	margin: 0 0 0 -10px;
+	margin: 0 0 0 -9px;
 }
 
 .arrow__right--second {
-	margin: 0 30px 0 0;
+	margin: 0 -11px 0 0;
 }
 
 .arrow__left--third {
-	margin: 0 0 0 2px;
+	margin: 0 0 0 3px;
 }
 
 .arrow__right--third {
-	margin: 0 39px 0 0;
+	margin: 0 -2px 0 0;
 }
 
 .steps__arrow__left:hover,
@@ -784,6 +784,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
 
+.head {
+	height: 700px;
+}
+
 .head__container {
 	                      /*max-width -- ЭТО ВАЖНО!!!! */
 	max-width: 959px;
@@ -826,6 +830,7 @@
 .head__container__title__undertop {
 	margin: 24px auto;
 	letter-spacing: -0.2px;
+	font-size: 24px;
 }
 
 .head__container__title__btn {
@@ -967,7 +972,7 @@
 }
 
 .partner__column__second__photo {
-	margin: 32px 0 0 66px;
+	margin: 32px 0 0 58px;
 }
 
 .partner__column__third__photo {
@@ -975,7 +980,7 @@
 }
 
 .partner__column__fourth__photo {
-	margin: 22px 0 0 51px;
+	margin: 14px 0 0 58px;
 }
 
 .partner__column__first__name,
@@ -984,11 +989,11 @@
 }
 
 .partner__column__second__name {
-	margin: 20px 0 0 69px;
+	margin: 20px 0 0 59px;
 }
 
 .partner__column__fourth__name {
-	margin: 20px 0 0 54px;
+	margin: 20px 0 0 59px;
 }
 
 .partner__column__first__about,
@@ -997,11 +1002,11 @@
 }
 
 .partner__column__second__about {
-	margin: 15px 0 0 9px;
+	margin: 15px 0 0 2px;
 }
 
 .partner__column__fourth__about {
-	margin: 15px 0 0 -4px;
+	margin: 15px 0 0 2px;
 }
 
 .partner__btn {
@@ -1136,6 +1141,7 @@
 .footer {
 	max-width: 959px;
 	height: 130px;
+	padding: 28px 0;
 }
 
 .footer__title {
@@ -1208,6 +1214,7 @@
 		padding: 1px 0 0 0;
 	  letter-spacing: 0.5px;
 	  line-height: 1.22;
+		font-size: 52px;
 	}
 
 	.head__container__title__top_mod {
@@ -1216,6 +1223,7 @@
 
 	.head__container__title__undertop {
 		margin: 23px auto;
+		font-size: 24px;
 		letter-spacing: normal;
 	}
 
@@ -1270,15 +1278,20 @@
 
 	.steps__arrow {
 		display: block;
-		margin: 152px 21px;
+		margin: 152px 20px 0 21px;
 	}
+
+	.steps__arrow__right {
+		margin: 0 1px 0 0;
+	}
+
 
 	.arrow__left--second {
 		margin: 0 0 0 0px;
 	}
 
 	.arrow__right--second {
-		margin: 0 42px 0 0;
+		margin: 0 2px 0 0;
 	}
 
 	.arrow__left--third {
@@ -1286,7 +1299,7 @@
 	}
 
 	.arrow__right--third {
-		margin: 0 42px 0 0;
+		margin: 0 0 0 0;
 	}
 
 	.steps__first__name {
@@ -1539,6 +1552,7 @@
 	.footer {
 		max-width: 960px;
 		height: 130px;
+		padding: 28px 0;
 	}
 
 	.footer__title {
@@ -1560,18 +1574,17 @@
 	.footer__partners {
 		float: left;
 		margin: 0 0 0 95px;
-
 	}
 
 	.footer__logotype {
 		float: right;
 		margin: -17px 11px 0 0px;
-
 	}
 
 	.footer__logotype__by {
-		margin: 18px -36px 8px 0;
-	}
+		margin: 18px 0 8px 30px;
+		letter-spacing: 0.9px;
+		}
 
 
 }

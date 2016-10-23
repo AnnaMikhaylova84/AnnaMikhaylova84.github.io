@@ -118,9 +118,9 @@
 	padding: 1px 0 0 0;
   letter-spacing: 0.5px;
   line-height: 1.22;
+	font-size: 52px;
 
 	font-weight: 600;
-	font-size: 52px;
 }
 
 .head__container__title__top_mod {
@@ -136,9 +136,9 @@
 	/*letter-spacing: -0.2px;*/
 				margin: 23px auto;
 				letter-spacing: normal;
+				font-size: 24px;
 
 	font-family: "RobotoLight", Arial, sans-serif;
-	font-size: 24px;
 	/*font-weight: normal;*/
 }
 
@@ -242,7 +242,7 @@
 .steps__arrow {
 
 	display: block;
-				margin: 152px 21px;
+				margin: 152px 20px 0 21px;
 
 	width: 100%;
 }
@@ -255,7 +255,7 @@
 .steps__arrow__right {
 	display: inline-block;
 	float: right;
-	margin: 0 41px 0 0;
+	margin: 0 1px 0 0;
 }
 
 .arrow__left--second {
@@ -266,7 +266,7 @@
 
 .arrow__right--second {
 
-				margin: 0 42px 0 0;
+				margin: 0 2px 0 0;
 
 }
 
@@ -278,7 +278,7 @@
 
 .arrow__right--third {
 
-				margin: 0 42px 0 0;
+				margin: 0 0 0 0;
 
 }
 
@@ -889,10 +889,10 @@
 
 					max-width: 960px;
 	height: 130px;
+	padding: 28px 0;
 
 
 	margin: 0 auto;
-	padding: 28px;
 	text-align: center;
 	/*border: 1px solid red;
 	box-sizing: border-box;*/
