@@ -11,6 +11,7 @@
   <script>
     $(function () {
 
+
       // Slideshow 1
       $("#slides1").responsiveSlides({
         auto: false,
@@ -19,6 +20,15 @@
         fade: 500,
         maxwidth: 800
       });
+
+      $("#slides2").responsiveSlides({
+        auto: false,
+        pagination: true,
+        nav: true,
+        fade: 500,
+        maxwidth: 800
+      });
+
 
     });
   </script>
@@ -66,7 +76,7 @@
         </p>
 
       </div>
-      <ul id="slides1" class="rslides">
+      <ul id="slides2" class="rslides">
         <li>
           <img src="img/block1.jpg" alt="" />
           <p class="caption">Donec id elit non mi porta gravida at eget metus.</p>
