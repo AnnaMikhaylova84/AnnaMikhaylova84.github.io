@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>ResponsiveSlides.js &middot; With captions</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="responsiveslides.css" />
+  <link rel="stylesheet" href="themes_2.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script>
+    $(function () {
+
+      // Slideshow 1
+      $("#slides1").responsiveSlides({
+        auto: false,
+        pagination: true,
+        nav: true,
+        fade: 500,
+        maxwidth: 800
+      });
+
+    });
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+		<div class="wrapper">
+
+    <h1>With captions</h1>
+
+<!-- _________________В первом блоке все слайдеры работают - переключаются___ -->
+    <div class="rslides_container">
+      <ul id="slides1" class="rslides">
+        <li>
+          <img src="img/1.jpg" alt="" />
+          <p class="caption">Donec id elit non mi porta gravida at eget metus.</p>
+        </li>
+        <li>
+          <img src="img/2.jpg" alt="" />
+          <p class="caption">Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </li>
+        <li>
+          <img src="img/3.jpg" alt="" />
+          <p class="caption">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+        </li>
+      </ul>
+		</div>
+
+		</div>
+
+<!-- _____Во втором таком же блоке слайдеры НЕ работают - НЕ переключаются__ -->
+    <div class="rslides_container">
+      <ul id="slides1" class="rslides">
+        <li>
+          <img src="img/block1.jpg" alt="" />
+          <p class="caption">Donec id elit non mi porta gravida at eget metus.</p>
+        </li>
+        <li>
+          <img src="img/block2.jpg" alt="" />
+          <p class="caption">Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </li>
+        <li>
+          <img src="img/block3.jpg" alt="" />
+          <p class="caption">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+        </li>
+      </ul>
+    </div>
+
+    <a href="http://responsiveslides.com/">View ResponsiveSlides.js documentation</a>
+
+<!-- __________блок с финального проекта_____________ -->
+
+
+	<div class="steps">
+		<div class="steps__title">
+			<p class="steps__title__text">
+				How Urlaubsglück works?
+			</p>
+		</div>
+
+		<div class="steps__all">
+
+			<section class="steps__first">
+				<div class="steps__arrow">
+					<img class="steps__arrow__left arrow__left--first" src="img/arrow_left.png" alt="" />
+					<img class="steps__arrow__right arrow__right--first" src="img/arrow_right.png" alt="" />
+				</div>
+				<div class="steps__first__name clearfix">
+					<p class="steps__first__name__one">step 1</p>
+				</div>
+				<div class="steps__first__title">
+					<p class="steps__first__title__one">Sed leo enim,<br>condimentum</p>
+				</div>
+				<div class="steps__first__text">
+					<p class="steps__first__text__one">Quisque libero libero, dictum
+						non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+						facilisis.</p>
+				</div>
+			</section> <!-- steps__first -->
+
+			<section class="steps__second">
+				<div class="steps__arrow">
+					<img class="steps__arrow__left arrow__left--second" src="img/arrow_left.png" alt="" />
+					<img class="steps__arrow__right arrow__right--second" src="img/arrow_right.png" alt="" />
+				</div>
+				<div class="steps__second__name clearfix">
+					<p class="steps__second__name__two">step 2</p>
+				</div>
+				<div class="steps__second__title">
+					<p class="steps__second__title__two">Morbi velit risus</p>
+				</div>
+				<div class="steps__second__text">
+					<p class="steps__second__text__two">Nulla venenatis tempor dui in
+						molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+				</div>
+			</section> <!-- steps__second -->
+
+			<section class="steps__third">
+				<div class="steps__arrow">
+					<img class="steps__arrow__left arrow__left--third" src="img/arrow_left.png" alt="" />
+					<img class="steps__arrow__right arrow__right--third" src="img/arrow_right.png" alt="" />
+				</div>
+				<div class="steps__third__name clearfix">
+					<p class="steps__third__name__three">step 3</p>
+				</div>
+				<div class="steps__third__title">
+					<p class="steps__third__title__three">Sed leo enim,<br>
+						condimentum</p>
+				</div>
+				<div class="steps__third__text">
+					<p class="steps__third__text__three">Quisque libero libero, dictum
+						non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+						facilisis.</p>
+				</div>
+			</section>  <!-- steps__third -->
+
+		</div>  <!-- steps__all -->
+
+	</div>  <!-- steps -->
+
+
+</div>
+
+
+
+</body>
+</html>
