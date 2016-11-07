@@ -183,6 +183,19 @@ a {
 /*-----------------------------------------------------------------------------*/
 
 
+.name {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid grey;
+  color: red;
+  /*width: 200px;*/
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+}
+
 
 .steps {
 	display: block;
@@ -387,7 +400,7 @@ a {
 	}
 
 	.steps__title__text {
-		margin: 97px 0 16px 0;
+		margin: 40px 0 16px 0;
 		padding: 0 0px 0 0;
 	  letter-spacing: 0.7px;
 	}
