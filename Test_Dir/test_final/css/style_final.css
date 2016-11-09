@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
 	font-family: "MontserratBold";
 	src: url("../fonts/Montserrat-Bold.ttf") format("ttf");
 	font-style: normal;
@@ -230,7 +230,7 @@
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("img/111.png") no-repeat left top;
+  background: transparent url("../img/111.png") no-repeat left top;
   /*margin-top: -45px;*/
   /*border: 1px solid black;*/
   }
