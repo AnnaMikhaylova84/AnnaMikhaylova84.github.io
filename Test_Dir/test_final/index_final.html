@@ -11,13 +11,31 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="js/jquery-3.1.0.min.js"></script>
 		<script src="js/responsiveslides.min.js"></script>
-		<script src="js/script_slides.js">
+		<script src="js/script_slides.js"></script>
 
-		</script>
+<script type="text/javascript">$(window).on('load', function () {
+	var $preloader = $('#cssload-pgloading'),
+	$svg_anm   = $preloader.find('.cssload-bokeh');
+	$svg_anm.delay(1000).fadeOut('slow');
+	$preloader.delay(1000).fadeOut('slow');
+});</script>
 
 	</head>
 	<body>
+
+		<div id="cssload-pgloading">
+			<div class="cssload-loadingwrap">
+				<ul class="cssload-bokeh">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+
 		<div class="wrapper">
+
 
 			<div class="head">
 				<div class="head__container">
