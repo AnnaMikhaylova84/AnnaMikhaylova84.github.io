@@ -513,6 +513,7 @@ h1.steak_house_reservation_colortext {
 	font-size: 14px;
 	line-height: 2;
 	letter-spacing: 0.3px;
+	/*z-index: 5;*/
 }
 
 .reclame_working_hours_left_pic {
@@ -526,7 +527,7 @@ h1.steak_house_reservation_colortext {
 .reclame_working_hours_right_pic {
 	overflow: hidden;
 	float: right;
-	width: 600px;
+	width: 580px;
 	margin-top: -200px;
 }
 
@@ -882,4 +883,79 @@ transition-duration: 1s;
 /*transition-timing-function: lianer;*/
 /*transition-timing-function: ease-in;*/
 
+}
+
+.footer {
+	display: block;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+.footer_menu {
+	display: block;
+	width: 100%;
+	/*height: 120px;*/
+	margin: 0 auto;
+	padding: 50px 0;
+	list-style: none;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 14px;
+}
+
+.footer_menu_li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+.footer_menu_li a {
+	color: #2d2d2d;
+	text-decoration: none;
+	padding: 13px;
+}
+
+.footer_menu_li:hover a {
+	color: #e6540b;
+	transition: .5s;
+}
+
+/*.footer_menu_li-active {
+  display: inline-block;
+}*/
+
+/*.footer_menu-active_link {
+	padding: 7px 13px;
+	text-decoration: none;
+	color: #fff;
+  background-color: #82263f ;
+  border: 2px solid #fff;
+	box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 #ccc;
+}*/
+
+/*.footer_menu-active_link:hover {
+	background-color: #000 ;
+	transition: .5s;
+}*/
+
+.footer_line {
+	display: block;
+	margin: 0 auto;
+	border-top: 1px solid #d1d1d1;
+	width: 100px;
+}
+
+.footer_copyright {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 0 35px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 }
