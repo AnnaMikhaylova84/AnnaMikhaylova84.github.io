@@ -22,20 +22,20 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
   jQuery('.fadeInUp').addClass('hidden').viewportChecker({
    classToAdd: 'visible animated fadeInUp',
-   offset: 50
+   offset: 100
   });
 });
 
 jQuery(document).ready(function() {
   jQuery('.zoomInUp').addClass('hidden').viewportChecker({
    classToAdd: 'visible animated zoomInUp',
-   offset: 50
+   offset: 100
   });
 });
 
 jQuery(document).ready(function() {
   jQuery('.zoomInDown').addClass('hidden').viewportChecker({
    classToAdd: 'visible animated zoomInDown',
-   offset: 50
+   offset: 100
   });
 });
