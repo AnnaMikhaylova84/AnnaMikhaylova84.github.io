@@ -456,10 +456,15 @@ hr.header_welcome_line:after {
 	font-weight: bolder;
 }
 
-.welcome_nav li{
+.welcome_nav_li {
 	display: inline-block;
 	margin: 25px;
 	cursor: pointer;
+}
+
+.welcome_nav_li:hover {
+	opacity: 0.6;
+	transition: 0.5s;
 }
 
 .welcome_nav a {
@@ -469,11 +474,6 @@ hr.header_welcome_line:after {
 
 .welcome_nav p {
 	margin-top: 18px;
-}
-
-.welcome_nav_li:hover {
-	opacity: 0.6;
-	transition: 0.5s;
 }
 
 .steak_house {
@@ -784,7 +784,7 @@ h1.steak_house_reservation_colortext {
 	overflow: hidden;
 	float: right;
 	width: 580px;
-	margin: -265px -63px 0 0;
+	margin: -265px -127px 0 0;
 }
 
 .reclame_info {
@@ -968,6 +968,7 @@ h1.steak_house_reservation_colortext {
 	background-color: #faf8ea;
 	width: 100%;
 	height: 1300px;
+	overflow: hidden;
 }
 
 .menu_block {
@@ -976,7 +977,7 @@ h1.steak_house_reservation_colortext {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .menu_block_title {
@@ -1052,6 +1053,7 @@ h1.steak_house_reservation_colortext {
 	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
+	margin: 0 0 40px;
 	/*cursor: pointer;*/
 }
 
@@ -1096,7 +1098,7 @@ h1.steak_house_reservation_colortext {
 	width: 190px;
   margin-top: -175px;
   left: 85.9%;
-	overflow: hidden;
+	/*overflow: hidden;*/
   z-index: 0;
 }
 
@@ -1150,6 +1152,7 @@ transition-duration: 1s;
 	/*position: relative;*/
 	width: 100%;
 	height: 710px;
+	overflow: hidden;
 }
 
 .location_map {
@@ -1278,6 +1281,7 @@ transition-duration: 1s;
 	color: #000;
 	border: 2px solid #000;
 	transition-duration: 1s;
+	cursor: pointer;
 }
 
 
@@ -1450,7 +1454,7 @@ transition-duration: 1s;
 	 }
 
 	 .reclame_working_hours_right_pic {
-    margin: -285px -150px 0 0
+    margin: -285px -210px 0 0
 		}
 
 	 .reclame_info_about {
@@ -1509,7 +1513,7 @@ transition-duration: 1s;
 	 }
 
 	 .reclame_working_hours_right_pic {
-		margin: -285px -150px 0 0
+		margin: -285px -260px 0 0
 	 }
 
 }
@@ -1649,6 +1653,7 @@ transition-duration: 1s;
 	}
 	.menu {
 		height: auto;
+
 	}
 
 }
