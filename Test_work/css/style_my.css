@@ -1457,6 +1457,10 @@ transition-duration: 1s;
 	 	max-width: 1199px;     /* <-- CHANGE */
 	 }
 
+	 .menu {
+		 height: auto;
+	 }
+
 	 .menu_block {
 	 	max-width: 1199px;     /* <-- CHANGE */
 	 }
@@ -1643,6 +1647,8 @@ transition-duration: 1s;
 		text-align: center;
 		/*clear: both;*/
 	}
-
+	.menu {
+		height: auto;
+	}
 
 }
