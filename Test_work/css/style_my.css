@@ -7,16 +7,16 @@ body {
 .wrapper {
 	display: block;
 	width: 100%;
-	height: 2000px;
+	/*height: 2000px;*/
 	margin: 0 auto;
 }
 
 header {
 	display: block;
-	background-size: cover;
-	height: 750px;
+	height: auto;
 	background-image: url("../img/header_bg.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -32,6 +32,19 @@ header {
 	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
 	z-index: 1000;
 }
+.header_fix__container {
+	display: none;
+}
+/*---------------------*/
+
+/*.header_fix__container {
+	display: none;
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #e542e5;
+	height: 100%;
+}
 
 .header_menu_left,
 .header_menu_right {
@@ -43,11 +56,11 @@ header {
 	font-weight: bolder;
 }
 .header_menu_left {
-	margin-left: 180px;
+	margin-left: 9%;
 }
 
 .header_menu_right {
-	margin-left: 135px;
+	margin-left: 11%;
 }
 
 .header_menu_li {
@@ -88,7 +101,7 @@ header {
 }
 
 .header_logo_link {
-	/*display: inline-block;*/
+	display: inline-block;
 	margin: 4px 0 0 -36px;
 	left: 50%;
 	position: absolute;
@@ -100,20 +113,249 @@ header {
 }
 
 .header_social_link {
-	float: right;
-	margin: 30px;
-	font-size: 150%;
+	display: block;
+	position: absolute;
+	top: 30px;
+  right: 2px;
+  font-size: 150%;
 }
 
 .header_social_link a{
 	color: #40579a;
 	padding: 1px;
 
+}*/
+/*---------------------*/
+
+.header_new__container {
+	display: block;
+	position: relative;
+	float: left;
+	width: 95%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.header_new__menu {
+	display: block;
+	margin: 20px auto;
+}
+
+.header_new__list {
+	display: block;
+	list-style: none;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 2;
+}
+
+.header_new__item {
+	display: block;
+	margin: 0 1%;
+	height: 29px;
+}
+
+.item--mod4 {
+	margin: 0 70px 0 1%;
+}
+
+.item--mod5 {
+	display: block;
+	position: relative;
+}
+
+.item--mod6 {
+	margin: 0 1% 0 85px;
+}
+
+.header_new__item__img {
+	display: block;
+	position: absolute;
+	width: 72px;
+	height: auto;
+	top: -16px;
+	right: -42px;
+}
+
+.header_new__logo {
+	display: none;
+}
+
+/*.header_menu_left,
+.header_menu_right {
+	margin-top: 35px;
+	list-style: none;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+}*/
+/*.header_menu_left {
+	margin-left: 9%;
+}*/
+
+/*.header_menu_right {
+	margin-left: 11%;
+}*/
+
+/*.header_menu_li {
+	display: inline-block;
+	margin-right: 20px;
+}*/
+
+.header_new__item {
+	display: inline-block;
+}
+
+
+.header_new__links {
+	display: block;
+	width: 140px;
+	position: absolute;
+	top: 30px;
+	right: -45px;
+}
+
+.header_new__links a{
+	color: #40579a;
+	padding: 1px;
+	font-size: 150%;
+}
+
+.header_new__dropmenu {
+	display: none;
+}
+
+.header_new__dropmenu__link {
+	color: #2d2d2d;
+}
+
+.header_menu_li a {
+	color: #2d2d2d;
+	text-decoration: none;
+	padding: 13px;
+}
+
+/*.header_menu_li:hover a {
+	color: #e6540b;
+	transition: .5s;
+}*/
+
+.header_new__item:hover  {
+	color: #e6540b;
+	transition: .5s;
+	cursor: pointer;
+}
+
+/*.header_menu_li-active {
+  display: inline-block;
+}*/
+
+.item--mod3 {
+	padding: 2px 13px;
+	height: 35px;
+	text-decoration: none;
+	color: #fff;
+  background-color: #82263f ;
+  border: 2px solid #fff;
+	box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 #ccc;
+}
+
+.item--mod3:hover {
+	background-color: #000;
+	color: #fff;
+	transition: .5s;
+}
+
+/*.header_menu-active_link:hover {
+	background-color: #000 ;
+	transition: .5s;
+}*/
+
+.header_logo_link {
+	/*display: inline-block;*/
+	margin: 4px 0 0 -36px;
+	left: 50%;
+	position: absolute;
+}
+
+.header_logo_link img {
+	width: 72px;
+	height: auto;
+}
+/*---------------------*/
+.fa-bars {
+	display: block;
+	/*position: absolute;*/
+  /*right: 240px;*/
+}
+
+.header_new__dropdown {
+	display: none;
+	position: fixed;
+	float: right;
+	top: 0;
+	right: 0;
+	width: 280px;
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.header_new__dropname {
+	display: block;
+	font-family: 'Old Standard TT', serif;
+	font-size: 24px;
+	text-align: left;
+	margin: 25px 0 0 25px;
+	color: #ccc;
+}
+
+.fa-times {
+	display: block;
+	float: right;
+	position: relative;
+	top: -30px;
+	right: 15px;
+	color: #e6540b;
+}
+
+.header_new__droplist {
+	display: block;
+	text-transform: uppercase;
+}
+
+.header_new__dropitem {
+	display: block;
+	margin: 25px 25px;
+}
+
+.header_new__droplink {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.header_new__droplink:hover,
+.header_new__droplink:active {
+	color: #e6540b;
+	transition: .5s;
+	cursor: pointer;
 }
 
 .header_welcome {
 	margin: 0 auto;
-	width: 1230px;
+	width: 100%;
 	height: 710px;
 	/*clear: both;
 	overflow: hidden;*/
@@ -121,7 +363,9 @@ header {
 
 .header_welcome_info {
 	padding-top: 240px;
+	margin: 0 auto;
 	width: 100%;
+	max-width: 1200px;
 	height: auto;
 	text-align: center;
 }
@@ -251,7 +495,7 @@ hr.header_welcome_line:after {
 .steak_house_block {
 	margin: 0 auto;
 	padding-top: 140px;
-	width: 1230px;
+	max-width: 1200px;
 	text-align: center;
 	/*clear: both;*/
 }
@@ -283,7 +527,8 @@ hr.steak_house_reservation_line {
 	margin: 0 auto;
 	padding-top: 55px;
 	font-family: 'Open Sans', sans-serif;
-	width: 850px;
+	width: 80%;
+	max-width: 850px;
 	color: #444;
 	line-height: 2;
 }
@@ -294,7 +539,7 @@ hr.steak_house_reservation_line {
 
 .steak_house_reservation {
 	margin: 0 auto;
-	width: 1230px;
+	max-width: 1200px;
 	padding-top: 80px;
 	color: #fff;
 	text-align: center;
@@ -487,6 +732,13 @@ h1.steak_house_reservation_colortext {
 	height: 550px;
 	background-color: #fff;
 	text-align: center;
+	overflow: hidden;
+}
+
+.reclame_working_hours_info {
+	display: block;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 
 .reclame_working_hours_title {
@@ -519,30 +771,32 @@ h1.steak_house_reservation_colortext {
 }
 
 .reclame_working_hours_left_pic {
+	display: block;
 	float: left;
 	position: absolute;
 	z-index: 1;
-	margin-top: -145px;
-	margin-left: -225px;
+	margin: 0 0 0 -225px;
+	/*margin-left: -225px;*/
 }
 
 .reclame_working_hours_right_pic {
+	display: block;
 	overflow: hidden;
 	float: right;
 	width: 580px;
-	margin-top: -200px;
+	margin: -265px -63px 0 0;
 }
 
 .reclame_info {
 	display: block;
 	width: 100%;
-	height: 1840px;
+	height: 100%;
 }
 
 .reclame_info_about {
 	display: block;
 	margin: 150px auto;
-	max-width: 1230px;
+	max-width: 1200px;
 	/*height: 600px;*/
 	background-color: #fff;
 }
@@ -565,6 +819,7 @@ h1.steak_house_reservation_colortext {
 	display: inline-block;
 	float: left;
 	width: 35%;
+	overflow: hidden;
 }
 
 .reclame_info_about_experience_text,
@@ -717,9 +972,11 @@ h1.steak_house_reservation_colortext {
 
 .menu_block {
 	display: block;
+	position: relative;
 	width: 100%;
-	max-width: 1230px;
+	max-width: 1200px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .menu_block_title {
@@ -853,13 +1110,14 @@ h1.steak_house_reservation_colortext {
 	display: block;
 	margin: 0 auto 50px auto;
 	width: 100%;
-	max-width: 1230px;
+	max-width: 1200px;
 
 }
 
 .send_block_ul {
 	display: block;
-	width: 850px;
+	width: 70%;
+	max-width: 850px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -923,6 +1181,12 @@ transition-duration: 1s;
 	background: rgba(210,114,68,0.8);
 	color: #fff;
 	/*z-index: 2;*/
+}
+
+.location_block__container {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .location_block_title {
@@ -993,8 +1257,9 @@ transition-duration: 1s;
 }
 
 .location_block_contact input {
-	width: 378px;
+	width: 62%;
 	height: 45px;
+	padding: 0 15px 0 15px;
 }
 
 .location_block_contact_btn {
@@ -1082,6 +1347,12 @@ transition-duration: 1s;
 	text-align: center;
 }
 
+.footer__container {
+	display: block;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
 .footer_menu {
 	display: block;
 	width: 100%;
@@ -1128,4 +1399,250 @@ transition-duration: 1s;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+}
+ @media screen and (max-width: 1199px) and (min-width: 961px) {
+
+	 .header_new__container {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .header_social_link {
+		 display: none;
+	 }
+
+	 .header_welcome {
+	 	height: auto;     /* <-- CHANGE */
+	 }
+
+	 .header_welcome_info {
+	 	padding-top: 140px;    /* <-- CHANGE */
+		max-width: 1199px;     /* <-- CHANGE */
+	 	height: auto;    /* <-- CHANGE */
+	 }
+
+	 .welcome_nav {
+	   margin: 0 auto 30px;     /* <-- CHANGE */
+	 }
+
+	 .steak_house_block {
+	 	padding-top: 50px;     /* <-- CHANGE */
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .steak_house_reservation {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .reclame_working_hours {
+	 	height: 430px;      /* <-- CHANGE */
+	 }
+
+	 .reclame_working_hours_info {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .reclame_working_hours_title {
+	 	margin: 100px auto 10px auto;    /* <-- CHANGE */
+	 }
+
+	 .reclame_working_hours_left_pic {
+	 	margin-top: -90px;    /* <-- CHANGE */
+	 }
+
+	 .reclame_working_hours_right_pic {
+    margin: -285px -150px 0 0
+		}
+
+	 .reclame_info_about {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .menu_block {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .menu_block_title {
+	 	padding-top: 80px;     /* <-- CHANGE */
+	 }
+
+	 .menu_block_proposition_left,
+	 .menu_block_proposition_center,
+	 .menu_block_proposition_right {
+	 	margin-top: 80px;    /* <-- CHANGE */
+	 }
+
+	 .menu_block_proposition_left img,
+	 .menu_block_proposition_center img,
+	 .menu_block_proposition_right img {
+	   width: 85%;      /* <-- CHANGE */
+	 }
+
+	 .menu_block_proposition_pic {
+	   margin-top: -104px;    /* <-- CHANGE */
+	 }
+
+	 .send_block {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .location_block__container {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+	 .footer__container {
+	 	max-width: 1199px;     /* <-- CHANGE */
+	 }
+
+ }
+
+@media screen and (max-width: 1050px) and (min-width: 961px) {
+	 .location_block_contact input {
+		 width: 60%;
+	 }
+
+	 .reclame_working_hours_left_pic {
+		 display: none;
+	 }
+
+	 .reclame_working_hours_right_pic {
+		margin: -285px -150px 0 0
+	 }
+
+}
+
+@media screen and (max-width: 988px) and (min-width: 961px) {
+	 .reclame_info_about_special_pic_call {
+		 width: 45%;
+	 }
+
+	 .reclame_info_about_special_pic_call p {
+		 padding: 16px 25px;
+	 }
+ }
+
+@media screen and (max-width: 984px) and (min-width: 961px) {
+	 .line--mod {
+		 margin-top: 47px;
+	 }
+	 .price_li--mod {
+		 margin: -98px 0 0 0;
+	 }
+}
+
+@media screen and (max-width: 1069px) and (min-width: 961px) {
+
+	 .header_new__item {
+		 display: none;
+	 }
+
+	 .header_new__logo {
+		 display: block;
+	 }
+
+	 .header_new__img {
+		 display: block;
+		 width: 72px;
+		 height: 72px;
+		 margin: -16px 50%;
+	 }
+
+	 .header_new__links {
+			left: 30px;
+	 }
+
+	 .header_new__dropmenu {
+		 display: block;
+		 float: right;
+		 margin: -37px -28px 0 0;
+	 }
+
+	 .fa-bars {
+		 display: block;
+		 cursor: pointer;
+	 }
+
+	 .header_new__dropmenu:active .header_new__dropdown {
+		 display: block;
+	 }
+	 .header_new__dropmenu:active .fa-bars {
+		 position: absolute;
+		 right: 240px;
+	 }
+	 /*.header_new__dropdown {
+		 display: none;
+	 }*/
+
+}
+
+@media screen and (max-width: 960px) and (min-width: 769px) {
+
+	.header_welcome_info {
+		padding-top: 165px;
+	}
+
+
+	.header_new__item {
+		display: none;
+	}
+
+	.header_new__logo {
+		display: block;
+	}
+
+	.header_new__img {
+		display: block;
+		width: 72px;
+		height: 72px;
+		margin: -16px 50%;
+	}
+
+	.header_new__links {
+		 left: 30px;
+	}
+
+
+
+	.header_new__dropmenu {
+		display: block;
+		float: right;
+		margin: -37px -28px 0 0;
+	}
+
+	.fa-bars {
+		display: block;
+		cursor: pointer;
+	}
+
+	.header_new__dropmenu:active .header_new__dropdown {
+		display: block;
+	}
+	.header_new__dropmenu:active .fa-bars {
+		position: absolute;
+		right: 240px;
+	}
+	/*.header_new__dropdown {
+		display: none;
+	}*/
+
+	.header_welcome {
+    height: auto;
+	}
+
+	.welcome_nav a {
+    font-size: 200%;
+	}
+
+	.welcome_nav li {
+    margin: 25px 25px 60px;
+	}
+
+	.steak_house_block {
+		margin: 0 auto;
+		padding-top: 40px;     /* <-- CHANGE */
+		max-width: 1199px;     /* <-- CHANGE */
+		text-align: center;
+		/*clear: both;*/
+	}
+
+
 }
