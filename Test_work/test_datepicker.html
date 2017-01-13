@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="shortcut icon" href="img/favicon_date.png">
+  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+  <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <!-- <script type="text/javascript">document.write(new Date())</script> -->
+  <script type="text/javascript">
+// var ld = new Date();
+document.write (new Date().toLocaleDateString());
+</script>
+  <script>
+
+  $( function (){
+
+    $( "#datepicker" ).datepicker({
+
+      // altField: 'actualDate',
+      dateFormat: 'dd/mm/yy',
+      duration: 'slow',
+      maxDate: '+6m',
+      minDate: '0d',
+      // beforeShow:
+        // document.write (new Date().toLocaleDateString());
+    });
+
+  } );
+  </script>
+  <style>
+    body {
+      background-color: #116e64;
+    }
+    .my__calendar {
+      width: 50%;
+      height: auto;
+      margin: 50px auto;
+    }
+    .my__calendar label {
+      font-family: sans-serif;
+      font-size: 35px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .my__calendar input {
+      display: block;
+      float: right;
+      padding: 0 15px;
+      font-size: 25px;
+      width: 35%;
+      height: 40px;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+
+<br>
+<br>
+<br>
+<br>
+<div class="my__calendar">
+  <label for="datepicker">What date is it today?<input class="ui-datepicker-today" type="text" id="datepicker" name="calendar" value=""></label>
+
+</div>
+
+</body>
+</html>

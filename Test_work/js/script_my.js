@@ -39,3 +39,15 @@ jQuery(document).ready(function() {
    offset: 100
   });
 });
+
+$( function() {
+  $( "#datepicker" ).datepicker({
+    // altField: 'toLocaleDateString()',
+    dateFormat: 'dd/mm/yy',
+    duration: 'slow',
+    maxDate: '+6m',
+    minDate: '0d',
+    
+  });
+
+} );
