@@ -7,7 +7,7 @@
 var dropElem = document.getElementById('dropmenu');
 // console.log('dropElem', dropElem);
 var wrapper = document.getElementById('wrapper');
-console.log('wrapper', wrapper);
+// console.log('wrapper', wrapper);
   var titleElem = dropElem.querySelector('.droplink');
   // console.log('titleElem', titleElem);
   var dropDown = dropElem.querySelector('.header_new__dropdown');
