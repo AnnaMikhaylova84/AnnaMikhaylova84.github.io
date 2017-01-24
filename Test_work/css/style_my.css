@@ -26,8 +26,14 @@ body {
 
 .wrapper {
 	display: block;
+	position: relative;    /*   <<-----  */
 	width: 100%;
 	margin: 0 auto;
+	right: 0;    /*   <<-----   */
+	transition: all .3s ease-in-out;     /*   <<-----  */
+}
+.wrapper.open {
+	right: 280px;
 }
 
 header {
@@ -159,14 +165,6 @@ header {
 	cursor: pointer;
 }
 
-/*.header_new__dropmenu:active .header_new__dropdown {
-	display: block;
-}*/
-/*.header_new__dropmenu:active .fa-bars {
-	position: absolute;
-	right: 240px;
-}*/
-
 .header_menu_li a {
 	color: #2d2d2d;
 	text-decoration: none;
@@ -212,21 +210,22 @@ header {
 }
 
 .header_new__dropdown {
-	display: none;
+	display: block;   /*  <<---  */
 	position: fixed;
 	float: right;
 	top: 0;
 	right: 0;
-	width: 280px;
+	width: 0;    /*  <<---  */
 	height: 100%;
 	background-color: #000;
 	color: #fff;
-	transition: .5s;
+	transition: width .3s ease-out;   /*   <<-----  */
 	overflow: hidden;
 }
 
 .header_new__dropdown.open {
-	display: block;
+	/*display: block;*/
+	width: 280px;
 }
 
 .header_new__dropname {
@@ -236,6 +235,8 @@ header {
 	text-align: left;
 	margin: 25px 0 0 25px;
 	color: #ccc;
+	width: auto;
+	min-width: 280px;
 }
 
 .fa-times {
@@ -251,6 +252,8 @@ header {
 .header_new__droplist {
 	display: block;
 	text-transform: uppercase;
+	width: 100%;    /*   <<-----  */
+	min-width: 280px;    /*   <<-----  */
 }
 
 .header_new__dropitem {
@@ -263,12 +266,12 @@ header {
 	color: #fff;
 	font-size: 15px;
 	font-weight: 600;
+	transition: .4s ease-in-out;
 }
 
 .header_new__droplink:hover,
 .header_new__droplink:active {
 	color: #e6540b;
-	transition: .5s;
 	cursor: pointer;
 }
 
@@ -509,6 +512,16 @@ h1.steak_house_reservation_colortext {
 .steak_house_reservation_form_am {
 	display: inline-block;
 }
+
+.steak_house_reservation_form_hour,
+.steak_house_reservation_form_minute {
+	margin: 0 35px 0 0;
+}
+
+.steak_house_reservation_form_am {
+	margin: 0 0 0 0;
+}
+
 .steak_house_reservation_form_hour select,
 .steak_house_reservation_form_minute select,
 .steak_house_reservation_form_am select {
@@ -527,6 +540,12 @@ h1.steak_house_reservation_colortext {
 	text-align: left;
 	font-weight: bolder;
 }
+
+.steak_house_reservation_form_second hr.header_welcome_line {
+	width: 90%;
+}
+
+
 
 .steak_house_reservation_form_second_block {
 	margin-top: 30px;
@@ -1503,7 +1522,6 @@ textarea {
 
 @media screen and (max-width: 960px) and (min-width: 769px) {
 
-
 	.header_new__container {
 		float: none;
 		max-width: 960px;
@@ -1565,7 +1583,6 @@ textarea {
     font-size: 200%;
 	}
 
-
 	.steak_house_block {
 		margin: 0 auto;
 		padding-top: 40px;     /* <-- CHANGE */
@@ -1612,6 +1629,11 @@ textarea {
 	.steak_house_reservation_form_minute,
 	.steak_house_reservation_form_am {
     width: 32%;
+	}
+
+	.steak_house_reservation_form_hour,
+	.steak_house_reservation_form_minute {
+    margin: 0;
 	}
 
 	.steak_house_reservation_form_hour select,
@@ -2396,6 +2418,10 @@ textarea {
 
 	 .location {
 	 	height: 1000px;
+	 }
+
+	 .location_map_pic {
+		 height: 1000px;
 	 }
 
 	 .location_block {
