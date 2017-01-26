@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light" rel="stylesheet">
 		<!-- <link rel="stylesheet" href="css/animate.css"> -->
-		<link rel="stylesheet" href="css/preloader_style.css" media="screen" title="no title">
+		<!-- <link rel="stylesheet" href="css/preloader_style.css" media="screen" title="no title"> -->
 		<link rel="stylesheet" href="css/jquery-ui.css">
 	  <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
 	  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
@@ -22,14 +22,19 @@
 			$(window).resize(function() {
 			    console.log('width_Now', $(window).width());
 
-			})
+			});
 				if ($(window).width() > 960) document.write ('<link rel="stylesheet" href="css/animate.css">');
 
 		</script>
 		<script src="js/jquery.viewportchecker.js"></script>
 		<script src="js/jquery-ui.min.js"></script>
 		<script src="js/wow.js"></script>
-		<script>new WOW().init();</script>
+		<script type="text/javascript">
+
+				if ($(window).width() > 960) document.write ('<script>new WOW().init();</scr'+'ipt>');
+
+		</script>
+		<!-- <script>new WOW().init();</script> -->
 		<script src="js/script_my.js"></script>
 
 
