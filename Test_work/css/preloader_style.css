@@ -12,7 +12,8 @@
 	position:relative;
 	width:58px;
 	height:58px;
-	margin: 300px auto;
+	margin: 0 auto;
+	top: 45%;
 }
 
 #circularG .circularG{
