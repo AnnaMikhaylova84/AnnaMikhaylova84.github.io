@@ -501,6 +501,12 @@ h1.steak_house_reservation_colortext {
 	margin: 0 0 0 0;
 }
 
+.select_style {          /* <----- ADD CHANGE */
+	margin: 10px 0 0 0;          /* <----- ADD CHANGE */
+	width: 210px;                /* <----- ADD CHANGE */
+	text-align: center;           /* <----- ADD CHANGE */
+}
+
 .steak_house_reservation_form_hour select,
 .steak_house_reservation_form_minute select,
 .steak_house_reservation_form_am select {
@@ -578,6 +584,14 @@ h1.steak_house_reservation_colortext {
 .steak_house_reservation_form_third_block {
 	margin: 30px 0;
 }
+
+.select_lunch {          /* <----- ADD CHANGE */
+	display: inline-block;      /* <----- ADD CHANGE */
+	width: 460px;          /* <----- ADD CHANGE */
+	margin: 0 0 0 115px;          /* <----- ADD CHANGE */
+	text-align: center;          /* <----- ADD CHANGE */
+}
+
 
 .steak_house_reservation_form_third_block select {
 	margin-left: 129px;
@@ -1591,6 +1605,7 @@ textarea {
     margin: 0;
 	}
 
+	.select_style,           /* <----- ADD CHANGE */
 	.steak_house_reservation_form_hour select,
 	.steak_house_reservation_form_minute select,
 	.steak_house_reservation_form_am select {
@@ -1628,6 +1643,11 @@ textarea {
 		margin: 30px auto 0;
 		width: 65%;
 	}
+
+		.select_lunch {         /* <----- ADD CHANGE */
+			margin: 0 0 0 40px;      /* <----- ADD CHANGE */
+			width: 60%;      /* <----- ADD CHANGE */
+		}
 
 	.steak_house_reservation_form_third_block select {
     margin-left: 0;
@@ -1891,6 +1911,13 @@ textarea {
 		width: 100%;
 		height: auto;
 	}
+
+	.select_style{      /* <----- ADD CHANGE */
+		margin: 10px 0 25px 0;      /* <----- ADD CHANGE */
+		width: 100%;      /* <----- ADD CHANGE */
+		max-width: 607px;      /* <----- ADD CHANGE */
+	}
+
 	.steak_house_reservation_form_hour select,
 	.steak_house_reservation_form_minute select,
 	.steak_house_reservation_form_am select {
@@ -1936,6 +1963,11 @@ textarea {
 	.steak_house_reservation_form_third_block {
 		margin: 30px auto;
 		width: 95%;
+	}
+
+	.select_lunch {      /* <----- ADD CHANGE */
+		margin: 10px 0 0 0;
+		width: 100%;
 	}
 
 	.steak_house_reservation_form_third_block select {

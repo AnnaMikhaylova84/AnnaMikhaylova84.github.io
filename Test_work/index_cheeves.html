@@ -34,10 +34,17 @@
 				if ($(window).width() > 960) document.write ('<script>new WOW().init();</scr'+'ipt>');
 
 		</script>
-		<!-- <script>new WOW().init();</script> -->
 		<script src="js/script_my.js"></script>
+		<link href="css/jquery.formstyler.css" rel="stylesheet" />
+		<script src="js/jquery.formstyler.min.js"></script>
+		<script type="text/javascript">
+				(function($) {
+					$(function() {
+						$('select').styler();
 
-
+					});
+				})(jQuery);
+		</script>
 
 	</head>
 	<body>
@@ -184,43 +191,49 @@
 							</div>
 							<div class="steak_house_reservation_form_hour">
 								<label for="hour">Hour:<br>
-									<select name="hour">
-										<option value="Select">Select</option>
-										<option selected="selected" value="01">01</option>
-										<option value="02">02</option>
-										<option value="03">03</option>
-										<option value="04">04</option>
-										<option value="05">05</option>
-										<option value="06">06</option>
-										<option value="07">07</option>
-										<option value="08">08</option>
-										<option value="09">09</option>
-										<option value="10">10</option>
-										<option value="11">11</option>
-										<option value="12">12</option>
-									</select>
+									<div class="select_style">
+											<select name="hour">
+												<option value="Select">Select</option>
+												<option selected="selected" value="01">01</option>
+												<option value="02">02</option>
+												<option value="03">03</option>
+												<option value="04">04</option>
+												<option value="05">05</option>
+												<option value="06">06</option>
+												<option value="07">07</option>
+												<option value="08">08</option>
+												<option value="09">09</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+											</select>
+									</div>
 								</label>
 							</div>
 
 							<div class="steak_house_reservation_form_minute">
 								<label for="minute">Minute:<br>
-									<select class="" name="minute">
-										<option value="Select">Select</option>
-										<option selected="selected" value="00">00</option>
-										<option value="15">15</option>
-										<option value="30">30</option>
-										<option value="45">45</option>
-									</select>
+									<div class="select_style">
+										<select class="" name="minute">
+											<option value="Select">Select</option>
+											<option selected="selected" value="00">00</option>
+											<option value="15">15</option>
+											<option value="30">30</option>
+											<option value="45">45</option>
+										</select>
+									</div>
 								</label>
 							</div>
 
 							<div class="steak_house_reservation_form_am">
 								<label for="am/pm">AM/PM:<br>
-									<select class="" name="am/pm">
-										<option value="Select">Select</option>
-										<option selected="selected" value="AM">AM</option>
-										<option value="PM">PM</option>
-									</select>
+									<div class="select_style">
+										<select class="" name="am/pm">
+											<option value="Select">Select</option>
+											<option selected="selected" value="AM">AM</option>
+											<option value="PM">PM</option>
+										</select>
+									</div>
 								</label>
 							</div>
 
@@ -246,11 +259,13 @@
 						<div class="steak_house_reservation_form_third">
 							<div class="steak_house_reservation_form_third_block">
 								<label for="lunch">Lunch or Dinner:
-									<select class="" name="lunch">
-										<option selected="selected" value="Select">Select</option>
-										<option value="Lunch">Lunch</option>
-										<option value="Dinner">Dinner</option>
-									</select>
+									<div class="select_lunch">
+										<select class="" name="lunch">
+											<option selected="selected" value="Select">Select</option>
+											<option value="Lunch">Lunch</option>
+											<option value="Dinner">Dinner</option>
+										</select>
+									</div>
 								</label>
 							</div>
 						</div>
