@@ -51,7 +51,7 @@ header {
 	position: relative;
 	float: left;
 	width: 95%;
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	margin: 0 auto;
 	height: 100%;
 }
@@ -817,6 +817,8 @@ h1.steak_house_reservation_colortext {
 	background-color: #000;
 	float: left;
 	width: 35%;
+	max-width: 500px;
+	min-width: 462px;
 	text-align: center;
 }
 
@@ -1384,6 +1386,7 @@ textarea {
 
 	 .reclame_info_about_special_pic_call {
 	 	margin: -120px 0 0 0;
+		min-width: 0px;
 	 }
 
 	 .reclame_info_about_special_pic_call p{
@@ -1683,6 +1686,7 @@ textarea {
 
 	.reclame_info_about_special_pic_call {
 		margin: -110px 0 0 0;
+		min-width: 0px;
 	}
 
 	.reclame_info_about_special_pic_call p{
