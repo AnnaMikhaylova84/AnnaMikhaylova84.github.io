@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Module 5-6</title>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+	<style>
+		.rotate {
+			transform: rotate(45deg);
+		}
+		.glyphicon {
+			transition: all .2s ease;
+		}
+		.invisible {
+			display: none;
+		}
+	</style>
+	<div class="conteiner" style="margin: 50px auto;">
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="btn">
+				<button id="button" class="btn btn-success btn-lg" type="submit" oncontextmenu="this.style.display = 'none';">Button</button>
+			</div>
+		</div>
+		<div class="row">
+			<div id="text" class="alert alert-success" role="alert" style="margin: 15px 50px;">Some text for testing code</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+
+			</div>
+			<div class="btn-group">
+  			<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span>
+  			</button>
+			  <ul class="dropdown-menu" role="menu">
+			    <li><a href="#">Action</a></li>
+  			  <li><a href="#">Another action</a></li>
+  			  <li><a href="#">Something else here</a></li>
+  			  <li class="divider"></li>
+  			  <li><a href="#">Separated link</a></li>
+			  </ul>
+ 			</div>
+
+			<div class="btn">
+				<button class="btn btn-danger" type="submit">Button</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-4">
+						<h1 class="text-center text-nowrap text-danger"><em>Кнопка для удаления:</em></h1>
+					</div>
+					<div class="col-md-2">
+						<button class="btn btn-primary btn-info" style="margin-top: 15px;">
+							<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+						</button>
+					</div>
+				</div>
+
+				<div class="content">
+
+					<div class="pane" style="margin-bottom: 40px;">
+      			<div class="block" style="border-top: 5px solid rgb(242, 199, 5);">
+							<button class="btn btn-primary btn-info" style="float: right; margin: 2px;">
+								<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+							</button>
+							<h3 class="text-warning text-center"><strong>Лошадь</strong></h3>
+							<blockquote class="bg-warning" style="border-left: 5px solid rgb(242, 199, 5);">
+								<p><em>Домашняя лошадь</em> — животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+							</blockquote>
+      			</div>
+    			</div>
+
+    			<div class="pane" style="margin-bottom: 40px;">
+						<div class="block" style="border-top: 5px solid rgb(124, 191, 111);">
+							<button class="btn btn-primary btn-info" style="float: right; margin: 2px;">
+								<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+							</button>
+							<h3 class="text-success text-center"><strong>Осёл</strong></h3>
+							<blockquote class="bg-success" style="border-left: 5px solid rgb(124, 191, 111);">
+	  						<p><em>Домашний осёл или ишак</em> — одомашненный подвид дикого осла, сыгравший важную историческую роль в развитии хозяйства и культуры человека. Все одомашненные ослы относятся к африканским ослам.</p>
+							</blockquote>
+      			</div>
+    			</div>
+
+					<div class="pane" style="margin-bottom: 40px;">
+						<div class="block" style="border-top: 5px solid rgb(216, 156, 212);">
+							<button class="btn btn-primary btn-info" style="float: right; margin: 2px;">
+								<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+							</button>
+    			  	<h3 class="text-danger text-center"><strong>Корова</strong>, а также пара слов о диком быке, о волах и о тёлках. </h3>
+							<blockquote class="bg-danger" style="border-left: 5px solid rgb(216, 156, 212);">
+								<p><em>Коро́ва</em> — самка домашнего быка, одомашненного подвида дикого быка, парнокопытного жвачного животного семейства полорогих. Самцы вида называются быками, молодняк — телятами, кастрированные самцы — волами. Молодых (до первой стельности) самок называют тёлками.</p>
+							</blockquote>
+						</div>
+    			</div>
+
+			  </div>  <!-- content -->
+			</div>
+
+		</div> <!-- row -->
+	</div>
+	<script src="js/jquery-3.1.0.js"></script>
+	<script>
+
+		var block = document.getElementById('text'),
+		    btn = document.getElementById('button');
+
+		btn.addEventListener('mousedown', invisible);
+
+		btn.onmouseup = function () {
+					block.style.opacity = '1';
+		};
+
+		function invisible(){
+	// block.style.display = 'none';
+			block.style.opacity = '0';
+		};
+
+		var drop = document.querySelectorAll('.btn-group');
+		var dropFirst = drop[0];
+
+		dropFirst.addEventListener('click', dropDown);
+		function dropDown() {
+			dropFirst.classList.toggle('open');
+		};
+
+		var spanArr = document.querySelectorAll('span');
+
+		console.log(spanArr);
+
+		function check(event) {
+			for (j in spanArr) {
+				if (event.target == spanArr[j]) {
+					var spanRotate = spanArr[j],
+							spanBtn = spanArr[j].parentElement,
+							elem = spanBtn.parentElement.childNodes[5];
+					elem.classList.toggle('invisible');
+					spanRotate.classList.toggle('rotate');
+
+				} 
+			}
+		}
+
+		window.addEventListener('click', check);
+
+
+
+
+
+	</script>
+</body>
+</html>
