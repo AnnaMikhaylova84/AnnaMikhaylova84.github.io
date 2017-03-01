@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>my Carusel</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+
+    <style media="screen">
+      .carusel {
+        border: 2px solid rgb(64, 124, 139);
+        border-radius: 20px;
+      }
+      .btn {
+        font-size: 35px;
+        padding: 0 7px;
+        margin-top: 40px;
+      }
+      .glyphicon {
+        top: 4px;
+      }
+
+
+    </style>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>My first Bootstrap Carusel</h1>
+        <div class="row">
+          <div class="col-md-8 carusel">
+            <div class="col-md-2">
+              <button id="prev" class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-arrow-left prev" aria-hidden="true"></span></button>
+            </div>
+            <div class="col-md-8" style="overflow: hidden;">
+              <ul  id="carusel" class="list-inline" style="width: 9999px; transition: all 1s ease;">
+                <li><img src="img/smile1.png" alt="1"></li>
+                <li><img src="img/smile2.png" alt="2"></li>
+                <li><img src="img/smile3.png" alt="3"></li>
+                <li><img src="img/smile4.png" alt="4"></li>
+                <li><img src="img/smile5.png" alt="5"></li>
+                <li><img src="img/smile6.png" alt="6"></li>
+                <li><img src="img/smile7.png" alt="7"></li>
+                <li><img src="img/smile8.png" alt="8"></li>
+                <li><img src="img/smile9.png" alt="9"></li>
+                <li><img src="img/smile10.png" alt="10"></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <button id="next" class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-arrow-right next" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+        <p><a class="btn btn-essesful btn-lg" href="#" role="button">to be continued ...</a></p>
+      </div>
+    </div>
+    <script>
+      var prevImg = document.getElementById('prev').firstChild;
+      var nextImg = document.getElementById('next').firstChild;
+      prevImg.addEventListener('click', prev);
+      nextImg.addEventListener('click', next);
+      var width = 145,
+          count = 3,
+          position = 0,
+          carusel = document.getElementById('carusel'),
+          elemList = carusel.querySelectorAll('li');
+
+          console.log('carusel ', carusel);
+          console.log('elemList ', elemList);
+          console.log('elemList.length ', elemList.length);
+
+      function prev() {
+        if (event.target === prevImg) {
+          console.log('previous');
+          position = Math.min(position + width * count, 0);
+          carusel.style.marginLeft = position + 'px';
+
+        }
+
+      };
+      function next() {
+        if (event.target === nextImg) {
+          console.log('next');
+          position = Math.max(position - width * count, - width * (elemList.length - count));
+          carusel.style.marginLeft = position + 'px';
+
+        }
+
+      };
+    //   /* этот код помечает картинки, для удобства разработки */
+    //  var lis = document.getElementsByTagName('li');
+    //  for (var i = 0; i < lis.length; i++) {
+    //    lis[i].style.position = 'relative';
+    //    var span = document.createElement('span');
+    //    // обычно лучше использовать CSS-классы,
+    //    // но этот код - для удобства разработки, так что не будем трогать стили
+    //    span.style.cssText = 'position:absolute;left:0;top:0';
+    //    span.innerHTML = i + 1;
+    //    lis[i].appendChild(span);
+    //   //  console.log('span ', span);
+    //  }
+
+
+    </script>
+
+  </body>
+</html>
