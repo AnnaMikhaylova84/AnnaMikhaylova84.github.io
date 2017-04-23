@@ -1,104 +1,97 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>test_AJAX</title>
-    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <!--<script src="script.js"></script>-->
+<meta charset="utf-8">
+<title>test</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.1.0.js"></script>
+
 </head>
 <body>
+  <!-- <nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 navbar-header">
+          <a class="navbar-brand" href="#"></a>
+        </div>
 
-<script>
-var body = document.body;
-body.style.backgroundColor = '#c1c1c1';
-var wrapper = document.createElement('div');
-wrapper.className = wrapper.className + 'wrapper'; //added class
-wrapper.style.width = '1200px';
-wrapper.style.marginTop = 0;
-wrapper.style.marginBottom = 0;
-wrapper.style.marginLeft = 'auto';
-wrapper.style.marginRight = 'auto';
-body.appendChild(wrapper);
+          <form class="col-md-8 navbar-form navbar-left ">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <a type="" class="btn btn-default">Search</a>
+          </form>
+      </div>
+
+  </div>
+</nav> -->
+  <script>
+  var body = document.body;
+    // body.style.backgroundColor = '#adadad';
+    var wrapper = document.createElement('div');
+    wrapper.className = wrapper.className + 'wrapper'; //added class
+    wrapper.style.width = '1200px';
+    wrapper.style.marginTop = 0;
+    wrapper.style.marginBottom = 0;
+    wrapper.style.marginLeft = 'auto';
+    wrapper.style.marginRight = 'auto';
+    body.appendChild(wrapper);
+    var
+    // body.appendChild(wrapper);
 
 
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'jsonTest.json', false);
-xhr.onreadystatechange = function() {
-    if(xhr.readyState === 4 && xhr.status === 200) {
-        console.log(xhr.responseText);
-    }else {
-        console.log("wrong!");
+  var json = [
+    {
+      'title': 'Bugatti',
+      'img': 'img/bugatti2.jpg',
+      'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    },
+    {
+      'title': 'Ford',
+      'img': 'img/ford.jpg',
+      'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    },
+    {
+      'title': 'BMW',
+      'img': 'img/bmw.jpg',
+      'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    },
+    {
+      'title': 'Trade List',
+      'list': [
+        {'Bugatti': 2000000},
+        {'Ford': 1500000},
+        {'BMW': 2100000}
+       ]
     }
-}
-xhr.send();
-var cars = JSON.parse(xhr.responseText);
-console.log('cars', cars);
+  ];
 
-for (var i = 0; i < 8; i++){
-  var block = document.createElement('div');
-  block.classList.add('block');
-  block.style.width = '32%';
-  block.style.border = '1px solid #000';
-  block.style.margin = '5px';
-  block.style.display = 'inline-block';
-  wrapper.appendChild(block);
-  var blockKey = document.createElement('div');
-  blockKey.innerHTML += '<img src="'+ cars[i].img + '" style="width: 100%; height: 230px; margin: 0 auto;">';
-  blockKey.innerHTML += '<h2 style="text-align: center;">'+ cars[i].title + '</h2>';
-  blockKey.innerHTML += '<p style="text-align: justify; padding: 5px;">' + cars[i].description + '</p>';
-  block.appendChild(blockKey);
-}
+    var arrCars = [];
+    var i = 0;
+      while (i < 3) {
+      arrCars.push(json[i]);
+      i++;
 
-var trade = cars[8];
-console.log(typeof trade);
-console.log('trade', trade);
-
-var dataList = document.createElement('div');
-dataList.classList.add('price');
-dataList.style.width = '32%';
-// dataList.style.border = '1px solid #000';
-dataList.style.margin = '20px 5px';
-dataList.style.display = 'inline-block';
-wrapper.appendChild(dataList);
-for (key in trade) {
-  var key  = trade[key]
-  if (typeof key === 'object') {
-    console.log(key);
-    var tradeList = key;
-  } else {
-     var title = document.createElement('h2');
-     title.innerHTML = key;
-     title.style.textAlign = 'center';
-     dataList.appendChild(title);
     }
-}
 
-var itemBlock = document.createElement('div');
-itemBlock.classList.add('item_block');
-// itemBlock.style.width = '32%';
-itemBlock.style.border = '1px solid #000';
-// itemBlock.style.margin = '20px 5px';
-// itemBlock.style.display = 'inline-block';
-dataList.appendChild(itemBlock);
-
-// console.log('tradeList.legth ', tradeList.legth);
-
-//
-
-for (var k=0; k<tradeList.length; k++){
-  for (var j in tradeList[k]) {
-    var item = document.createElement('p');
-    item.innerHTML =  j + ' : ' + tradeList[k][j];
-    item.style.padding =  '0 10px';
-    item.style.fontSize =  '25px';
-    itemBlock.appendChild(item);
-
-  }
-}
+    var arrTrade = json[3];
+      json[3].title;
+      json[3].list;
 
 
-</script>
+    for (var key in arrTrade) {
+      // console.log(key);
+      // console.log(arrTrade[key]);
+      console.log(key+ " : " +arrTrade[key]);
+
+    }
+
+    var keyList = Object.keys(arrTrade);
+      console.log('keyList  ', keyList);
+
+
+  </script>
 
 </body>
+
 </html>
