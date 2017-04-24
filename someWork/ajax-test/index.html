@@ -61,17 +61,14 @@ for (var j = 0; j < cars.length; j++){
   blockKey.innerHTML += '<p style="text-align: justify; padding: 5px;">' + cars[j].description + '</p>';
   block.appendChild(blockKey);
 }
-//
-// var trade = trade[i];
-// console.log(typeof trade);
-// console.log('trade', trade);
+
 for (var k = 0; k < trade.length; k++){
 
 var dataList = document.createElement('div');
 dataList.classList.add('price');
 dataList.style.width = '32%';
 // dataList.style.border = '1px solid #000';
-dataList.style.margin = '20px 5px';
+dataList.style.margin = '5px 5px';
 dataList.style.display = 'inline-block';
 wrapper.appendChild(dataList);
 for (key in trade) {
@@ -97,12 +94,11 @@ dataList.appendChild(itemBlock);
 
 // console.log('tradeList.legth ', tradeList.legth);
 
-//
 
-for (var k=0; k<tradeList.length; k++){
-  for (var n in tradeList[k]) {
+for (var m=0; k<tradeList.length; m++){
+  for (var n in tradeList[m]) {
     var item = document.createElement('p');
-    item.innerHTML =  n + ' : ' + tradeList[k][j];
+    item.innerHTML =  n + ' : ' + tradeList[m][j];
     item.style.padding =  '0 10px';
     item.style.fontSize =  '25px';
     itemBlock.appendChild(item);
