@@ -56,9 +56,9 @@ for (var j = 0; j < cars.length; j++){
   block.style.display = 'inline-block';
   wrapper.appendChild(block);
   var blockKey = document.createElement('div');
-  blockKey.innerHTML += '<img src="'+ cars[i].img + '" style="width: 100%; height: 230px; margin: 0 auto;">';
-  blockKey.innerHTML += '<h2 style="text-align: center;">'+ cars[i].title + '</h2>';
-  blockKey.innerHTML += '<p style="text-align: justify; padding: 5px;">' + cars[i].description + '</p>';
+  blockKey.innerHTML += '<img src="'+ cars[j].img + '" style="width: 100%; height: 230px; margin: 0 auto;">';
+  blockKey.innerHTML += '<h2 style="text-align: center;">'+ cars[j].title + '</h2>';
+  blockKey.innerHTML += '<p style="text-align: justify; padding: 5px;">' + cars[j].description + '</p>';
   block.appendChild(blockKey);
 }
 //
@@ -100,9 +100,9 @@ dataList.appendChild(itemBlock);
 //
 
 for (var k=0; k<tradeList.length; k++){
-  for (var j in tradeList[k]) {
+  for (var n in tradeList[k]) {
     var item = document.createElement('p');
-    item.innerHTML =  j + ' : ' + tradeList[k][j];
+    item.innerHTML =  n + ' : ' + tradeList[k][j];
     item.style.padding =  '0 10px';
     item.style.fontSize =  '25px';
     itemBlock.appendChild(item);
