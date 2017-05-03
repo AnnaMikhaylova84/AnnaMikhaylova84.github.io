@@ -84,31 +84,31 @@ wrapper.appendChild(dataList);
 
 
 
-// for (key in trade) {
-//   var n  = trade[key]
-//   if (typeof n !== 'object') {
-//     console.log('n = ', n);
-//     var title = document.createElement('h2');
-//     title.innerHTML = n;
-//     title.style.textAlign = 'center';
-//     dataList.appendChild(title);
-//
-//   } else {
-//     // var tradeList = n;
-//     console.log('not title');
-//     }
-// }
+for (key in trade) {
+  var n = trade[key];
+  if (typeof n !== 'object') {
+    console.log('n = ', n);
+    var title = document.createElement('h2');
+    title.innerHTML = key;
+    title.style.textAlign = 'center';
+    dataList.appendChild(title);
 
-// var itemBlock = document.createElement('div');
-// itemBlock.classList.add('item_block');
-// // itemBlock.style.width = '32%';
-// itemBlock.style.border = '1px solid #000';
-// // itemBlock.style.margin = '20px 5px';
-// // itemBlock.style.display = 'inline-block';
-// dataList.appendChild(itemBlock);
-//
-// // console.log('tradeList.legth ', tradeList.legth);
-//
+  } else {
+    // var tradeList = n;
+    console.log('not title');
+    var itemBlock = document.createElement('div');
+    itemBlock.classList.add('item_block');
+    // itemBlock.style.width = '32%';
+    itemBlock.style.border = '1px solid red';
+    // itemBlock.style.margin = '20px 5px';
+    // itemBlock.style.display = 'inline-block';
+    dataList.appendChild(itemBlock);
+
+    console.log('itemBlock.legth = ', itemBlock.legth);
+
+    }
+}
+
 //
 // for (var m=0; m<tradeList.length; m++){
 //   for (var n in tradeList[m]) {
