@@ -87,16 +87,7 @@ wrapper.appendChild(dataList);
 for (key in trade) {
   var n = trade[key];
   console.log('n = ', n);
-  if (typeof n !== 'object') {
-    console.log('n = ', n);
-    console.log('itS title');
-    var title = document.createElement('h2');
-    title.innerHTML = key;
-    title.style.textAlign = 'center';
-    dataList.appendChild(title);
-
-  } else {
-    // var tradeList = n;
+  if (typeof n === 'object') {
     console.log('itS object');
     var itemBlock = document.createElement('div');
     itemBlock.classList.add('item_block');
@@ -107,6 +98,14 @@ for (key in trade) {
     dataList.appendChild(itemBlock);
 
     console.log('itemBlock.legth = ', itemBlock.legth);
+
+  } else {
+    console.log('itS title');
+    var title = document.createElement('h2');
+    title.innerHTML = key;
+    title.style.textAlign = 'center';
+    dataList.appendChild(title);
+    // var tradeList = n;
 
     }
 }
