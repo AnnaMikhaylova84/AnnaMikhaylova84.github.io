@@ -89,7 +89,7 @@ for (key in trade) {
   console.log('n = ', n);
   if (typeof n === 'object') {
     console.log('itS object');
-    var itemList = {},
+    var itemList = [],
         itemBlock = document.createElement('div');
     itemBlock.classList.add('item_block');
     // itemBlock.style.width = '32%';
@@ -99,7 +99,7 @@ for (key in trade) {
     dataList.appendChild(itemBlock);
 
     // console.log('itemBlock.legth = ', itemBlock.legth);
-    console.log('itenList{} = ', itemList.lenght);
+    console.log('itemList{} = ', itemList[0]);
 
   } else {
     console.log('itS title');
