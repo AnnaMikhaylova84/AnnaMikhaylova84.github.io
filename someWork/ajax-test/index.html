@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>test_AJAX</title>
     <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="icon" href="img/favicon.png"/>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <!--<script src="script.js"></script>-->
 </head>
@@ -61,6 +62,22 @@ for (var j = 0; j < cars.length; j++){
   blockKey.innerHTML += '<p style="text-align: justify; padding: 5px;">' + cars[j].description + '</p>';
   block.appendChild(blockKey);
 }
+
+var separatingBlock = document.createElement('div');
+dataList.classList.add('clear');
+dataList.style.display = 'table';
+dataList.style.clear = 'both';
+dataList.style.content = '" "';
+
+// .clearfix:before,
+// .clearfix:after {
+//   display: table;
+//   content: " ";
+// }
+//
+// .clearfix:after {
+//   clear: both;
+// }
 
 for (var k = 0; k < trade.length; k++){
 
