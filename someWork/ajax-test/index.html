@@ -64,11 +64,11 @@ for (var j = 0; j < cars.length; j++){
 }
 
 var separatingBlock = document.createElement('div');
-dataList.classList.add('clear');
-dataList.style.display = 'table';
-dataList.style.clear = 'both';
-dataList.style.content = '" "';
-
+separatingBlock.classList.add('clear');
+separatingBlock.style.display = 'table';
+separatingBlock.style.clear = 'both';
+separatingBlock.style.content = '" "';
+wrapper.appendChild(separatingBlock);
 // .clearfix:before,
 // .clearfix:after {
 //   display: table;
