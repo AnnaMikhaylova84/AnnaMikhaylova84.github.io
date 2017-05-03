@@ -86,8 +86,10 @@ wrapper.appendChild(dataList);
 
 for (key in trade) {
   var n = trade[key];
+  console.log('n = ', n);
   if (typeof n !== 'object') {
     console.log('n = ', n);
+    console.log('itS title');
     var title = document.createElement('h2');
     title.innerHTML = key;
     title.style.textAlign = 'center';
@@ -95,7 +97,7 @@ for (key in trade) {
 
   } else {
     // var tradeList = n;
-    console.log('not title');
+    console.log('itS object');
     var itemBlock = document.createElement('div');
     itemBlock.classList.add('item_block');
     // itemBlock.style.width = '32%';
