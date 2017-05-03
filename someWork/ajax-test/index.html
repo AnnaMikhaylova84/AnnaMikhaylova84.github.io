@@ -65,7 +65,7 @@ for (var j = 0; j < cars.length; j++){
 
 var separatingBlock = document.createElement('div');
 separatingBlock.classList.add('clear');
-separatingBlock.style.display = 'table';
+separatingBlock.style.display = 'block';
 separatingBlock.style.clear = 'both';
 separatingBlock.style.content = '" "';
 wrapper.appendChild(separatingBlock);
@@ -84,20 +84,20 @@ wrapper.appendChild(dataList);
 
 
 
-for (key in trade) {
-  var n  = trade[key]
-  if (typeof n !== 'object') {
-    console.log('n = ', n);
-    var title = document.createElement('h2');
-    title.innerHTML = n;
-    title.style.textAlign = 'center';
-    dataList.appendChild(title);
-
-  } else {
-    // var tradeList = n;
-    console.log('not title');
-    }
-}
+// for (key in trade) {
+//   var n  = trade[key]
+//   if (typeof n !== 'object') {
+//     console.log('n = ', n);
+//     var title = document.createElement('h2');
+//     title.innerHTML = n;
+//     title.style.textAlign = 'center';
+//     dataList.appendChild(title);
+//
+//   } else {
+//     // var tradeList = n;
+//     console.log('not title');
+//     }
+// }
 
 // var itemBlock = document.createElement('div');
 // itemBlock.classList.add('item_block');
