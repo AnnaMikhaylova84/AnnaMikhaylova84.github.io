@@ -85,6 +85,8 @@ wrapper.appendChild(dataList);
 
 
 for (key in trade) {
+  console.log('key = ', key);
+  console.log('trade[key] = ', trade[key]);
   var n = trade[key];
   console.log('n = ', n);
   if (typeof n === 'object') {
@@ -111,6 +113,7 @@ for (key in trade) {
     // var tradeList = n;
 
     }
+    console.log('==== that"s all ====');
 }
 
 //
