@@ -71,9 +71,10 @@ separatingBlock.style.content = '" "';
 wrapper.appendChild(separatingBlock);
 console.log('block_clear added');
 
-
 for (var k = 0; k < trade.length; k++){
-
+console.log('trade.length = ', trade.length);
+console.log('trade = ', trade);
+console.log('trade[k] = ', trade[k]);
 var dataList = document.createElement('div');
 dataList.classList.add('price');
 dataList.style.width = '32%';
@@ -81,52 +82,39 @@ dataList.style.border = '1px solid #000';
 dataList.style.margin = '5px 5px';
 dataList.style.display = 'inline-block';
 wrapper.appendChild(dataList);
+var tradeList = [];
+    tradeList = trade[k];
+    console.log('tradeList = ', tradeList);
+    console.log('');
+  for(var key in tradeList) {
+      if (key == 'title') {
+        var title = document.createElement('h2');
+        title.innerHTML = tradeList[key];
+        title.style.textAlign = 'center';
+        dataList.appendChild(title);
+      } else {
+        var itemList = [],
+            itemBlock = document.createElement('div');
+            itemList = tradeList[key];
+            console.log('itemList = ', itemList);
+        itemBlock.classList.add('item_block');
+        dataList.appendChild(itemBlock);
+        for (var n in itemList) {
 
+          var itemS = [];
+              itemS = itemList[n];
+              console.log('itemS = ', itemS);
+          for (var m in itemS)
+           var item = document.createElement('p');
+           console.log(m + ' = ' + itemS[m]);
+           item.innerHTML =  m + ' : ' + itemS[m];
+           item.style.padding =  '0 10px';
+           item.style.fontSize =  '25px';
+           itemBlock.appendChild(item);
+         }
+      }
+  }
 
-
-for (key in trade) {
-  console.log('key = ', key);
-  console.log('trade[key] = ', trade[key]);
-  var n = trade[key];
-  console.log('n = ', n);
-  if (typeof n === 'object') {
-    console.log('itS object');
-    var itemList = [],
-        itemBlock = document.createElement('div');
-    itemBlock.classList.add('item_block');
-    // itemBlock.style.width = '32%';
-    itemBlock.style.border = '1px solid red';
-    // itemBlock.style.margin = '20px 5px';
-    // itemBlock.style.display = 'inline-block';
-    dataList.appendChild(itemBlock);
-
-
-    // console.log('itemBlock.legth = ', itemBlock.legth);
-    console.log('n.length = ', n.length);
-
-  } else {
-    console.log('itS title');
-    var title = document.createElement('h2');
-    title.innerHTML = key;
-    title.style.textAlign = 'center';
-    dataList.appendChild(title);
-    // var tradeList = n;
-
-    }
-    console.log('==== that"s all ====');
-}
-
-//
-// for (var m=0; m<tradeList.length; m++){
-//   for (var n in tradeList[m]) {
-//     var item = document.createElement('p');
-//     item.innerHTML =  n + ' : ' + tradeList[m][j];
-//     item.style.padding =  '0 10px';
-//     item.style.fontSize =  '25px';
-//     itemBlock.appendChild(item);
-//
-//   }
-// }
 }
 
 
